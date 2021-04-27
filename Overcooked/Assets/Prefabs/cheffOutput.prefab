@@ -254,6 +254,7 @@ GameObject:
   - component: {fileID: 2809174946303378691}
   - component: {fileID: 3437260410546352460}
   - component: {fileID: 7354406586587821768}
+  - component: {fileID: 231657330176335602}
   m_Layer: 0
   m_Name: chef
   m_TagString: Untagged
@@ -324,6 +325,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &231657330176335602
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4180271336097638459}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 4, z: 1.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6557846080940644106
 GameObject:
   m_ObjectHideFlags: 0
