@@ -420,15 +420,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6055987411828713348, guid: 582882383cc23fa46ad277d959f4b98c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.00069808104
       objectReference: {fileID: 0}
     - target: {fileID: 6055987411828713348, guid: 582882383cc23fa46ad277d959f4b98c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6055987411828713348, guid: 582882383cc23fa46ad277d959f4b98c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.9999998
       objectReference: {fileID: 0}
     - target: {fileID: 6055987411828713348, guid: 582882383cc23fa46ad277d959f4b98c, type: 3}
       propertyPath: m_LocalRotation.z
@@ -440,7 +440,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6055987411828713348, guid: 582882383cc23fa46ad277d959f4b98c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -180.08
       objectReference: {fileID: 0}
     - target: {fileID: 6055987411828713348, guid: 582882383cc23fa46ad277d959f4b98c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -509,3 +509,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6932440fd216fab4491979b68855ffff, type: 3}
+--- !u!1 &1931233342 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6863733065814506814, guid: 582882383cc23fa46ad277d959f4b98c, type: 3}
+  m_PrefabInstance: {fileID: 1008959651}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1931233343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931233342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2178928a73ce3f14da99113d22eb91c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
