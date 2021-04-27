@@ -5,13 +5,10 @@ using UnityEngine;
 public class MoveCharacter : MonoBehaviour
 {
     public float speed = 3.0f;
-    bool holding;
-    public Transform Dest;
 
     // Start is called before the first frame update
     void Start()
     {
-        holding = false;
     }
 
     // Update is called once per frame
@@ -27,22 +24,4 @@ public class MoveCharacter : MonoBehaviour
             transform.Translate(0.0f, 0.0f, speed * Time.deltaTime);
     }
 
-    void onTriggerStay(Collider obj)
-    {
-        if (Input.GetKey(KeyCode.Space) && !holding) {
-            obj.GetComponent<BoxCollider>().enabled = false;
-            obj.GetComponent<Rigidbody>().useGravity = false;
-            obj.transform.position = Dest.position;
-            obj.transform.parent = GameObject.Find("ToPickUp").transform;
-            holding = true;
-        }
-
-       if(Input.GetKey(KeyCode.Space) && holding)
-        {
-            obj.GetComponent<BoxCollider>().enabled = true;
-            obj.transform.parent = null;
-            obj.GetComponent<Rigidbody>().useGravity = true;
-            holding = false;
-        }
-    }
 }
