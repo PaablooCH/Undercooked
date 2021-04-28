@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'es' Physical Memory: 16343 MB
+OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'es' Physical Memory: 16258 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,343 +11,991 @@ C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-E:/VJ/VJ-3D/Overcooked
+C:/Users/victo/OneDrive/Escritorio/Victor/UNI/Carrera/Videojuegos/VJ-3D/Overcooked
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53291
-Successfully changed project path to: E:/VJ/VJ-3D/Overcooked
-E:/VJ/VJ-3D/Overcooked
+53981
+Successfully changed project path to: C:/Users/victo/OneDrive/Escritorio/Victor/UNI/Carrera/Videojuegos/VJ-3D/Overcooked
+C:/Users/victo/OneDrive/Escritorio/Victor/UNI/Carrera/Videojuegos/VJ-3D/Overcooked
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.89 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 43.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/VJ/VJ-3D/Overcooked/Assets
+[Subsystems] Discovering subsystems at path C:/Users/victo/OneDrive/Escritorio/Victor/UNI/Carrera/Videojuegos/VJ-3D/Overcooked/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
     Vendor:   
-    VRAM:     2988 MB
-    Driver:   27.21.14.6611
+    VRAM:     4055 MB
+    Driver:   27.21.14.5167
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002345 seconds.
+Registered in 0.005488 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.06 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 41.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.281 seconds
+- Completed reload, in  2.341 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000587 seconds.
+Registered in 0.001723 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001CD7C97B870 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1A9C830 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C8BFC00 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE11CA020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE12B1010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D40D030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D1A9020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE11CA020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE12B1010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C8BFC00 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.999 seconds
+- Completed reload, in  1.587 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.3 MB.
-System memory in use after: 58.3 MB.
+System memory in use before: 58.6 MB.
+System memory in use after: 58.6 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1562.
-Total: 2.239100 ms (FindLiveObjects: 0.150000 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.927800 ms  DeleteObjects: 0.112800 ms)
+Total: 3.087900 ms (FindLiveObjects: 0.805700 ms CreateObjectMapping: 0.090200 ms MarkObjects: 2.065600 ms  DeleteObjects: 0.125000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Bread.prefab
-  artifactKey: Guid(f11d452658ae44d49bc296793a8e90b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bread.prefab using Guid(f11d452658ae44d49bc296793a8e90b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652bacbdc53a53615364727a4ff967d5') in 0.131708 seconds
-  Import took 0.134068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 126.413544 seconds.
-  path: Assets/Prefabs/Cucumber.prefab
-  artifactKey: Guid(f6bbe5312a726c24591e5bbe34d1bba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cucumber.prefab using Guid(f6bbe5312a726c24591e5bbe34d1bba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874575c46f5899d98d246fc0a6c8a43a') in 0.023338 seconds
-  Import took 0.026450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002800 seconds.
-  path: Assets/Prefabs/Cucumber.prefab
-  artifactKey: Guid(f6bbe5312a726c24591e5bbe34d1bba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cucumber.prefab using Guid(f6bbe5312a726c24591e5bbe34d1bba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874575c46f5899d98d246fc0a6c8a43a') in 0.010948 seconds
-  Import took 0.013231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.635204 seconds.
-  path: Assets/Prefabs/Fish.prefab
-  artifactKey: Guid(ae7d5df0dfb0acd4faeaf9591c7e982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fish.prefab using Guid(ae7d5df0dfb0acd4faeaf9591c7e982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e44c35f8844c36dfc304c7deb8a8fc') in 0.019093 seconds
-  Import took 0.023132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012608 seconds.
-  path: Assets/Prefabs/Fish.prefab
-  artifactKey: Guid(ae7d5df0dfb0acd4faeaf9591c7e982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fish.prefab using Guid(ae7d5df0dfb0acd4faeaf9591c7e982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e44c35f8844c36dfc304c7deb8a8fc') in 0.011395 seconds
-  Import took 0.014276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.312147 seconds.
-  path: Assets/Prefabs/Meat.prefab
-  artifactKey: Guid(e93c4c4240101d54381ee95c7bf83873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meat.prefab using Guid(e93c4c4240101d54381ee95c7bf83873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b473bfec7aab91f79c82adbec07cdc') in 0.018880 seconds
-  Import took 0.022509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009126 seconds.
-  path: Assets/Prefabs/Meat.prefab
-  artifactKey: Guid(e93c4c4240101d54381ee95c7bf83873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meat.prefab using Guid(e93c4c4240101d54381ee95c7bf83873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b473bfec7aab91f79c82adbec07cdc') in 0.014553 seconds
-  Import took 0.017579 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.023073 seconds.
-  path: Assets/Prefabs/Potato.prefab
-  artifactKey: Guid(d30a9adaacd171c469d5888ed1d673fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Potato.prefab using Guid(d30a9adaacd171c469d5888ed1d673fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3366731b4d9adcf6673251d7819eaa7e') in 0.022372 seconds
-  Import took 0.025939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003792 seconds.
-  path: Assets/Prefabs/Potato.prefab
-  artifactKey: Guid(d30a9adaacd171c469d5888ed1d673fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Potato.prefab using Guid(d30a9adaacd171c469d5888ed1d673fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3366731b4d9adcf6673251d7819eaa7e') in 0.013889 seconds
-  Import took 0.016711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.575766 seconds.
-  path: Assets/Prefabs/SlicedBread.prefab
-  artifactKey: Guid(ff4f98335007e3f4e816c528d0c7d767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SlicedBread.prefab using Guid(ff4f98335007e3f4e816c528d0c7d767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f531b512e78ddb9ccaac258820158906') in 0.023212 seconds
-  Import took 0.025441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004213 seconds.
-  path: Assets/Prefabs/SlicedBread.prefab
-  artifactKey: Guid(ff4f98335007e3f4e816c528d0c7d767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SlicedBread.prefab using Guid(ff4f98335007e3f4e816c528d0c7d767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f531b512e78ddb9ccaac258820158906') in 0.012967 seconds
-  Import took 0.016532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.811608 seconds.
-  path: Assets/Prefabs/SlicedCheese.prefab
-  artifactKey: Guid(0e9e9513dd266db4eb29e2470505bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SlicedCheese.prefab using Guid(0e9e9513dd266db4eb29e2470505bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a432150a5d819790f1db14833cd5f1f7') in 0.020607 seconds
-  Import took 0.024924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007298 seconds.
-  path: Assets/Prefabs/SlicedCheese.prefab
-  artifactKey: Guid(0e9e9513dd266db4eb29e2470505bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SlicedCheese.prefab using Guid(0e9e9513dd266db4eb29e2470505bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a432150a5d819790f1db14833cd5f1f7') in 0.013809 seconds
-  Import took 0.016475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.123186 seconds.
-  path: Assets/Prefabs/SlicedCucumber-0.prefab
-  artifactKey: Guid(9800c1632ddeb564ba14b2423df2f6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SlicedCucumber-0.prefab using Guid(9800c1632ddeb564ba14b2423df2f6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb222781c1d603ea0c4510a413703a4') in 0.017430 seconds
-  Import took 0.020421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007516 seconds.
-  path: Assets/Prefabs/SlicedCucumber-0.prefab
-  artifactKey: Guid(9800c1632ddeb564ba14b2423df2f6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SlicedCucumber-0.prefab using Guid(9800c1632ddeb564ba14b2423df2f6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb222781c1d603ea0c4510a413703a4') in 0.011435 seconds
-  Import took 0.015030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.890047 seconds.
-  path: Assets/Prefabs/SlicedFish.prefab
-  artifactKey: Guid(7ec031c394038fa408e332f8061e45db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SlicedFish.prefab using Guid(7ec031c394038fa408e332f8061e45db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69408fdcaaab940553473be537243872') in 0.019517 seconds
-  Import took 0.021731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006284 seconds.
-  path: Assets/Prefabs/SlicedFish.prefab
-  artifactKey: Guid(7ec031c394038fa408e332f8061e45db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SlicedFish.prefab using Guid(7ec031c394038fa408e332f8061e45db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69408fdcaaab940553473be537243872') in 0.009958 seconds
-  Import took 0.012526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.939810 seconds.
-  path: Assets/Prefabs/generatorBread.prefab
-  artifactKey: Guid(75a709d23c8e8c24d9322f3ab8a3df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/generatorBread.prefab using Guid(75a709d23c8e8c24d9322f3ab8a3df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa4288c946fdbf306480a099a653a7a') in 0.020702 seconds
-  Import took 0.022895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001216 seconds.
-  path: Assets/Prefabs/generatorBread.prefab
-  artifactKey: Guid(75a709d23c8e8c24d9322f3ab8a3df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/generatorBread.prefab using Guid(75a709d23c8e8c24d9322f3ab8a3df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa4288c946fdbf306480a099a653a7a') in 0.018101 seconds
-  Import took 0.021992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.373963 seconds.
-  path: Assets/Prefabs/generatorCheese.prefab
-  artifactKey: Guid(c7f428709187ee6498d5a37863fbca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/generatorCheese.prefab using Guid(c7f428709187ee6498d5a37863fbca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c334c9ba8154f411839da516b923e230') in 0.019067 seconds
-  Import took 0.023102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003101 seconds.
-  path: Assets/Prefabs/generatorCheese.prefab
-  artifactKey: Guid(c7f428709187ee6498d5a37863fbca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/generatorCheese.prefab using Guid(c7f428709187ee6498d5a37863fbca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c334c9ba8154f411839da516b923e230') in 0.015448 seconds
-  Import took 0.018118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.892519 seconds.
-  path: Assets/Prefabs/Cheese.prefab
-  artifactKey: Guid(5c493cc42ec32db44949bf0015005ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cheese.prefab using Guid(5c493cc42ec32db44949bf0015005ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07e6e1de713a721213398238738e3ec') in 0.023641 seconds
-  Import took 0.028569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.446365 seconds.
-  path: Assets/Prefabs/generatorCheese.prefab
-  artifactKey: Guid(c7f428709187ee6498d5a37863fbca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/generatorCheese.prefab using Guid(c7f428709187ee6498d5a37863fbca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0934be644052985ae7ff8b4575f3ffd6') in 0.011745 seconds
-  Import took 0.015139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009873 seconds.
-  path: Assets/Prefabs/generatorCheese.prefab
-  artifactKey: Guid(c7f428709187ee6498d5a37863fbca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/generatorCheese.prefab using Guid(c7f428709187ee6498d5a37863fbca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0934be644052985ae7ff8b4575f3ffd6') in 0.019900 seconds
-  Import took 0.022618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.954106 seconds.
-  path: Assets/Prefabs/generatorCucumber.prefab
-  artifactKey: Guid(bf371809587cc7e44ae2750eb1c8fab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/generatorCucumber.prefab using Guid(bf371809587cc7e44ae2750eb1c8fab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e6cd4ca50e5a9b5baec75da8d08492') in 0.025170 seconds
-  Import took 0.028286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001390 seconds.
-  path: Assets/Prefabs/generatorCucumber.prefab
-  artifactKey: Guid(bf371809587cc7e44ae2750eb1c8fab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/generatorCucumber.prefab using Guid(bf371809587cc7e44ae2750eb1c8fab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e6cd4ca50e5a9b5baec75da8d08492') in 0.014654 seconds
-  Import took 0.017939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.067426 seconds.
-  path: Assets/Prefabs/generatorFish.prefab
-  artifactKey: Guid(70a7c1bb2b3309741809678f6cacb370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/generatorFish.prefab using Guid(70a7c1bb2b3309741809678f6cacb370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f28d6bd70e69b41c138fa52c127971') in 0.019682 seconds
-  Import took 0.022056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006254 seconds.
-  path: Assets/Prefabs/generatorFish.prefab
-  artifactKey: Guid(70a7c1bb2b3309741809678f6cacb370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/generatorFish.prefab using Guid(70a7c1bb2b3309741809678f6cacb370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f28d6bd70e69b41c138fa52c127971') in 0.014643 seconds
-  Import took 0.019709 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.789530 seconds.
-  path: Assets/Prefabs/generatorMeat.prefab
-  artifactKey: Guid(29c73f1c78b9d224491cbac2f010eb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/generatorMeat.prefab using Guid(29c73f1c78b9d224491cbac2f010eb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35461520265249d2d8abe8da4b7df5b') in 0.019086 seconds
-  Import took 0.021713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003394 seconds.
-  path: Assets/Prefabs/generatorMeat.prefab
-  artifactKey: Guid(29c73f1c78b9d224491cbac2f010eb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/generatorMeat.prefab using Guid(29c73f1c78b9d224491cbac2f010eb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35461520265249d2d8abe8da4b7df5b') in 0.017656 seconds
-  Import took 0.023796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.724077 seconds.
-  path: Assets/Prefabs/generatorPotato.prefab
-  artifactKey: Guid(5ae1f419ad4c98444b04d4f399dddd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/generatorPotato.prefab using Guid(5ae1f419ad4c98444b04d4f399dddd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fa4e1a1186a95323dc38590444b7ad') in 0.018800 seconds
-  Import took 0.021493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002281 seconds.
-  path: Assets/Prefabs/generatorPotato.prefab
-  artifactKey: Guid(5ae1f419ad4c98444b04d4f399dddd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/generatorPotato.prefab using Guid(5ae1f419ad4c98444b04d4f399dddd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fa4e1a1186a95323dc38590444b7ad') in 0.012528 seconds
-  Import took 0.015470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.259701 seconds.
-  path: Assets/Prefabs/generatorTomato.prefab
-  artifactKey: Guid(7e5deb15b58e948418600ab549183120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/generatorTomato.prefab using Guid(7e5deb15b58e948418600ab549183120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a238cf4ee9c7e9e953857c4a97831f') in 0.021550 seconds
-  Import took 0.024718 seconds .
+  path: Assets/Scripts
+  artifactKey: Guid(eba892edde0cdf741b6b7b1b3851b323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(eba892edde0cdf741b6b7b1b3851b323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df15e64a81a1e22d76857888f69825dd') in 0.010311 seconds
+  Import took 0.014210 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000623 seconds.
+Registered in 0.001995 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001CBE31F4820 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7CF74B00 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C9C4030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE27B5010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1601020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE27B5010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C9DD020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE27B5010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE27B5010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE14E49A0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.116 seconds
+- Completed reload, in  1.607 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1564.
+Total: 2.299600 ms (FindLiveObjects: 0.168900 ms CreateObjectMapping: 0.051700 ms MarkObjects: 2.010000 ms  DeleteObjects: 0.067000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.467431 seconds.
+  path: Assets/Scripts/MoveCharacter.cs
+  artifactKey: Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveCharacter.cs using Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4e6b77fc82641cbb2c5d0b832d67be') in 22.197406 seconds
+  Import took 22.203044 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007359 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CD7D12B040 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE3395010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C9C4030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE3395010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1074830 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE3395010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE2AC2020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE3395010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE3CF0080 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE14E49A0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.179 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1567.
+Total: 2.415200 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.052300 ms MarkObjects: 1.999100 ms  DeleteObjects: 0.070200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.991300 seconds.
+  path: Assets/Scripts/MoveCharacter.cs
+  artifactKey: Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveCharacter.cs using Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96625a72276e157914c0798c008cdd20') in 0.034983 seconds
+  Import took 0.040046 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002414 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBE1597030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE3F794D0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE14E49A0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE292E010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE31B7010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE2BFA020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D3F3020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE292E010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE4658280 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE4138F30 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.143 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1570.
+Total: 2.604500 ms (FindLiveObjects: 0.258800 ms CreateObjectMapping: 0.065500 ms MarkObjects: 2.199000 ms  DeleteObjects: 0.071200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.751373 seconds.
+  path: Assets/Scripts/MoveCharacter.cs
+  artifactKey: Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveCharacter.cs using Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd529ce3a245b701271cef009464179') in 0.025381 seconds
+  Import took 0.032333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.131496 seconds.
+  path: Assets/Prefabs/blender.prefab
+  artifactKey: Guid(4c2b6a0d9b406aa44a5cb6210f7e2569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/blender.prefab using Guid(4c2b6a0d9b406aa44a5cb6210f7e2569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be7b02fbca716da351af418b8658cf2') in 0.142271 seconds
+  Import took 0.146802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Prefabs/cheffOutput.prefab
+  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f91f1b5ca6c84ea0c9105574a72257') in 0.098148 seconds
+  Import took 0.101420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Prefabs/generatorCheese.prefab
+  artifactKey: Guid(c7f428709187ee6498d5a37863fbca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/generatorCheese.prefab using Guid(c7f428709187ee6498d5a37863fbca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b5fb0b235411e3cdf6f40fc5bed28a') in 0.036119 seconds
+  Import took 0.039910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Prefabs/SlicedCucumber-0.prefab
+  artifactKey: Guid(9800c1632ddeb564ba14b2423df2f6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SlicedCucumber-0.prefab using Guid(9800c1632ddeb564ba14b2423df2f6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab10a175e232a255192c52b73e0e635') in 0.055836 seconds
+  Import took 0.058761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Prefabs/bread.prefab
+  artifactKey: Guid(f11d452658ae44d49bc296793a8e90b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/bread.prefab using Guid(f11d452658ae44d49bc296793a8e90b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cda566b224b996d52858d8c57e07579') in 0.069818 seconds
+  Import took 0.072970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Prefabs/oven.prefab
+  artifactKey: Guid(8de72354a6a1ec849abd9d5d1983633a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/oven.prefab using Guid(8de72354a6a1ec849abd9d5d1983633a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab820ab250282a3eada4bc470cb8c1c') in 0.046104 seconds
+  Import took 0.049220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Prefabs/potato.prefab
+  artifactKey: Guid(d30a9adaacd171c469d5888ed1d673fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/potato.prefab using Guid(d30a9adaacd171c469d5888ed1d673fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d490c2713d8349f547bc8a552ea72f') in 0.058390 seconds
+  Import took 0.062832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Prefabs/SlicedPotato.prefab
+  artifactKey: Guid(243640df7e54c4345a1d2ba9536ee27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SlicedPotato.prefab using Guid(243640df7e54c4345a1d2ba9536ee27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6dbe245eae4c7fb88307501da45ec13') in 0.035397 seconds
+  Import took 0.044672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Prefabs/vitro.prefab
+  artifactKey: Guid(8d61783ac8b49924892e2de6a0abf019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/vitro.prefab using Guid(8d61783ac8b49924892e2de6a0abf019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e946ea356d255a3e72156dab7457bec') in 0.038720 seconds
+  Import took 0.042820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Prefabs/fish.prefab
+  artifactKey: Guid(ae7d5df0dfb0acd4faeaf9591c7e982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fish.prefab using Guid(ae7d5df0dfb0acd4faeaf9591c7e982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ce006fc9836efc5ffdb72652af19cc') in 0.055261 seconds
+  Import took 0.058961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Prefabs/tomato3.0.prefab
+  artifactKey: Guid(cd8a5cd7bf959024aaee59bb02c73f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tomato3.0.prefab using Guid(cd8a5cd7bf959024aaee59bb02c73f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e178b848311098b0411d12f56058ed9') in 0.029248 seconds
+  Import took 0.032222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Prefabs/generatorMeat.prefab
+  artifactKey: Guid(29c73f1c78b9d224491cbac2f010eb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/generatorMeat.prefab using Guid(29c73f1c78b9d224491cbac2f010eb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82adc9e19077db71771f1a2ec139b899') in 0.034455 seconds
+  Import took 0.045589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000667 seconds.
+  path: Assets/Prefabs/generatorBread.prefab
+  artifactKey: Guid(75a709d23c8e8c24d9322f3ab8a3df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/generatorBread.prefab using Guid(75a709d23c8e8c24d9322f3ab8a3df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6c629d4f5bcfd812bc30d746a34f1c') in 0.029653 seconds
+  Import took 0.033846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Prefabs/cucumber.prefab
+  artifactKey: Guid(f6bbe5312a726c24591e5bbe34d1bba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cucumber.prefab using Guid(f6bbe5312a726c24591e5bbe34d1bba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3696f072965b90eb656ea4550c58cc2') in 0.031621 seconds
+  Import took 0.035671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Prefabs/chef.prefab
+  artifactKey: Guid(6932440fd216fab4491979b68855ffff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/chef.prefab using Guid(6932440fd216fab4491979b68855ffff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35edb61754cc4162c72d143cfa7bb7eb') in 0.028458 seconds
+  Import took 0.031920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Prefabs/SlicedMeat.prefab
+  artifactKey: Guid(0de1e241328207646ad40a1f7a89db6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SlicedMeat.prefab using Guid(0de1e241328207646ad40a1f7a89db6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2778749a6f12bcb7272b335b317f97f3') in 0.029258 seconds
+  Import took 0.032727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Prefabs/generatorFish.prefab
+  artifactKey: Guid(70a7c1bb2b3309741809678f6cacb370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/generatorFish.prefab using Guid(70a7c1bb2b3309741809678f6cacb370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caca5d3e5c68c7566df0b196fa0217a8') in 0.031241 seconds
+  Import took 0.034950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Prefabs/meat.prefab
+  artifactKey: Guid(e93c4c4240101d54381ee95c7bf83873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/meat.prefab using Guid(e93c4c4240101d54381ee95c7bf83873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2a516c714f2d96484b7ff01a21223c') in 0.057010 seconds
+  Import took 0.064546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Prefabs/generatorPotato.prefab
+  artifactKey: Guid(5ae1f419ad4c98444b04d4f399dddd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/generatorPotato.prefab using Guid(5ae1f419ad4c98444b04d4f399dddd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d380362093745293c9ea4136018ade5') in 0.044910 seconds
+  Import took 0.048988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Prefabs/SlicedBread.prefab
+  artifactKey: Guid(ff4f98335007e3f4e816c528d0c7d767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SlicedBread.prefab using Guid(ff4f98335007e3f4e816c528d0c7d767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ac7075eaa4b7c86f5f8c3201a8185a') in 0.039911 seconds
+  Import took 0.048556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000893 seconds.
+  path: Assets/Prefabs/SlicedCheese.prefab
+  artifactKey: Guid(0e9e9513dd266db4eb29e2470505bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SlicedCheese.prefab using Guid(0e9e9513dd266db4eb29e2470505bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66fe4c8572a48a5039bc869ffea0883') in 0.044111 seconds
+  Import took 0.048432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000718 seconds.
+  path: Assets/Prefabs/pan.prefab
+  artifactKey: Guid(7feac264e0694ae4aa241b5d784dab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pan.prefab using Guid(7feac264e0694ae4aa241b5d784dab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b58b7f70e3874d50892ba64c173fde') in 0.045048 seconds
+  Import took 0.050508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000837 seconds.
+  path: Assets/Prefabs/SlicedTomato.prefab
+  artifactKey: Guid(86fbc948ca19bbe48a52fc5f4a03a185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SlicedTomato.prefab using Guid(86fbc948ca19bbe48a52fc5f4a03a185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47e1ada5fdc6578ef213d44a4a78d35') in 0.042333 seconds
+  Import took 0.054712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Prefabs/generatorTomato.prefab
+  artifactKey: Guid(7e5deb15b58e948418600ab549183120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/generatorTomato.prefab using Guid(7e5deb15b58e948418600ab549183120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d54da28120d21674eae76ee185d285') in 0.033630 seconds
+  Import took 0.037764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Prefabs/cheese.prefab
+  artifactKey: Guid(5c493cc42ec32db44949bf0015005ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cheese.prefab using Guid(5c493cc42ec32db44949bf0015005ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d939f9cfd27ce13a1305575c1a7aadc') in 0.045867 seconds
+  Import took 0.049610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Prefabs/furniture.prefab
+  artifactKey: Guid(a84b43b2ac8fe63458ff3b991a23f1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/furniture.prefab using Guid(a84b43b2ac8fe63458ff3b991a23f1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60716cc9c23abb3b7507fac6dfd97850') in 0.043885 seconds
+  Import took 0.047766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Prefabs/generatorCucumber.prefab
+  artifactKey: Guid(bf371809587cc7e44ae2750eb1c8fab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/generatorCucumber.prefab using Guid(bf371809587cc7e44ae2750eb1c8fab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdb069d0b40b934a77ec8c23165860c') in 0.039744 seconds
+  Import took 0.048287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Prefabs/SlicedFish.prefab
+  artifactKey: Guid(7ec031c394038fa408e332f8061e45db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SlicedFish.prefab using Guid(7ec031c394038fa408e332f8061e45db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f952a4b7afca8fb1541131626fc2cc22') in 0.039438 seconds
+  Import took 0.050102 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005405 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBE1FE2C60 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1229020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE14E49A0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE25B8010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE45EC190 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C8B7BF0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7CDC8010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE25B8010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C8C9C30 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1F55040 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.126 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.7 MB.
+System memory in use after: 61.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1580.
+Total: 2.569700 ms (FindLiveObjects: 0.215800 ms CreateObjectMapping: 0.081500 ms MarkObjects: 2.184700 ms  DeleteObjects: 0.085400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002606 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBE40CE020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1229020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE14E49A0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C8B7BF0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE45EC190 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1229020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D1A9020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C8B7BF0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE40B4140 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1F55040 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.977 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.7 MB.
+System memory in use after: 61.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1583.
+Total: 4.469000 ms (FindLiveObjects: 0.361700 ms CreateObjectMapping: 1.086700 ms MarkObjects: 2.939900 ms  DeleteObjects: 0.078200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002657 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBE4190310 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE2D97030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D234070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE3D24020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1C2D010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C8B7BF0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE5050090 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7CA01020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE40B4140 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE2B04020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.706 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.7 MB.
+System memory in use after: 61.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1586.
+Total: 9.718100 ms (FindLiveObjects: 0.298100 ms CreateObjectMapping: 0.085900 ms MarkObjects: 9.215400 ms  DeleteObjects: 0.116000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008045 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBE1FE2C60 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE2D97030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D234070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE4A53010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE572E020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE4C88010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE5050090 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7CA01020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C8C9C30 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7CA5D880 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.151 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.8 MB.
+System memory in use after: 61.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1589.
+Total: 3.527100 ms (FindLiveObjects: 1.336200 ms CreateObjectMapping: 0.106100 ms MarkObjects: 2.006400 ms  DeleteObjects: 0.066200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 442.723324 seconds.
+  path: Assets/Scripts/updateFoodPosition.cs
+  artifactKey: Guid(ab9d60e1d0d8c68409cb96966e288a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/updateFoodPosition.cs using Guid(ab9d60e1d0d8c68409cb96966e288a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a521253139788f5cd7e3f4d1da84d0') in 0.015571 seconds
+  Import took 0.018979 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003188 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBE40CE020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1229020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE3375060 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE4A53010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7CECA010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C8B7BF0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D1A9020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7CA01020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE50700B0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE4125A90 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.199 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.3 MB.
-System memory in use after: 61.4 MB.
+System memory in use before: 61.8 MB.
+System memory in use after: 61.9 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1572.
-Total: 1.741400 ms (FindLiveObjects: 0.223600 ms CreateObjectMapping: 0.051300 ms MarkObjects: 1.410500 ms  DeleteObjects: 0.054900 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1593.
+Total: 4.717400 ms (FindLiveObjects: 0.531800 ms CreateObjectMapping: 0.258400 ms MarkObjects: 3.801600 ms  DeleteObjects: 0.121200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004362 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBE1FE2C60 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1229020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D234070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE4CA6080 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE455C050 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE5619070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D1A9020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE4CA6080 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE5A1EEB0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1CD3C50 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.998 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.8 MB.
+System memory in use after: 61.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1596.
+Total: 3.318600 ms (FindLiveObjects: 1.029200 ms CreateObjectMapping: 0.069700 ms MarkObjects: 2.139700 ms  DeleteObjects: 0.077700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 187.941966 seconds.
+  path: Assets/Scripts/updateFoodPosition.cs
+  artifactKey: Guid(ab9d60e1d0d8c68409cb96966e288a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/updateFoodPosition.cs using Guid(ab9d60e1d0d8c68409cb96966e288a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6699c3031b4d85863837a2ffad1355c') in 0.036836 seconds
+  Import took 0.048285 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005507 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBE14406C0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1229020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D234070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7CA01020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE455C050 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C8B7BF0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D1A9020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7CA01020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE5A1EEB0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE418D2E0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.951 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.8 MB.
+System memory in use after: 61.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1599.
+Total: 2.731500 ms (FindLiveObjects: 0.314600 ms CreateObjectMapping: 0.071200 ms MarkObjects: 2.276400 ms  DeleteObjects: 0.065400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016870 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBE40CE020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1229020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D234070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7CA01020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE572E020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE421E010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D1A9020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7CA01020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE5A1EEB0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE2C02030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.798 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.8 MB.
+System memory in use after: 61.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1602.
+Total: 28.427300 ms (FindLiveObjects: 0.540600 ms CreateObjectMapping: 0.296000 ms MarkObjects: 27.404500 ms  DeleteObjects: 0.183200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002838 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBE1FE2C60 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE5E3E040 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D234070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE4A53010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1AE3020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C8B7BF0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D1A9020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE4033680 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C8C9C30 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D1EB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.992 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.8 MB.
+System memory in use after: 61.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1605.
+Total: 2.864800 ms (FindLiveObjects: 0.377400 ms CreateObjectMapping: 0.162000 ms MarkObjects: 2.258100 ms  DeleteObjects: 0.064500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007254 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBE40CE020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE5DBA070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1F55040 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE4A53010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE5A8A020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE5619070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D1A9020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE4033680 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE5A1EEB0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE170F010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.271 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.8 MB.
+System memory in use after: 61.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1608.
+Total: 3.791700 ms (FindLiveObjects: 0.309200 ms CreateObjectMapping: 0.478100 ms MarkObjects: 2.933800 ms  DeleteObjects: 0.068500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002749 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBF5507610 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE5DBA070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1F55040 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE4A53010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1AE3020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C8B7BF0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7D1A9020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE6004020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C8C9C30 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE46F3370 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.386 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.8 MB.
+System memory in use after: 61.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1611.
+Total: 4.209400 ms (FindLiveObjects: 0.265600 ms CreateObjectMapping: 0.090000 ms MarkObjects: 3.774500 ms  DeleteObjects: 0.076900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002624 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBE3FF7010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE5DBA070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE524B190 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE4A53010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1AE3020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE5B40020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE520F020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE6004020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE5A1EEB0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE170F010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.728 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.8 MB.
+System memory in use after: 61.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1614.
+Total: 3.032100 ms (FindLiveObjects: 0.374200 ms CreateObjectMapping: 0.153600 ms MarkObjects: 2.399500 ms  DeleteObjects: 0.101800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002066 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001CBE40CE020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE5DBA070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE524B190 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE25B8010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1AE3020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C8B7BF0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE65D4010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE25B8010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CD7C8C9C30 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001CBE1A29190 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.606 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.8 MB.
+System memory in use after: 61.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1617.
+Total: 4.961000 ms (FindLiveObjects: 0.320500 ms CreateObjectMapping: 0.146700 ms MarkObjects: 4.403000 ms  DeleteObjects: 0.087900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
