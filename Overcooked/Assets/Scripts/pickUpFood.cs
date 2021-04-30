@@ -17,7 +17,7 @@ public class pickUpFood : MonoBehaviour
     void Update()
     {
         cont += Time.deltaTime;
-        Debug.Log(cont);
+        //Debug.Log(cont);
     }
 
     private void OnTriggerStay(Collider obj)
@@ -26,9 +26,10 @@ public class pickUpFood : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) && !holded && cont >= 1)
             {
+                Debug.Log("Cogeme");
                 //this.GetComponent<BoxCollider>().enabled = false;
                 this.GetComponent<Rigidbody>().useGravity = false;
-                this.transform.position = Dest.position;
+                this.transform.position = obj.transform.GetChild(6).position;
                 this.transform.parent = GameObject.Find("ToPickUp").transform;
                 holded = true;
                 //this.GetComponent<LeaveFood>().changeState();
@@ -39,8 +40,7 @@ public class pickUpFood : MonoBehaviour
 
     public void changeState()
     {
-        if (holded) holded = false;
-        else holded = true;
+        holded = false;
     }
 
     public void resetCont()

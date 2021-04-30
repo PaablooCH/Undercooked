@@ -26,7 +26,7 @@ public class LeaveFood : MonoBehaviour
     {
         if (obj.tag == "Player")
         {
-            if (Input.GetKey(KeyCode.Space) && onTable && cont >= 1)
+            if (Input.GetKey(KeyCode.Space) && onTable && cont >= 0.5)
             {
                 onTable = false;
                 food = null;
@@ -39,9 +39,9 @@ public class LeaveFood : MonoBehaviour
             if (Input.GetKey(KeyCode.Space) && !onTable && cont >= 2)
             {
                 //obj.GetComponent<BoxCollider>().enabled = true;
-                obj.GetComponent<Rigidbody>().useGravity = true;
-                obj.transform.position = Dest.position;
-                obj.transform.parent = GameObject.Find("Leave").transform;
+                //obj.GetComponent<Rigidbody>().useGravity = true;
+                obj.transform.position = this.transform.GetChild(0).position;
+                obj.transform.parent = this.transform.GetChild(0).transform;
                 onTable = true;
                 obj.gameObject.GetComponent<pickUpFood>().changeState();
                 obj.gameObject.GetComponent<pickUpFood>().resetCont();
