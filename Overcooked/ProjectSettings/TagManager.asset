@@ -6,7 +6,6 @@ TagManager:
   tags:
   - Food
   - Furniture
-  - Knife
   layers:
   - Default
   - TransparentFX

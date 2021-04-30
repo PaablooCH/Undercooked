@@ -1,0 +1,1230 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'es' Physical Memory: 16258 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/victo/OneDrive/Escritorio/Victor/UNI/Carrera/Videojuegos/VJ-3D/Overcooked
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57480
+Successfully changed project path to: C:/Users/victo/OneDrive/Escritorio/Victor/UNI/Carrera/Videojuegos/VJ-3D/Overcooked
+C:/Users/victo/OneDrive/Escritorio/Victor/UNI/Carrera/Videojuegos/VJ-3D/Overcooked
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 211.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/victo/OneDrive/Escritorio/Victor/UNI/Carrera/Videojuegos/VJ-3D/Overcooked/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Vendor:   
+    VRAM:     4055 MB
+    Driver:   27.21.14.5167
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004507 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.559 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001551 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002927E4A9240 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0000080 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0118020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E570030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E4E5020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A654430 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029279D6B010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E570030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E512A30 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0118020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.620 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1562.
+Total: 2.835900 ms (FindLiveObjects: 0.644900 ms CreateObjectMapping: 0.052300 ms MarkObjects: 2.044400 ms  DeleteObjects: 0.092700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/MoveCharacter.cs
+  artifactKey: Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveCharacter.cs using Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6b84040cac926b341d3dca3961b5c5') in 0.082575 seconds
+  Import took 0.085682 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 35.9 MB.
+System memory in use after: 36.0 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1562.
+Total: 1.933200 ms (FindLiveObjects: 0.188000 ms CreateObjectMapping: 0.045300 ms MarkObjects: 1.650200 ms  DeleteObjects: 0.048100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.500419 seconds.
+  path: Assets/Scripts/MoveCharacter.cs
+  artifactKey: Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveCharacter.cs using Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69a77e249c4b75554ab2c28d36ad774') in 0.007713 seconds
+  Import took 0.011519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.473417 seconds.
+  path: Assets/Scripts/MoveCharacter.cs
+  artifactKey: Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveCharacter.cs using Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bca2cbc6e4fd4a6dc90e60656c3970') in 0.015909 seconds
+  Import took 0.020792 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002176 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029279C75CE0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029279EE3030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A677010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0C5A030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A6A0210 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C042D010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0377440 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A1851F0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.956 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1565.
+Total: 3.147500 ms (FindLiveObjects: 0.558200 ms CreateObjectMapping: 0.316200 ms MarkObjects: 2.201000 ms  DeleteObjects: 0.069900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003120 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002927E818CC0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E2B0080 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029279C3D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029279DA1D20 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C15453B0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A044E20 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C042D010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029279DA1D20 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E6FF510 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0AF2020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.710 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1568.
+Total: 2.614700 ms (FindLiveObjects: 0.301900 ms CreateObjectMapping: 0.081100 ms MarkObjects: 2.160100 ms  DeleteObjects: 0.068800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.037773 seconds.
+  path: Assets/Scripts/MoveCharacter.cs
+  artifactKey: Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveCharacter.cs using Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f1f2bfe2f1033d9f4a2ceb026be677') in 0.012335 seconds
+  Import took 0.019094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.139568 seconds.
+  path: Assets/Scripts/MoveCharacter.cs
+  artifactKey: Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveCharacter.cs using Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f1f2bfe2f1033d9f4a2ceb026be677') in 0.008752 seconds
+  Import took 0.012046 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002411 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002927E818CC0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C07E6030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E719020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C152C060 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A127810 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0110010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1BFF1D0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C152C060 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C13A11F0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.890 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1571.
+Total: 2.571400 ms (FindLiveObjects: 0.324400 ms CreateObjectMapping: 0.092900 ms MarkObjects: 2.065900 ms  DeleteObjects: 0.085600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.403596 seconds.
+  path: Assets/Scripts/MoveCharacter.cs
+  artifactKey: Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveCharacter.cs using Guid(2178928a73ce3f14da99113d22eb91c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376936c1ea81a8db7819c99305038027') in 0.023232 seconds
+  Import took 0.027357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.767843 seconds.
+  path: Assets/Scripts/LeaveFood.cs
+  artifactKey: Guid(788e557267e060d449c817453823a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LeaveFood.cs using Guid(788e557267e060d449c817453823a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53a2cc93f80f055bacf0d98b15b01e7') in 0.006806 seconds
+  Import took 0.008935 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033878 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002927E818CC0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C07E6030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C170B010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EF68010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0653870 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C07E6030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A635020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EF68010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E719020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.950 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1575.
+Total: 3.504800 ms (FindLiveObjects: 0.313700 ms CreateObjectMapping: 0.127500 ms MarkObjects: 2.978200 ms  DeleteObjects: 0.083200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001638 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029279C6FF30 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E4E5020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E719020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1342DA0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A127810 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C161AB10 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1BC71A0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1342DA0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A1A52C0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927F02AE20 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.386 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1578.
+Total: 2.381900 ms (FindLiveObjects: 0.236900 ms CreateObjectMapping: 0.086100 ms MarkObjects: 1.990700 ms  DeleteObjects: 0.065700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 411.091459 seconds.
+  path: Assets/Scripts/LeaveFood.cs
+  artifactKey: Guid(788e557267e060d449c817453823a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LeaveFood.cs using Guid(788e557267e060d449c817453823a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72c8c46864c88febf600baf6e9d0679') in 0.008412 seconds
+  Import took 0.010937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.132452 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7eba58f2663f6df837a90ebeb12452') in 0.057137 seconds
+  Import took 0.061042 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003943 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002927E818CC0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0685010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029279A89F90 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1B1B0A0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E83F010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C15FF880 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927F044010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E719020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.117 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1581.
+Total: 3.979500 ms (FindLiveObjects: 0.538800 ms CreateObjectMapping: 0.158400 ms MarkObjects: 3.170500 ms  DeleteObjects: 0.109700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004738 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002927E818CC0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E719020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A677010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A413020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A03E080 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1E730A0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E4E5020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C16BE8A0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 10.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.331 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1584.
+Total: 49.164600 ms (FindLiveObjects: 0.403000 ms CreateObjectMapping: 0.088000 ms MarkObjects: 48.518100 ms  DeleteObjects: 0.152600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 543.257957 seconds.
+  path: Assets/Scripts/pickUpFood.cs
+  artifactKey: Guid(db9f3380c4b4f6e43b31839b496639cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/pickUpFood.cs using Guid(db9f3380c4b4f6e43b31839b496639cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949634ee4eecb60149d6dcde212431a3') in 0.017459 seconds
+  Import took 0.023815 seconds .
+
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(788e557267e060d449c817453823a282) path("Assets/Scripts/LeaveFood.cs") state(2)
+Registering precompiled user dll's ...
+Registered in 0.003586 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002927E818CC0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E719020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002929FE96030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A635020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927F044010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029279EEF070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.322 seconds
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(788e557267e060d449c817453823a282) path("Assets/Scripts/LeaveFood.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1586.
+Total: 4.609800 ms (FindLiveObjects: 0.523800 ms CreateObjectMapping: 0.277300 ms MarkObjects: 3.717300 ms  DeleteObjects: 0.089100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002910 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029279C17810 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1365F10 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A677010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A413020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A635020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1342DA0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927F26A030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.200 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1590.
+Total: 4.304900 ms (FindLiveObjects: 0.747500 ms CreateObjectMapping: 0.152200 ms MarkObjects: 3.274300 ms  DeleteObjects: 0.128300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.762108 seconds.
+  path: Assets/Scripts/pickUpFood.cs
+  artifactKey: Guid(db9f3380c4b4f6e43b31839b496639cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/pickUpFood.cs using Guid(db9f3380c4b4f6e43b31839b496639cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4dcd3bc0c5f912fcb070706320f4508') in 0.027844 seconds
+  Import took 0.033563 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002203 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029279BE2BC0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A04C3D0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E918040 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E9FC020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E83F010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A635020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C123B500 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002929FEC6090 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.103 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1593.
+Total: 39.930900 ms (FindLiveObjects: 0.348600 ms CreateObjectMapping: 0.235300 ms MarkObjects: 39.257800 ms  DeleteObjects: 0.085600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009594 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000290C13C7420 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C11F2010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A04C3D0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E9FC020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E56B010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1AF3070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E719020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.958 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1596.
+Total: 2.648300 ms (FindLiveObjects: 0.210300 ms CreateObjectMapping: 0.131700 ms MarkObjects: 2.226000 ms  DeleteObjects: 0.078300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004853 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002927E578820 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002929FEF60F0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927F26A030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002929FE44040 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002929FEF60F0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A635020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A677010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.936 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1599.
+Total: 4.778800 ms (FindLiveObjects: 0.272300 ms CreateObjectMapping: 0.124000 ms MarkObjects: 4.289900 ms  DeleteObjects: 0.090200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001552 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000290C1628980 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0E8A070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EF68010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A413020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A635020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EF68010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E984080 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C153EDF0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.937 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1602.
+Total: 2.981700 ms (FindLiveObjects: 0.363800 ms CreateObjectMapping: 0.068500 ms MarkObjects: 2.455200 ms  DeleteObjects: 0.092100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001381 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029279BE2BC0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0E8A070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C00100A0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A413020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C09E0010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A635020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C00100A0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A677010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.632 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1605.
+Total: 2.705900 ms (FindLiveObjects: 0.348400 ms CreateObjectMapping: 0.106700 ms MarkObjects: 2.181500 ms  DeleteObjects: 0.066700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002697 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029279C17810 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0E8A070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000292A0078040 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E31A020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1E27030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000292A0078040 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A677010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.406 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1608.
+Total: 13.546800 ms (FindLiveObjects: 0.376500 ms CreateObjectMapping: 0.107100 ms MarkObjects: 12.928100 ms  DeleteObjects: 0.132300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007924 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029279BE2BC0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927F26A030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000292A05A2030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C09E0010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002929FF46190 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0E8A070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.286 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1611.
+Total: 47.875500 ms (FindLiveObjects: 0.629700 ms CreateObjectMapping: 0.996200 ms MarkObjects: 46.122000 ms  DeleteObjects: 0.125100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002610 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029279BE2BC0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927F26A030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1342DA0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A413020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A655050 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002929FF46190 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1342DA0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1BD71C0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000292A02700A0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.961 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1614.
+Total: 13.273600 ms (FindLiveObjects: 0.382700 ms CreateObjectMapping: 0.191900 ms MarkObjects: 12.613600 ms  DeleteObjects: 0.076800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006362 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000290C13D2020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000292A05A2060 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927F26A030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1342DA0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000292A0662140 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000292A05A2060 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002929FF46190 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1342DA0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C153EDF0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.151 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1617.
+Total: 2.853800 ms (FindLiveObjects: 0.211700 ms CreateObjectMapping: 0.080000 ms MarkObjects: 2.497600 ms  DeleteObjects: 0.062400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016201 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002929FE7C090 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0A82010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0E8A070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A413020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E409020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002929FF46190 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F19070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 6.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.590 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1620.
+Total: 3.679800 ms (FindLiveObjects: 0.338500 ms CreateObjectMapping: 0.117100 ms MarkObjects: 3.115900 ms  DeleteObjects: 0.106100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008079 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002929FE7C090 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000292A0060040 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0E8A070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A413020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A0F2030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002929FF46190 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A677010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.284 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1623.
+Total: 6.677700 ms (FindLiveObjects: 0.290700 ms CreateObjectMapping: 2.273100 ms MarkObjects: 4.004100 ms  DeleteObjects: 0.105900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001263 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000290C1299020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E761070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0E8A070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A413020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A655050 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000292A03F8210 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C153EDF0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.549 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1626.
+Total: 2.322500 ms (FindLiveObjects: 0.263300 ms CreateObjectMapping: 0.097100 ms MarkObjects: 1.859100 ms  DeleteObjects: 0.098900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002228 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029279C17810 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002929FF661D0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029279A89F90 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000292A0062010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A413020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002929FF661D0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0C5A030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0928050 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0E8A070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.982 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1629.
+Total: 4.549100 ms (FindLiveObjects: 0.499900 ms CreateObjectMapping: 0.088600 ms MarkObjects: 3.867600 ms  DeleteObjects: 0.090200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004246 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000290C1F1E410 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1DBD020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0E8A070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1534070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000292A0B9F050 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E56B010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0C5A030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E719020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.006 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1632.
+Total: 2.814600 ms (FindLiveObjects: 0.291100 ms CreateObjectMapping: 0.111500 ms MarkObjects: 2.313400 ms  DeleteObjects: 0.096100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002525 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002929FE7C090 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000292A05103A0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0E8A070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A677010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A413020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C09E0010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0C5A030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029279A89F90 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.843 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1635.
+Total: 3.203000 ms (FindLiveObjects: 0.263400 ms CreateObjectMapping: 0.090800 ms MarkObjects: 2.774100 ms  DeleteObjects: 0.071900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002324 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029279EDE8C0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927E761080 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0E8A070 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A677010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000292A0C91090 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A33EC90 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0C5A030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1E7B0D0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.908 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1638.
+Total: 60.014400 ms (FindLiveObjects: 11.491100 ms CreateObjectMapping: 31.563300 ms MarkObjects: 16.865100 ms  DeleteObjects: 0.089600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002490 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029279BE2BC0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000292A02660A0 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EF6C020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A677010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A413020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927A33EC90 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C0C5A030 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000290C1F8D020 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002927EEFB010 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029279A89F90 doesn't match image C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.984 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1641.
+Total: 2.997900 ms (FindLiveObjects: 0.471400 ms CreateObjectMapping: 0.096900 ms MarkObjects: 2.353900 ms  DeleteObjects: 0.072300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
