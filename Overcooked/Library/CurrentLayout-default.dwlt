@@ -20,7 +20,11 @@ MonoBehaviour:
     height: 781
   m_ShowMode: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Game
+=======
+  m_Title: Scene
+>>>>>>> parent of 403e6ac (Bin Added)
 =======
   m_Title: Scene
 >>>>>>> parent of 403e6ac (Bin Added)
@@ -50,15 +54,21 @@ MonoBehaviour:
     width: 1536
     height: 731
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
   controlID: 126
 =======
+=======
+>>>>>>> parent of 403e6ac (Bin Added)
   m_MinSize: {x: 679, y: 342}
   m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
   controlID: 79
+<<<<<<< HEAD
+>>>>>>> parent of 403e6ac (Bin Added)
+=======
 >>>>>>> parent of 403e6ac (Bin Added)
 --- !u!114 &3
 MonoBehaviour:
@@ -132,9 +142,15 @@ MonoBehaviour:
     width: 1260
     height: 272
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 13}
+=======
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
+>>>>>>> parent of 403e6ac (Bin Added)
 =======
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
@@ -168,8 +184,11 @@ MonoBehaviour:
     width: 1536
     height: 781
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 875, y: 542}
 =======
+=======
+>>>>>>> parent of 403e6ac (Bin Added)
   m_MinSize: {x: 875, y: 300}
 >>>>>>> parent of 403e6ac (Bin Added)
   m_MaxSize: {x: 10000, y: 10000}
@@ -245,10 +264,17 @@ MonoBehaviour:
     width: 1260
     height: 731
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 127
+=======
+  m_MinSize: {x: 403, y: 342}
+  m_MaxSize: {x: 8003, y: 8042}
+  vertical: 1
+  controlID: 80
+>>>>>>> parent of 403e6ac (Bin Added)
 =======
   m_MinSize: {x: 403, y: 342}
   m_MaxSize: {x: 8003, y: 8042}
@@ -277,15 +303,21 @@ MonoBehaviour:
     width: 1260
     height: 459
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
   controlID: 128
 =======
+=======
+>>>>>>> parent of 403e6ac (Bin Added)
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 55
+<<<<<<< HEAD
+>>>>>>> parent of 403e6ac (Bin Added)
+=======
 >>>>>>> parent of 403e6ac (Bin Added)
 --- !u!114 &11
 MonoBehaviour:
@@ -415,7 +447,11 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets
+=======
+    - Assets/Scripts
+>>>>>>> parent of 403e6ac (Bin Added)
 =======
     - Assets/Scripts
 >>>>>>> parent of 403e6ac (Bin Added)
@@ -425,7 +461,11 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets
+=======
+  - Assets/Scripts
+>>>>>>> parent of 403e6ac (Bin Added)
 =======
   - Assets/Scripts
 >>>>>>> parent of 403e6ac (Bin Added)
@@ -435,11 +475,14 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 28.600006}
     m_SelectedIDs: a03c0000
     m_LastClickedID: 15520
     m_ExpandedIDs: 00000000a03c000000ca9a3b
 =======
+=======
+>>>>>>> parent of 403e6ac (Bin Added)
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 203c0000
     m_LastClickedID: 15392
@@ -561,7 +604,11 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastVerticalScrollValue: 0
+=======
+  m_LastVerticalScrollValue: 201.55
+>>>>>>> parent of 403e6ac (Bin Added)
 =======
   m_LastVerticalScrollValue: 201.55
 >>>>>>> parent of 403e6ac (Bin Added)
@@ -595,6 +642,9 @@ MonoBehaviour:
 =======
     x: 0
     y: 73.6
+<<<<<<< HEAD
+>>>>>>> parent of 403e6ac (Bin Added)
+=======
 >>>>>>> parent of 403e6ac (Bin Added)
     width: 370
     height: 438
@@ -603,9 +653,15 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: eafaffff
+=======
+      m_SelectedIDs: 463a0000
+      m_LastClickedID: 14918
+      m_ExpandedIDs: 52fbffff463a0000
+>>>>>>> parent of 403e6ac (Bin Added)
 =======
       m_SelectedIDs: 463a0000
       m_LastClickedID: 14918
@@ -660,6 +716,9 @@ MonoBehaviour:
 =======
     x: 371.2
     y: 73.6
+<<<<<<< HEAD
+>>>>>>> parent of 403e6ac (Bin Added)
+=======
 >>>>>>> parent of 403e6ac (Bin Added)
     width: 887
     height: 438
@@ -676,9 +735,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.16245434, y: -0.3840487, z: -3.2390804}
     speed: 2
     m_Value: {x: -0.16245434, y: -0.3840487, z: -3.2390804}
+=======
+    m_Target: {x: 0.2758187, y: -0.088291645, z: -5.5146804}
+    speed: 2
+    m_Value: {x: 0.2758187, y: -0.088291645, z: -5.5146804}
+>>>>>>> parent of 403e6ac (Bin Added)
 =======
     m_Target: {x: 0.2758187, y: -0.088291645, z: -5.5146804}
     speed: 2
@@ -735,9 +800,15 @@ MonoBehaviour:
     m_Value: {x: 0.0020726824, y: -0.9855534, z: 0.1689833, w: 0.0111823175}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 2.9221435
     speed: 2
     m_Value: 2.9221435
+=======
+    m_Target: 3.5453658
+    speed: 2
+    m_Value: 3.5453658
+>>>>>>> parent of 403e6ac (Bin Added)
 =======
     m_Target: 3.5453658
     speed: 2
@@ -793,6 +864,9 @@ MonoBehaviour:
 =======
     x: 371.2
     y: 73.6
+<<<<<<< HEAD
+>>>>>>> parent of 403e6ac (Bin Added)
+=======
 >>>>>>> parent of 403e6ac (Bin Added)
     width: 887
     height: 438
@@ -819,15 +893,21 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -443.5
     m_HBaseRangeMax: 443.5
     m_VBaseRangeMin: -208.5
     m_VBaseRangeMax: 208.5
 =======
+=======
+>>>>>>> parent of 403e6ac (Bin Added)
     m_HBaseRangeMin: -354.80002
     m_HBaseRangeMax: 354.80002
     m_VBaseRangeMin: -166.8
     m_VBaseRangeMax: 166.8
+<<<<<<< HEAD
+>>>>>>> parent of 403e6ac (Bin Added)
+=======
 >>>>>>> parent of 403e6ac (Bin Added)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
@@ -849,8 +929,13 @@ MonoBehaviour:
       width: 887
       height: 417
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Scale: {x: 1.3871437, y: 1.3871436}
     m_Translation: {x: 443.49997, y: 208.49998}
+=======
+    m_Scale: {x: 1.6661322, y: 1.6661322}
+    m_Translation: {x: 443.5, y: 208.5}
+>>>>>>> parent of 403e6ac (Bin Added)
 =======
     m_Scale: {x: 1.6661322, y: 1.6661322}
     m_Translation: {x: 443.5, y: 208.5}
@@ -862,6 +947,7 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       x: -319.7217
       y: -150.30887
       width: 639.4435
@@ -870,6 +956,8 @@ MonoBehaviour:
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 887, y: 438}
 =======
+=======
+>>>>>>> parent of 403e6ac (Bin Added)
       x: -266.18536
       y: -125.14013
       width: 532.3707
@@ -877,6 +965,9 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1108.75, y: 547.5}
+<<<<<<< HEAD
+>>>>>>> parent of 403e6ac (Bin Added)
+=======
 >>>>>>> parent of 403e6ac (Bin Added)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
