@@ -14,11 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 205
-    y: 138
+    x: 0
+    y: 43.2
     width: 1536
-    height: 781
+    height: 780.8
   m_ShowMode: 4
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_Title: Game
@@ -28,10 +29,13 @@ MonoBehaviour:
 =======
   m_Title: Scene
 >>>>>>> parent of 403e6ac (Bin Added)
+=======
+  m_Title: Project
+>>>>>>> parent of 6a943d1 (.)
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -52,6 +56,7 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1536
+<<<<<<< HEAD
     height: 731
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70,6 +75,13 @@ MonoBehaviour:
 >>>>>>> parent of 403e6ac (Bin Added)
 =======
 >>>>>>> parent of 403e6ac (Bin Added)
+=======
+    height: 730.8
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 108
+>>>>>>> parent of 6a943d1 (.)
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -88,9 +100,9 @@ MonoBehaviour:
     x: 1260
     y: 0
     width: 276
-    height: 731
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+    height: 730.8
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -113,10 +125,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 371
-    height: 459
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 371.2
+    height: 458.4
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -138,11 +150,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 459
+    y: 458.4
     width: 1260
+<<<<<<< HEAD
     height: 272
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+    height: 272.4
+>>>>>>> parent of 6a943d1 (.)
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 13}
@@ -182,6 +198,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1536
+<<<<<<< HEAD
     height: 781
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,6 +208,10 @@ MonoBehaviour:
 >>>>>>> parent of 403e6ac (Bin Added)
   m_MinSize: {x: 875, y: 300}
 >>>>>>> parent of 403e6ac (Bin Added)
+=======
+    height: 780.8
+  m_MinSize: {x: 875, y: 300}
+>>>>>>> parent of 6a943d1 (.)
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -237,7 +258,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 761
+    y: 760.8
     width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -262,6 +283,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1260
+<<<<<<< HEAD
     height: 731
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,6 +303,13 @@ MonoBehaviour:
   vertical: 1
   controlID: 80
 >>>>>>> parent of 403e6ac (Bin Added)
+=======
+    height: 730.8
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 109
+>>>>>>> parent of 6a943d1 (.)
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -301,6 +330,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1260
+<<<<<<< HEAD
     height: 459
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -319,6 +349,13 @@ MonoBehaviour:
 >>>>>>> parent of 403e6ac (Bin Added)
 =======
 >>>>>>> parent of 403e6ac (Bin Added)
+=======
+    height: 458.4
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 110
+>>>>>>> parent of 6a943d1 (.)
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -329,24 +366,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 371
+    x: 371.2
     y: 0
-    width: 889
-    height: 459
+    width: 888.8
+    height: 458.4
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -363,7 +400,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animator
-    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -424,14 +461,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 205
-    y: 627
+    x: 0
+    y: 532
     width: 1259
-    height: 251
+    height: 251.4
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -448,6 +485,7 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets
 =======
     - Assets/Scripts
@@ -455,11 +493,15 @@ MonoBehaviour:
 =======
     - Assets/Scripts
 >>>>>>> parent of 403e6ac (Bin Added)
+=======
+    - Assets/Prefabs
+>>>>>>> parent of 6a943d1 (.)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   - Assets
@@ -469,14 +511,18 @@ MonoBehaviour:
 =======
   - Assets/Scripts
 >>>>>>> parent of 403e6ac (Bin Added)
+=======
+  - Assets/Prefabs
+>>>>>>> parent of 6a943d1 (.)
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\VJ\VJ-3D\Overcooked
+  m_LastProjectPath: C:\Users\victo\OneDrive\Escritorio\Victor\UNI\Carrera\Videojuegos\VJ-3D\Overcooked
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
 <<<<<<< HEAD
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 28.600006}
+<<<<<<< HEAD
     m_SelectedIDs: a03c0000
     m_LastClickedID: 15520
     m_ExpandedIDs: 00000000a03c000000ca9a3b
@@ -488,6 +534,11 @@ MonoBehaviour:
     m_LastClickedID: 15392
     m_ExpandedIDs: 00000000c83b000000ca9a3b
 >>>>>>> parent of 403e6ac (Bin Added)
+=======
+    m_SelectedIDs: 283c0000
+    m_LastClickedID: 15400
+    m_ExpandedIDs: 00000000c83b000000ca9a3b
+>>>>>>> parent of 6a943d1 (.)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -515,7 +566,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a03c0000
+    m_ExpandedIDs: 00000000c83b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -542,7 +593,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300003c3c0000c63b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -587,14 +638,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1465
-    y: 168
+    x: 1260
+    y: 73.6
     width: 275
-    height: 710
+    height: 709.8
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -605,6 +656,7 @@ MonoBehaviour:
   m_LastInspectedObjectInstanceID: -1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastVerticalScrollValue: 0
 =======
   m_LastVerticalScrollValue: 201.55
@@ -612,6 +664,9 @@ MonoBehaviour:
 =======
   m_LastVerticalScrollValue: 201.55
 >>>>>>> parent of 403e6ac (Bin Added)
+=======
+  m_LastVerticalScrollValue: 81.6
+>>>>>>> parent of 6a943d1 (.)
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -632,10 +687,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 205
     y: 168
@@ -648,6 +704,12 @@ MonoBehaviour:
 >>>>>>> parent of 403e6ac (Bin Added)
     width: 370
     height: 438
+=======
+    x: 0
+    y: 73.6
+    width: 370.2
+    height: 437.4
+>>>>>>> parent of 6a943d1 (.)
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
@@ -656,6 +718,7 @@ MonoBehaviour:
 <<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: eafaffff
 =======
       m_SelectedIDs: 463a0000
@@ -667,6 +730,9 @@ MonoBehaviour:
       m_LastClickedID: 14918
       m_ExpandedIDs: 52fbffff463a0000
 >>>>>>> parent of 403e6ac (Bin Added)
+=======
+      m_ExpandedIDs: 208effff3e94ffffca9dffff42b2ffffa6e2ffffbae3fffffaf1ffff66f9ffff52fbffff
+>>>>>>> parent of 6a943d1 (.)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -706,10 +772,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 576
     y: 168
@@ -722,6 +789,12 @@ MonoBehaviour:
 >>>>>>> parent of 403e6ac (Bin Added)
     width: 887
     height: 438
+=======
+    x: 371.2
+    y: 73.6
+    width: 886.8
+    height: 437.4
+>>>>>>> parent of 6a943d1 (.)
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -734,6 +807,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: -0.16245434, y: -0.3840487, z: -3.2390804}
@@ -749,6 +823,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.2758187, y: -0.088291645, z: -5.5146804}
 >>>>>>> parent of 403e6ac (Bin Added)
+=======
+    m_Target: {x: 2.4980404, y: 0.649, z: -4.038202}
+    speed: 2
+    m_Value: {x: 2.4980404, y: 0.64899987, z: -4.038202}
+>>>>>>> parent of 6a943d1 (.)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -801,6 +880,7 @@ MonoBehaviour:
   m_Size:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 2.9221435
     speed: 2
     m_Value: 2.9221435
@@ -814,6 +894,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 3.5453658
 >>>>>>> parent of 403e6ac (Bin Added)
+=======
+    m_Target: 0.22214347
+    speed: 2
+    m_Value: 0.22214377
+>>>>>>> parent of 6a943d1 (.)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -854,10 +939,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 576
     y: 168
@@ -870,6 +956,12 @@ MonoBehaviour:
 >>>>>>> parent of 403e6ac (Bin Added)
     width: 887
     height: 438
+=======
+    x: 371.2
+    y: 73.6
+    width: 886.8
+    height: 437.4
+>>>>>>> parent of 6a943d1 (.)
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -877,7 +969,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 887, y: 417}
+  m_TargetSize: {x: 886.8, y: 416.4}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -892,6 +984,7 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_HBaseRangeMin: -443.5
@@ -909,6 +1002,12 @@ MonoBehaviour:
 >>>>>>> parent of 403e6ac (Bin Added)
 =======
 >>>>>>> parent of 403e6ac (Bin Added)
+=======
+    m_HBaseRangeMin: -354.72
+    m_HBaseRangeMax: 354.72
+    m_VBaseRangeMin: -166.56
+    m_VBaseRangeMax: 166.56
+>>>>>>> parent of 6a943d1 (.)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -926,6 +1025,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 887
       height: 417
 <<<<<<< HEAD
@@ -940,12 +1040,19 @@ MonoBehaviour:
     m_Scale: {x: 1.6661322, y: 1.6661322}
     m_Translation: {x: 443.5, y: 208.5}
 >>>>>>> parent of 403e6ac (Bin Added)
+=======
+      width: 886.8
+      height: 416.4
+    m_Scale: {x: 1.3871437, y: 1.3871437}
+    m_Translation: {x: 443.39996, y: 208.2}
+>>>>>>> parent of 6a943d1 (.)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       x: -319.7217
@@ -969,6 +1076,15 @@ MonoBehaviour:
 >>>>>>> parent of 403e6ac (Bin Added)
 =======
 >>>>>>> parent of 403e6ac (Bin Added)
+=======
+      x: -319.64963
+      y: -150.09259
+      width: 639.29926
+      height: 300.18518
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1108.5, y: 546.75}
+>>>>>>> parent of 6a943d1 (.)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -990,7 +1106,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
