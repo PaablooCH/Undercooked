@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6097570204486135492}
   - component: {fileID: 7330542885982816848}
   - component: {fileID: 5633889406717349761}
+  - component: {fileID: 1382340748554793195}
   m_Layer: 0
   m_Name: generatorCucumber
   m_TagString: Untagged
@@ -95,3 +96,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   food: {fileID: 5521345185295368700, guid: f6bbe5312a726c24591e5bbe34d1bba7, type: 3}
+--- !u!65 &1382340748554793195
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216150694466077877}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1, y: 1.6, z: 1.7}
+  m_Center: {x: -0.15000004, y: 0.8, z: -0.049999982}

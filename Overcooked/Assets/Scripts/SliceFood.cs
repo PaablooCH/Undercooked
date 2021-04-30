@@ -7,9 +7,9 @@ public class SliceFood : MonoBehaviour
     // Start is called before the first frame update
     public Transform Dest;
     public Transform Player;
-    GameObject food;
-    float cont;
-    bool full;
+    private GameObject food;
+    private float cont;
+    private bool full;
 
     // Start is called before the first frame update
     void Start()

@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 5604370765159044507}
   - component: {fileID: 7282767930612362449}
   - component: {fileID: 6067524049345611845}
+  - component: {fileID: 1963968619895530949}
+  - component: {fileID: 7847690086907351244}
   m_Layer: 0
   m_Name: vitro
   m_TagString: Untagged
@@ -81,3 +83,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1963968619895530949
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3706628497624368800}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1, y: 1.6, z: 1.7}
+  m_Center: {x: -0.15000004, y: 0.8, z: -0.049999982}
+--- !u!114 &7847690086907351244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3706628497624368800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 575adc69f1a3ff14fab26f58d6913220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pan: {fileID: 6770284773665812815, guid: 7feac264e0694ae4aa241b5d784dab35, type: 3}

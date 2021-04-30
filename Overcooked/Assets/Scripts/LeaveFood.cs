@@ -5,9 +5,9 @@ using UnityEngine;
 public class LeaveFood : MonoBehaviour
 {
     public Transform Dest;
-    bool onTable;
-    GameObject food;
-    float cont;
+    private bool onTable;
+    private GameObject food;
+    private float cont;
 
     // Start is called before the first frame update
     void Start()

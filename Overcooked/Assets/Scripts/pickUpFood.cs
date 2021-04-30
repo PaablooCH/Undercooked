@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class pickUpFood : MonoBehaviour
 {
-    public Transform Dest;
-    bool holded;
-    float cont = 1;
+    private bool holded;
+    private float cont = 1;
     // Start is called before the first frame update
     void Start()
     {
