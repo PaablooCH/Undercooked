@@ -17,7 +17,7 @@ public class pickUpFood : MonoBehaviour
     void Update()
     {
         cont += Time.deltaTime;
-        Debug.Log(cont);
+        //Debug.Log(cont);
     }
 
     private void OnTriggerStay(Collider obj)
