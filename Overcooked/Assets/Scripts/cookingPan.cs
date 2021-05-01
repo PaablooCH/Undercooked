@@ -26,23 +26,23 @@ public class cookingPan : MonoBehaviour
             if (food.name == "SlicedMeat" && cont >= 2)
             {
                 Destroy(food);
-                cook1 = (GameObject)Instantiate(cook1, transform.position + new Vector3(-0.06f, 0.5f, 0.05f), cook1.transform.rotation);
-                cook1.transform.position = this.transform.GetChild(0).position;
-            cook1.transform.parent = this.transform.GetChild(0).transform;
-            cook1.gameObject.GetComponent<pickUpFood>().changeState();
-            cook1.gameObject.GetComponent<pickUpFood>().resetCont();
-            }
+                food = (GameObject)Instantiate(cook1, transform.position + new Vector3(-0.06f, 0.5f, 0.05f), cook1.transform.rotation);
+                food.transform.position = this.transform.GetChild(0).position;
+                food.transform.parent = this.transform.GetChild(0).transform;
+                food.gameObject.GetComponent<pickUpFood>().changeState();
+                food.gameObject.GetComponent<pickUpFood>().resetCont();
+                }
             if (cont >= 5)
             {
                 Debug.Log("Soy Player");
-                Destroy(cook1);
-                cook2 = (GameObject)Instantiate(cook2, transform.position + new Vector3(-0.06f, 1.0f, 0.05f), cook2.transform.rotation);
-            cook2.transform.position = this.transform.GetChild(0).position;
-            cook2.transform.parent = this.transform.GetChild(0).transform;
-            cook2.gameObject.GetComponent<pickUpFood>().changeState();
-            cook2.gameObject.GetComponent<pickUpFood>().resetCont();
-            }
-        Debug.Log(cont + cook1.name);
+                Destroy(food);
+                food = (GameObject)Instantiate(cook2, transform.position + new Vector3(-0.06f, 1.0f, 0.05f), cook2.transform.rotation);
+                food.transform.position = this.transform.GetChild(0).position;
+                food.transform.parent = this.transform.GetChild(0).transform;
+                food.gameObject.GetComponent<pickUpFood>().changeState();
+                food.gameObject.GetComponent<pickUpFood>().resetCont();
+                }
+            Debug.Log(cont + food.name);
 
     }
 
