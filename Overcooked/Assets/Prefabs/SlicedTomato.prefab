@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1128204855313228527}
   - component: {fileID: 5817453236605697535}
   - component: {fileID: -2676032151453545012}
+  - component: {fileID: -3752309975099911662}
   m_Layer: 0
   m_Name: SlicedTomato
   m_TagString: Food
@@ -139,3 +140,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
+--- !u!114 &-3752309975099911662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9147826056820812165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e653c9e70fd5d4e8f81d0d0d624cb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextFood: {fileID: 7579485635898734276, guid: ff4f98335007e3f4e816c528d0c7d767, type: 3}

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1798056280642115604}
   - component: {fileID: 1798056280642115626}
   - component: {fileID: 1798056280642115607}
+  - component: {fileID: 2860192877068178898}
   m_Layer: 0
   m_Name: furniture
   m_TagString: Furniture
@@ -110,6 +111,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dest: {fileID: 1798056280981507657}
+--- !u!114 &2860192877068178898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798056280642115606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7421fc4cc431a5b439de8aa768eb8243, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dest: {fileID: 0}
+  Player: {fileID: 0}
+  meat: {fileID: 5288834236214353861, guid: 0de1e241328207646ad40a1f7a89db6b, type: 3}
+  cucumber: {fileID: 2615799847084015081, guid: 9800c1632ddeb564ba14b2423df2f6f3, type: 3}
+  bread: {fileID: 7579485635898734276, guid: ff4f98335007e3f4e816c528d0c7d767, type: 3}
+  tomato: {fileID: 9147826056820812165, guid: 86fbc948ca19bbe48a52fc5f4a03a185, type: 3}
+  fish: {fileID: 4102975363478568987, guid: 7ec031c394038fa408e332f8061e45db, type: 3}
+  potato: {fileID: 2575374620453904973, guid: 243640df7e54c4345a1d2ba9536ee27f, type: 3}
+  cheese: {fileID: 7929272419250920846, guid: 0e9e9513dd266db4eb29e2470505bc4e, type: 3}
 --- !u!1 &1798056280981507656
 GameObject:
   m_ObjectHideFlags: 0

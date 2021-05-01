@@ -5,44 +5,52 @@ using UnityEngine;
 public class cookingPan : MonoBehaviour
 {
     public Transform Dest;
-    public GameObject cook1;
-    public GameObject cook2;
     private bool onTable;
     private GameObject food;
     private float cont;
+    private bool cooked;
+    private bool burned;
 
     // Start is called before the first frame update
     void Start()
     {
         onTable = false;
         cont = 0;
+        cooked = false;
+        burned = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         cont += Time.deltaTime;
-        
-            if (food.name == "SlicedMeat" && cont >= 2)
+        if(food != null)
+        {
+            if (cont >= 6 && !burned)
             {
+                burned = true;
+                GameObject a = food.gameObject.GetComponent<convertInTo>().convertFood();
                 Destroy(food);
-                food = (GameObject)Instantiate(cook1, transform.position + new Vector3(-0.06f, 0.5f, 0.05f), cook1.transform.rotation);
+                food = a;
                 food.transform.position = this.transform.GetChild(0).position;
                 food.transform.parent = this.transform.GetChild(0).transform;
                 food.gameObject.GetComponent<pickUpFood>().changeState();
                 food.gameObject.GetComponent<pickUpFood>().resetCont();
-                }
-            if (cont >= 5)
+            }
+            else if (cont >= 2 && !cooked)
             {
-                Debug.Log("Soy Player");
+                cooked = true;
+                GameObject a = food.gameObject.GetComponent<convertInTo>().convertFood();
                 Destroy(food);
-                food = (GameObject)Instantiate(cook2, transform.position + new Vector3(-0.06f, 1.0f, 0.05f), cook2.transform.rotation);
+                food = a;
                 food.transform.position = this.transform.GetChild(0).position;
                 food.transform.parent = this.transform.GetChild(0).transform;
                 food.gameObject.GetComponent<pickUpFood>().changeState();
                 food.gameObject.GetComponent<pickUpFood>().resetCont();
-                }
+            }
             Debug.Log(cont + food.name);
+        }
+        
 
     }
 
@@ -55,6 +63,8 @@ public class cookingPan : MonoBehaviour
                 onTable = false;
                 food = null;
                 cont = 0;
+                cooked = false;
+                burned = false;
             }
             //Debug.Log("Soy Player");
         }

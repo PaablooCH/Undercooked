@@ -15,8 +15,9 @@ GameObject:
   - component: {fileID: 7547003841464023285}
   - component: {fileID: 7547003841464023286}
   - component: {fileID: 7547003841464023241}
+  - component: {fileID: 763054318288212814}
   m_Layer: 0
-  m_Name: Meat
+  m_Name: meat
   m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -139,4 +140,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db9f3380c4b4f6e43b31839b496639cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dest: {fileID: 0}
+--- !u!114 &763054318288212814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7547003841464023281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e653c9e70fd5d4e8f81d0d0d624cb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextFood: {fileID: 5288834236214353861, guid: 0de1e241328207646ad40a1f7a89db6b, type: 3}

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -1003384728257730237}
   - component: {fileID: 420430635644160474}
   - component: {fileID: 8914446210215087551}
+  - component: {fileID: 1873544417576206435}
   m_Layer: 0
   m_Name: SlicedMeat
   m_TagString: Food
@@ -139,3 +140,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.002, y: 0.1, z: 0.002}
   m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}
+--- !u!114 &1873544417576206435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5288834236214353861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e653c9e70fd5d4e8f81d0d0d624cb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextFood: {fileID: 9147826056820812165, guid: 86fbc948ca19bbe48a52fc5f4a03a185, type: 3}
