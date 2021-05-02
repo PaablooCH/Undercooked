@@ -891,6 +891,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: generatorPotato
       objectReference: {fileID: 0}
+    - target: {fileID: 2470705906976752095, guid: 5ae1f419ad4c98444b04d4f399dddd1b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7030370655929495412, guid: 5ae1f419ad4c98444b04d4f399dddd1b, type: 3}
+      propertyPath: m_Size.z
+      value: 2.1285043
+      objectReference: {fileID: 0}
+    - target: {fileID: 7030370655929495412, guid: 5ae1f419ad4c98444b04d4f399dddd1b, type: 3}
+      propertyPath: m_Center.z
+      value: 0.114252046
+      objectReference: {fileID: 0}
+    - target: {fileID: 7030370655929495412, guid: 5ae1f419ad4c98444b04d4f399dddd1b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8824332589638160525, guid: 5ae1f419ad4c98444b04d4f399dddd1b, type: 3}
       propertyPath: m_RootOrder
       value: 11

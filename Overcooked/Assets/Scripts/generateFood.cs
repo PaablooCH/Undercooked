@@ -6,14 +6,13 @@ public class generateFood: MonoBehaviour
 {
     public GameObject food;
     private float cont;
-    private GameObject foodGenerated;
     private bool full;
 
     // Start is called before the first frame update
     void Start()
     {
-        foodGenerated = (GameObject) Instantiate(food, transform.position + new Vector3(-0.05f, 0.4f, 0.0f), food.transform.rotation);
-        cont = 0;
+        GameObject obj = (GameObject) Instantiate(food, transform.position + new Vector3(-0.05f, 0.4f, 0.0f), food.transform.rotation);
+        obj.transform.parent = transform;
         full = true;
     }
 
@@ -21,26 +20,27 @@ public class generateFood: MonoBehaviour
     void Update()
     {
         cont += Time.deltaTime;
-        Debug.Log(foodGenerated.gameObject); 
+        //Debug.Log(foodGenerated.gameObject); 
         if (!full && cont >= 5)
         {
-            foodGenerated = (GameObject)Instantiate(food, transform.position + new Vector3(-0.05f, 0.4f, 0.0f), food.transform.rotation);
+            GameObject obj = (GameObject)Instantiate(food, transform.position + new Vector3(-0.05f, 0.4f, 0.0f), food.transform.rotation);
+            obj.transform.parent = transform;
             cont = 0;
             full = true;
         }
     }
 
-    private void OnTriggerStay(Collider obj)
+    private void OnCollisionStay(Collision obj)
     {
         if (Input.GetKey(KeyCode.Space) && full)
         {
-            if (obj.tag == "Player")
+            if (obj.collider.tag == "Player")
             {
-                foodGenerated = null;
+                Debug.Log("hola");
                 full = false;
                 cont = 0;
             }
         }
-
     }
+
 }
