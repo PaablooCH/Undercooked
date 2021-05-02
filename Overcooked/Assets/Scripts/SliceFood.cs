@@ -4,20 +4,10 @@ using UnityEngine;
 
 public class SliceFood : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public Transform Dest;
     public Transform Player;
     private GameObject food;
     private float cont;
     private bool full;
-    public GameObject meat;
-    public GameObject cucumber;
-    public GameObject bread;
-    public GameObject tomato;
-    public GameObject fish;
-    public GameObject potato;
-    public GameObject cheese;
-
 
     // Start is called before the first frame update
     void Start()
@@ -30,73 +20,17 @@ public class SliceFood : MonoBehaviour
     void Update()
     {
         cont += Time.deltaTime;
-        if (cont >= 3 && full)
+        if (cont >= 3 && full && food.tag == "Food")
         {
-            if (food.name == "meat")
-            {
-                Destroy(food);
-                food = (GameObject)Instantiate(meat, transform.position + new Vector3(-0.06f, 0.5f, 0.05f), meat.transform.rotation);
-                food.transform.position = this.transform.GetChild(0).position;
-                food.transform.parent = this.transform.GetChild(0).transform;
-                food.gameObject.GetComponent<pickUpFood>().changeState();
-                food.gameObject.GetComponent<pickUpFood>().resetCont();
-            }
-            if (food.name == "cucumber")
-            {
-                Destroy(food);
-                food = (GameObject)Instantiate(cucumber, transform.position + new Vector3(-0.06f, 0.5f, 0.05f), cucumber.transform.rotation);
-                food.transform.position = this.transform.GetChild(0).position;
-                food.transform.parent = this.transform.GetChild(0).transform;
-                food.gameObject.GetComponent<pickUpFood>().changeState();
-                food.gameObject.GetComponent<pickUpFood>().resetCont();
-            }
-            if (food.name == "bread")
-            {
-                Destroy(food);
-                food = (GameObject)Instantiate(bread, transform.position + new Vector3(-0.06f, 0.5f, 0.05f), bread.transform.rotation);
-                food.transform.position = this.transform.GetChild(0).position;
-                food.transform.parent = this.transform.GetChild(0).transform;
-                food.gameObject.GetComponent<pickUpFood>().changeState();
-                food.gameObject.GetComponent<pickUpFood>().resetCont();
-            }
-            if (food.name == "tomato3.0")
-            {
-                Destroy(food);
-                food = (GameObject)Instantiate(tomato, transform.position + new Vector3(-0.06f, 0.5f, 0.05f), tomato.transform.rotation);
-                food.transform.position = this.transform.GetChild(0).position;
-                food.transform.parent = this.transform.GetChild(0).transform;
-                food.gameObject.GetComponent<pickUpFood>().changeState();
-                food.gameObject.GetComponent<pickUpFood>().resetCont();
-            }
-            if (food.name == "fish")
-            {
-                Destroy(food);
-                food = (GameObject)Instantiate(fish, transform.position + new Vector3(-0.06f, 0.5f, 0.05f), fish.transform.rotation);
-                food.transform.position = this.transform.GetChild(0).position;
-                food.transform.parent = this.transform.GetChild(0).transform;
-                food.gameObject.GetComponent<pickUpFood>().changeState();
-                food.gameObject.GetComponent<pickUpFood>().resetCont();
-            }
-            if (food.name == "potato")
-            {
-                Destroy(food);
-                food = (GameObject)Instantiate(potato, transform.position + new Vector3(-0.06f, 0.5f, 0.05f), potato.transform.rotation);
-                food.transform.position = this.transform.GetChild(0).position;
-                food.transform.parent = this.transform.GetChild(0).transform;
-                food.gameObject.GetComponent<pickUpFood>().changeState();
-                food.gameObject.GetComponent<pickUpFood>().resetCont();
-            }
-            if (food.name == "cheese")
-            {
-                Destroy(food);
-                food = (GameObject)Instantiate(cheese, transform.position + new Vector3(-0.06f, 0.5f, 0.05f), cheese.transform.rotation);
-                food.transform.position = this.transform.GetChild(0).position;
-                food.transform.parent = this.transform.GetChild(0).transform;
-                food.gameObject.GetComponent<pickUpFood>().changeState();
-                food.gameObject.GetComponent<pickUpFood>().resetCont();
-            }
+            GameObject a = food.gameObject.GetComponent<convertInTo>().convertFood();
+            Destroy(food);
+            food = a;
+            food.transform.position = this.transform.GetChild(0).position;
+            food.transform.parent = this.transform.GetChild(0).transform;
+            food.gameObject.GetComponent<pickUpFood>().changeState();
+            food.gameObject.GetComponent<pickUpFood>().resetCont();
         }
-        Debug.Log(food);
+        //Debug.Log(food);
     }
 
     private void OnTriggerStay(Collider obj)

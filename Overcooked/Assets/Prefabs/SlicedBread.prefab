@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -4626497053087788447}
   m_Layer: 0
   m_Name: SlicedBread
-  m_TagString: Food
+  m_TagString: Cutted
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

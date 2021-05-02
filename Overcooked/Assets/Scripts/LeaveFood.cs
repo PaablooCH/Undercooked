@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class LeaveFood : MonoBehaviour
 {
-    public Transform Dest;
     private bool onTable;
     private GameObject food;
     private float cont;
@@ -34,7 +33,7 @@ public class LeaveFood : MonoBehaviour
             }
             //Debug.Log("Soy Player");
         }
-        else if (obj.tag == "Food")
+        else if (obj.tag == "Food" || obj.tag == "Cutted")
         {
             if (Input.GetKey(KeyCode.Space) && !onTable && cont >= 2)
             {

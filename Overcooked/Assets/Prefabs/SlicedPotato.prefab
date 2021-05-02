@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -3770420487461054073}
   m_Layer: 0
   m_Name: SlicedPotato
-  m_TagString: Food
+  m_TagString: Cutted
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
