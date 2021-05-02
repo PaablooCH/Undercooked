@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2349106270747101405}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.31, z: 0}
+  m_LocalPosition: {x: 0, y: 1.86, z: -0.506}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2540818951844668020}
@@ -140,9 +140,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d6193996c64a54ab328b9236175d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dest: {fileID: 388124078351103966}
-  cook1: {fileID: 5521345185295368700, guid: f6bbe5312a726c24591e5bbe34d1bba7, type: 3}
-  cook2: {fileID: 2034665863928565538, guid: f11d452658ae44d49bc296793a8e90b5, type: 3}
 --- !u!54 &6024955822611942429
 Rigidbody:
   m_ObjectHideFlags: 0

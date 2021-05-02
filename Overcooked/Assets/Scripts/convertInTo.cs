@@ -6,6 +6,8 @@ public class convertInTo : MonoBehaviour
 {
     public GameObject nextFood;
 
+    public GameObject blendFood;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,11 @@ public class convertInTo : MonoBehaviour
     public GameObject convertFood()
     {
        return (GameObject)Instantiate(nextFood, transform.position, nextFood.transform.rotation);
+    }
+
+    public GameObject convertBlendfood()
+    {
+        return (GameObject)Instantiate(blendFood, transform.position, blendFood.transform.rotation);
     }
 
 }

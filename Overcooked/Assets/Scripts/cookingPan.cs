@@ -47,7 +47,7 @@ public class cookingPan : MonoBehaviour
                 food.gameObject.GetComponent<pickUpFood>().changeState();
                 food.gameObject.GetComponent<pickUpFood>().resetCont();
             }
-            Debug.Log(cont + food.name);
+            //Debug.Log(cont + food.name);
         }
         
 
@@ -67,7 +67,7 @@ public class cookingPan : MonoBehaviour
             }
             //Debug.Log("Soy Player");
         }
-        else if (obj.tag == "Cutted")
+        else if (obj.tag == "Cutted" && obj.gameObject.GetComponent<convertInTo>().nextFood != null)
         {
             if (Input.GetKey(KeyCode.Space) && !onTable && cont >= 2)
             {

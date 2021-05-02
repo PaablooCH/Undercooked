@@ -25,7 +25,7 @@ public class pickUpFood : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) && !holded && cont >= 1)
             {
-                Debug.Log("Cogeme");
+                //Debug.Log("Cogeme");
                 //this.GetComponent<BoxCollider>().enabled = false;
                 this.GetComponent<Rigidbody>().useGravity = false;
                 this.transform.position = obj.transform.GetChild(6).position;

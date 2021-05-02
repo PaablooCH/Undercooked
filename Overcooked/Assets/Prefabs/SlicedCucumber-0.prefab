@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5273890623444709806}
   - component: {fileID: 4241408223046344490}
   - component: {fileID: 7096976776746409813}
+  - component: {fileID: -7656604056883707562}
   m_Layer: 0
   m_Name: SlicedCucumber-0
   m_TagString: Cutted
@@ -139,3 +140,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.002, y: 0.1, z: 0.002}
   m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}
+--- !u!114 &-7656604056883707562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2615799847084015081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e653c9e70fd5d4e8f81d0d0d624cb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextFood: {fileID: 0}
+  blendFood: {fileID: 3763391555751095359, guid: 6448757175ca9b94db9a912821d03a95, type: 3}

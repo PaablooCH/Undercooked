@@ -8,6 +8,8 @@ TagManager:
   - Furniture
   - Knife
   - Cutted
+  - Cooked
+  - Blended
   layers:
   - Default
   - TransparentFX

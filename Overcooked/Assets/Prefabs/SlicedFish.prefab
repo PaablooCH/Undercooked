@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -5377806847837748174}
   - component: {fileID: 9111524671395552040}
   - component: {fileID: -2600538839768451727}
+  - component: {fileID: 7825967019596701274}
   m_Layer: 0
   m_Name: SlicedFish
   m_TagString: Cutted
@@ -139,3 +140,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db9f3380c4b4f6e43b31839b496639cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7825967019596701274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4102975363478568987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e653c9e70fd5d4e8f81d0d0d624cb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextFood: {fileID: 8609320465671385462, guid: 3ba06a3c065d79d479d6df446b37b948, type: 3}

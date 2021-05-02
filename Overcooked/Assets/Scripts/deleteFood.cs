@@ -21,7 +21,7 @@ public class deleteFood : MonoBehaviour
 
     private void OnTriggerStay(Collider obj)
     {
-        if (obj.tag == "Food" || obj.tag == "Cutted")
+        if (obj.tag == "Food" || obj.tag == "Cutted" || obj.tag == "Cooked" || obj.tag == "Blended")
         {
             if (Input.GetKey(KeyCode.Space) && cont >= 2)
             {

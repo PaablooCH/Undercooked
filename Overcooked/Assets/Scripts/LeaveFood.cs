@@ -33,7 +33,7 @@ public class LeaveFood : MonoBehaviour
             }
             //Debug.Log("Soy Player");
         }
-        else if (obj.tag == "Food" || obj.tag == "Cutted")
+        else if (obj.tag == "Food" || obj.tag == "Cutted" || obj.tag == "Cooked" || obj.tag == "Blended")
         {
             if (Input.GetKey(KeyCode.Space) && !onTable && cont >= 2)
             {
