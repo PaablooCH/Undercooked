@@ -10,6 +10,8 @@ TagManager:
   - Cutted
   - Cooked
   - Blended
+  - Combination
+  - Complete
   layers:
   - Default
   - TransparentFX
