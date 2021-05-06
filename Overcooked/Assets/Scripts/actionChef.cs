@@ -4,19 +4,27 @@ using UnityEngine;
 
 public class actionChef : MonoBehaviour
 {
+    private float cont;
     // Start is called before the first frame update
     void Start()
     {
-        
+        cont = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(this.transform.GetChild(6).gameObject.transform.childCount > 0 && Input.GetKey(KeyCode.F) && this.transform.GetChild(6).gameObject.transform.GetChild(0).gameObject.name == "fire extinguisher")
+        cont += Time.deltaTime;
+        if(this.transform.GetChild(6).gameObject.transform.childCount > 0 && this.transform.GetChild(6).gameObject.transform.GetChild(0).gameObject.name == "fire extinguisher")
         {
-            this.transform.GetChild(6).gameObject.transform.GetChild(0).gameObject.GetComponent<actionExtintor>().throw_smoke(); //dependiendo cuantos tenga, hay que elegui el ToPickUp
+            if (Input.GetKey(KeyCode.F))
+            {
+                cont = 0;
+                this.transform.GetChild(6).gameObject.transform.GetChild(0).gameObject.GetComponent<actionExtintor>().throw_smoke(); //dependiendo cuantos tenga, hay que elegui el ToPickUp
+            }
+            if (cont >= 0.25) this.transform.GetChild(6).gameObject.transform.GetChild(0).gameObject.GetComponent<actionExtintor>().stop_smoke(); //dependiendo cuantos tenga, hay que elegui el ToPickUp
         }
-            
+        
+
     }
 }

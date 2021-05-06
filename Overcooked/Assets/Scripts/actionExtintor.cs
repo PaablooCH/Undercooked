@@ -1,14 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class actionExtintor : MonoBehaviour
 {
-    public GameObject smoke;
     // Start is called before the first frame update
     void Start()
     {
-
+        this.transform.GetChild(0).GetComponent<ParticleSystem>().Pause();
     }
 
     // Update is called once per frame
@@ -19,8 +19,11 @@ public class actionExtintor : MonoBehaviour
 
     public void throw_smoke()
     {
-        GameObject obj = (GameObject) Instantiate(smoke, transform.position + new Vector3(-0.05f, 0.4f, 0.0f), smoke.transform.rotation);
-        obj.transform.parent = transform;
+        this.transform.GetChild(0).GetComponent<ParticleSystem>().Play();
     }
 
+    internal void stop_smoke()
+    {
+        this.transform.GetChild(0).GetComponent<ParticleSystem>().Stop();
+    }
 }
