@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3138107788207519948}
   - component: {fileID: -4626497053087788447}
   - component: {fileID: 2491098028039252512}
+  - component: {fileID: -6806418427841431918}
   m_Layer: 0
   m_Name: SlicedBread
   m_TagString: Cutted
@@ -154,3 +155,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextFood: {fileID: 229699164102016516, guid: b1867b5964b477240865f726181210f6, type: 3}
   blendFood: {fileID: 5700633622481492900, guid: cafbb32eba370a64a93911533953a895, type: 3}
+--- !u!114 &-6806418427841431918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7579485635898734276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6134c5f6bf27a6348a602715e1165c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  combination1: {fileID: 7929272419250920846, guid: 0e9e9513dd266db4eb29e2470505bc4e, type: 3}
+  combination2: {fileID: 0}
+  combination3: {fileID: 0}

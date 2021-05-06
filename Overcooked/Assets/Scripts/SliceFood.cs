@@ -29,18 +29,21 @@ public class SliceFood : MonoBehaviour
             food.transform.parent = this.transform.GetChild(0).transform;
             food.gameObject.GetComponent<pickUpFood>().changeState();
             food.gameObject.GetComponent<pickUpFood>().resetCont();
+            GameObject.FindWithTag("Player").gameObject.GetComponent<MoveCharacter>().enabled = true;
         }
         //Debug.Log(food);
     }
 
     private void OnTriggerStay(Collider obj)
     {
-         if (Input.GetKey(KeyCode.Space) && !full && cont >= 0.5)
-            {
-            if (obj.tag == "Food")
-            {
+        if (obj.tag == "Food")
+        {
+            if (Input.GetKey(KeyCode.Space) && !full && cont >= 0.5)
+             {
                 //obj.GetComponent<BoxCollider>().enabled = true;
-                obj.GetComponent<Rigidbody>().useGravity = true;
+                //obj.GetComponent<Rigidbody>().useGravity = true;
+                obj.gameObject.GetComponent<pickUpFood>().emptyPlayer();
+                GameObject.FindWithTag("Player").gameObject.GetComponent<MoveCharacter>().enabled = false;
                 obj.transform.position = this.transform.GetChild(0).position;
                 obj.transform.parent = this.transform.GetChild(0).transform;
                 obj.gameObject.GetComponent<pickUpFood>().changeState();
@@ -49,17 +52,17 @@ public class SliceFood : MonoBehaviour
                 cont = 0;
                 full = true;
             }
-         }
-        if (Input.GetKey(KeyCode.Space) && full && cont >= 1)
+        }
+        if (obj.tag == "Player")
         {
-            if (obj.tag == "Player")
+            if (Input.GetKey(KeyCode.Space) && full && cont >= 1 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
+
                 food = null;
                 full = false;
                 cont = 0;
             }
         }
-
     }
 
     public void noFull()

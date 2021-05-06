@@ -5,12 +5,13 @@ using UnityEngine;
 public class MoveCharacter : MonoBehaviour
 {
     public float speed = 3.0f;
-    //bool holding = false;
+    bool holding;
     public Transform Dest;
 
     // Start is called before the first frame update
     void Start()
     {
+        holding = false;
     }
 
     // Update is called once per frame
@@ -24,6 +25,13 @@ public class MoveCharacter : MonoBehaviour
             transform.Translate(0.0f, 0.0f, -speed * Time.deltaTime);
         if (Input.GetKey(KeyCode.UpArrow))
             transform.Translate(0.0f, 0.0f, speed * Time.deltaTime);
+        Debug.Log(holding);
     }
 
+    public void changeHold(bool state)
+    {
+        holding = state;
+    }
+
+    public bool checkHold() { return holding; }
 }

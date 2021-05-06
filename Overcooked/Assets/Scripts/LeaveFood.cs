@@ -25,7 +25,7 @@ public class LeaveFood : MonoBehaviour
     {
         if (obj.tag == "Player")
         {
-            if (Input.GetKey(KeyCode.Space) && onTable && cont >= 0.5)
+            if (Input.GetKey(KeyCode.Space) && onTable && cont >= 0.5 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
                 onTable = false;
                 food = null;
@@ -39,6 +39,7 @@ public class LeaveFood : MonoBehaviour
             {
                 //obj.GetComponent<BoxCollider>().enabled = true;
                 //obj.GetComponent<Rigidbody>().useGravity = true;
+                obj.gameObject.GetComponent<pickUpFood>().emptyPlayer();
                 obj.transform.position = this.transform.GetChild(0).position;
                 obj.transform.parent = this.transform.GetChild(0).transform;
                 onTable = true;
@@ -47,7 +48,25 @@ public class LeaveFood : MonoBehaviour
                 food = obj.gameObject;
                 cont = 0;
             }
-            //Debug.Log("Soy Comida");
+            if (Input.GetKey(KeyCode.Space) && onTable && cont >= 2)
+            {
+                if(food.name == "SlicedBread")
+                {
+                    if(obj.name == "SlicedCheese")
+                    {
+                        GameObject a = food.gameObject.GetComponent<combine>().combine1();
+                        Destroy(food);
+                        food = a;
+                        food.transform.position = this.transform.GetChild(0).position;
+                        food.transform.parent = this.transform.GetChild(0).transform;
+                        food.gameObject.GetComponent<pickUpFood>().changeState();
+                        food.gameObject.GetComponent<pickUpFood>().resetCont();
+                        cont = 0;
+                        onTable = true;
+                    }
+                }
+            }
+            Debug.Log(obj.name);
         }
     }
 

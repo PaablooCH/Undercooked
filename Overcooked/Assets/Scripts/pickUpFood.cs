@@ -6,6 +6,7 @@ public class pickUpFood : MonoBehaviour
 {
     private bool holded;
     private float cont = 1;
+    GameObject player;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +24,7 @@ public class pickUpFood : MonoBehaviour
     {
         if (obj.tag == "Player")
         {
-            if (Input.GetKey(KeyCode.Space) && !holded && cont >= 1)
+            if (Input.GetKey(KeyCode.Space) && !holded && cont >= 1 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
                 //Debug.Log("Cogeme");
                 //this.GetComponent<BoxCollider>().enabled = false;
@@ -31,6 +32,8 @@ public class pickUpFood : MonoBehaviour
                 this.transform.position = obj.transform.GetChild(6).position;
                 this.transform.parent = GameObject.Find("ToPickUp").transform;
                 holded = true;
+                obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
+                player = obj.gameObject;
                 //this.GetComponent<LeaveFood>().changeState();
             }
             //Debug.Log("Soy Player");
@@ -45,5 +48,10 @@ public class pickUpFood : MonoBehaviour
     public void resetCont()
     {
         cont = 0;
+    }
+    public void emptyPlayer()
+    {
+        player.gameObject.GetComponent<MoveCharacter>().changeHold(false);
+        player = null;
     }
 }
