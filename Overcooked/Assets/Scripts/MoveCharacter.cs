@@ -25,7 +25,11 @@ public class MoveCharacter : MonoBehaviour
             transform.Translate(0.0f, 0.0f, -speed * Time.deltaTime);
         if (Input.GetKey(KeyCode.UpArrow))
             transform.Translate(0.0f, 0.0f, speed * Time.deltaTime);
+<<<<<<< Updated upstream
         //Debug.Log(holding);
+=======
+        // Debug.Log(holding);
+>>>>>>> Stashed changes
     }
 
     public void changeHold(bool state)
