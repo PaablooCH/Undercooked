@@ -167,6 +167,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6134c5f6bf27a6348a602715e1165c4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  combination1: {fileID: 7929272419250920846, guid: 0e9e9513dd266db4eb29e2470505bc4e, type: 3}
-  combination2: {fileID: 0}
-  combination3: {fileID: 0}
+  Cheese: {fileID: 5666127174068385696, guid: 9d84b554e361aaa40bacf357b8a645ca, type: 3}
+  Tomato: {fileID: 0}
+  Cucumber: {fileID: 0}
+  Bread: {fileID: 0}
+  Fish: {fileID: 0}
+  Meat: {fileID: 0}
+  Potato: {fileID: 0}

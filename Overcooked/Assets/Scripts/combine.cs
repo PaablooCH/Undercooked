@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class combine : MonoBehaviour
 {
-    public GameObject combination1;
-
-    public GameObject combination2;
-
-    public GameObject combination3;
+    public GameObject Cheese;
+    public GameObject Tomato;
+    public GameObject Cucumber;
+    public GameObject Bread;
+    public GameObject Fish;
+    public GameObject Meat;
+    public GameObject Potato;
 
     // Start is called before the first frame update
     void Start()
@@ -16,17 +18,49 @@ public class combine : MonoBehaviour
         
     }
 
+    /*private void OnTriggerStay(Collider obj)
+    {
+        if (Input.GetKey(KeyCode.Space))
+        {
+            if(obj.tag == "Cutted" || obj.tag == "Blended")
+            {
+                if (this.name == "SlicedBread" && obj.name == "SlicedCheese") combineWithCheese();
+                Debug.Log("Dentro de if");
+            }
+            Debug.Log("Pilla espacio");
+        }
+        Debug.Log("Se tocan");
+    }*/
+
     // Update is called once per frame
-    public GameObject combine1()
+    public GameObject combineWithCheese()
     {
-        return (GameObject)Instantiate(combination1, transform.position, combination1.transform.rotation);
+        GameObject a = Instantiate(Cheese, this.transform.position, Cheese.transform.rotation);
+        return a;
     }
-    public GameObject combine2()
+    public GameObject combineWithTomato()
     {
-        return (GameObject)Instantiate(combination2, transform.position, combination2.transform.rotation);
+        GameObject a = Instantiate(Tomato, this.transform.position, Tomato.transform.rotation);
+        return a;
     }
-    public GameObject combine3()
+    public GameObject combineWithCucumber()
     {
-        return (GameObject)Instantiate(combination3, transform.position, combination3.transform.rotation);
+        GameObject a = Instantiate(Cucumber, this.transform.position, Cucumber.transform.rotation);
+        return a;
+    }
+    public GameObject combineWithBread()
+    {
+        GameObject a = Instantiate(Bread, this.transform.position, Bread.transform.rotation);
+        return a;
+    }
+    public GameObject combineWithFish()
+    {
+        GameObject a = Instantiate(Fish, this.transform.position, Fish.transform.rotation);
+        return a;
+    }
+    public GameObject combineWithPotato()
+    {
+        GameObject a = Instantiate(Potato, this.transform.position, Potato.transform.rotation);
+        return a;
     }
 }

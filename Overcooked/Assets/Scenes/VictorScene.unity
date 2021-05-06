@@ -1038,6 +1038,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8175808193621057808, guid: 582882383cc23fa46ad277d959f4b98c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8175808193621057808, guid: 582882383cc23fa46ad277d959f4b98c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.518
+      objectReference: {fileID: 0}
+    - target: {fileID: 8175808193621057808, guid: 582882383cc23fa46ad277d959f4b98c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.374
+      objectReference: {fileID: 0}
     - target: {fileID: 8175808193781370401, guid: 582882383cc23fa46ad277d959f4b98c, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -1118,15 +1130,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1031552547}
---- !u!114 &2125858482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125858476}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4599298966ad368498aa733dc9564a75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
