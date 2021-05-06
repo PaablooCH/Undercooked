@@ -7,6 +7,7 @@ public class MoveCharacter : MonoBehaviour
     public float speed = 3.0f;
     bool holding;
     public Transform Dest;
+    public GameObject food;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,28 @@ public class MoveCharacter : MonoBehaviour
     public void changeHold(bool state)
     {
         holding = state;
+    }
+
+    public void holdFood(GameObject f)
+    {
+        food = f;
+    }
+
+    public void leaveFood()
+    {
+        food = null;
+    }
+
+    public GameObject getFood()
+    {
+        return food;
+    }
+
+    public void destroyFood()
+    {
+        Destroy(food);
+        food = null;
+        holding = false;
     }
 
     public bool checkHold() { return holding; }

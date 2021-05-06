@@ -271,6 +271,50 @@ PrefabInstance:
       propertyPath: m_Name
       value: furniture (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1798056280642115626, guid: a84b43b2ac8fe63458ff3b991a23f1c8, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1798056280642115626, guid: a84b43b2ac8fe63458ff3b991a23f1c8, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2326283403425187604, guid: a84b43b2ac8fe63458ff3b991a23f1c8, type: 3}
+      propertyPath: m_Size.x
+      value: 2.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2326283403425187604, guid: a84b43b2ac8fe63458ff3b991a23f1c8, type: 3}
+      propertyPath: m_Size.y
+      value: 0.10000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2326283403425187604, guid: a84b43b2ac8fe63458ff3b991a23f1c8, type: 3}
+      propertyPath: m_Size.z
+      value: 1.7628694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2326283403425187604, guid: a84b43b2ac8fe63458ff3b991a23f1c8, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2326283403425187604, guid: a84b43b2ac8fe63458ff3b991a23f1c8, type: 3}
+      propertyPath: m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2326283403425187604, guid: a84b43b2ac8fe63458ff3b991a23f1c8, type: 3}
+      propertyPath: m_Center.z
+      value: -0.06856561
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375724772113406975, guid: a84b43b2ac8fe63458ff3b991a23f1c8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375724772113406975, guid: a84b43b2ac8fe63458ff3b991a23f1c8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375724772113406975, guid: a84b43b2ac8fe63458ff3b991a23f1c8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a84b43b2ac8fe63458ff3b991a23f1c8, type: 3}
 --- !u!1001 &332754950
@@ -981,6 +1025,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3465462119145014256, guid: f11d452658ae44d49bc296793a8e90b5, type: 3}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 2034665863928565538, guid: f11d452658ae44d49bc296793a8e90b5, type: 3}
       propertyPath: m_Name
       value: bread

@@ -26,15 +26,13 @@ public class pickUpFood : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) && !holded && cont >= 1 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
-                //Debug.Log("Cogeme");
-                //this.GetComponent<BoxCollider>().enabled = false;
                 this.GetComponent<Rigidbody>().useGravity = false;
                 this.transform.position = obj.transform.GetChild(6).position;
                 this.transform.parent = GameObject.Find("ToPickUp").transform;
                 holded = true;
                 obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
+                obj.gameObject.GetComponent<MoveCharacter>().holdFood(this.gameObject);
                 player = obj.gameObject;
-                //this.GetComponent<LeaveFood>().changeState();
             }
             //Debug.Log("Soy Player");
         }
@@ -51,7 +49,13 @@ public class pickUpFood : MonoBehaviour
     }
     public void emptyPlayer()
     {
-        player.gameObject.GetComponent<MoveCharacter>().changeHold(false);
-        player = null;
+         player.gameObject.GetComponent<MoveCharacter>().changeHold(false);
+         player.gameObject.GetComponent<MoveCharacter>().leaveFood();
+         player = null;
+    }
+
+    public void setPlayer(GameObject p)
+    {
+        player = p;
     }
 }
