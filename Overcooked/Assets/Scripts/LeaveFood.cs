@@ -44,7 +44,7 @@ public class LeaveFood : MonoBehaviour
                 if (com.name == "SlicedCheese(Clone)")
                 {
                     GameObject a = food.GetComponent<combine>().combineWithCheese();
-                    if(a == null)
+                    if(a != null)
                     {
                         Destroy(food);
                         obj.gameObject.GetComponent<MoveCharacter>().destroyFood();
@@ -52,16 +52,17 @@ public class LeaveFood : MonoBehaviour
                         food.transform.parent = this.transform.GetChild(0).transform;
                         food.GetComponent<pickUpFood>().enabled = false;
                         food.GetComponent<Rigidbody>().useGravity = false;
+                        //obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                         cont = 0;
                         onTable = false;
                         food = null;
                     }
-                    Destroy(a);
+                    else Destroy(a);
                 }
                 if (com.name == "SlicedTomato(Clone)")
                 {
                     GameObject a = food.GetComponent<combine>().combineWithTomato();
-                    if (a == null)
+                    if (a != null)
                     {
                         Destroy(food);
                         obj.gameObject.GetComponent<MoveCharacter>().destroyFood();
@@ -69,16 +70,17 @@ public class LeaveFood : MonoBehaviour
                         food.transform.parent = this.transform.GetChild(0).transform;
                         food.GetComponent<pickUpFood>().enabled = false;
                         food.GetComponent<Rigidbody>().useGravity = false;
+                        //obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                         cont = 0;
                         onTable = false;
                         food = null;
                     }
-                    Destroy(a);
+                    else Destroy(a);
                 }
                 if (com.name == "CookedBread(Clone)")
                 {
                     GameObject a = food.GetComponent<combine>().combineWithBread();
-                    if (a == null)
+                    if (a != null)
                     {
                         Destroy(food);
                         obj.gameObject.GetComponent<MoveCharacter>().destroyFood();
@@ -86,16 +88,17 @@ public class LeaveFood : MonoBehaviour
                         food.transform.parent = this.transform.GetChild(0).transform;
                         food.GetComponent<pickUpFood>().enabled = false;
                         food.GetComponent<Rigidbody>().useGravity = false;
+                        //obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                         cont = 0;
                         onTable = false;
                         food = null;
                     }
-                    Destroy(a);
+                    else Destroy(a);
                 }
                 if (com.name == "SlicedCucumber(Clone)")
                 {
                     GameObject a = food.GetComponent<combine>().combineWithCucumber();
-                    if (a == null)
+                    if (a != null)
                     {
                         Destroy(food);
                         obj.gameObject.GetComponent<MoveCharacter>().destroyFood();
@@ -103,16 +106,17 @@ public class LeaveFood : MonoBehaviour
                         food.transform.parent = this.transform.GetChild(0).transform;
                         food.GetComponent<pickUpFood>().enabled = false;
                         food.GetComponent<Rigidbody>().useGravity = false;
+                        //obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                         cont = 0;
                         onTable = false;
                         food = null;
                     }
-                    Destroy(a);
+                    else Destroy(a);
                 }
                 if (com.name == "CookedFish(Clone)")
                 {
                     GameObject a = food.GetComponent<combine>().combineWithFish();
-                    if (a == null)
+                    if (a != null)
                     {
                         Destroy(food);
                         obj.gameObject.GetComponent<MoveCharacter>().destroyFood();
@@ -120,16 +124,17 @@ public class LeaveFood : MonoBehaviour
                         food.transform.parent = this.transform.GetChild(0).transform;
                         food.GetComponent<pickUpFood>().enabled = false;
                         food.GetComponent<Rigidbody>().useGravity = false;
+                        //obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                         cont = 0;
                         onTable = false;
                         food = null;
                     }
-                    Destroy(a);
+                    else Destroy(a);
                 }
                 if (com.name == "CookedPotato(Clone)")
                 {
                     GameObject a = food.GetComponent<combine>().combineWithPotato();
-                    if (a == null)
+                    if (a != null)
                     {
                         Destroy(food);
                         obj.gameObject.GetComponent<MoveCharacter>().destroyFood();
@@ -137,16 +142,17 @@ public class LeaveFood : MonoBehaviour
                         food.transform.parent = this.transform.GetChild(0).transform;
                         food.GetComponent<pickUpFood>().enabled = false;
                         food.GetComponent<Rigidbody>().useGravity = false;
+                        //obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                         cont = 0;
                         onTable = false;
                         food = null;
                     }
-                    Destroy(a);
+                    else Destroy(a);
                 }
                 if (com.name == "CookedMeat(Clone)")
                 {
                     GameObject a = food.GetComponent<combine>().combineWithMeat();
-                    if (a == null)
+                    if (a != null)
                     {
                         Destroy(food);
                         obj.gameObject.GetComponent<MoveCharacter>().destroyFood();
@@ -154,11 +160,12 @@ public class LeaveFood : MonoBehaviour
                         food.transform.parent = this.transform.GetChild(0).transform;
                         food.GetComponent<pickUpFood>().enabled = false;
                         food.GetComponent<Rigidbody>().useGravity = false;
+                        //obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                         cont = 0;
                         onTable = false;
                         food = null;
                     }
-                    Destroy(a);
+                    else Destroy(a);
                 }
             }
         }

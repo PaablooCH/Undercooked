@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: -8586300943900894296}
   - component: {fileID: -3348348872174919877}
   - component: {fileID: 6024955822611942429}
+  - component: {fileID: 7418272742544418780}
   m_Layer: 0
   m_Name: pan
   m_TagString: Untagged
@@ -156,3 +157,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
+--- !u!65 &7418272742544418780
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6770284773665812815}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9, y: 0.7000001, z: 3.9131691}
+  m_Center: {x: -0.05000005, y: 0.84999996, z: 0.5565848}

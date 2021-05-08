@@ -35,6 +35,8 @@ public class cookingPan : MonoBehaviour
                 food.transform.parent = this.transform.GetChild(0).transform;
                 food.gameObject.GetComponent<pickUpFood>().changeState();
                 food.gameObject.GetComponent<pickUpFood>().resetCont();
+                food.gameObject.GetComponent<pickUpFood>().enabled = false;
+                food.GetComponent<Rigidbody>().useGravity = false;
             }
             else if (cont >= 2 && !cooked)
             {
@@ -46,6 +48,8 @@ public class cookingPan : MonoBehaviour
                 food.transform.parent = this.transform.GetChild(0).transform;
                 food.gameObject.GetComponent<pickUpFood>().changeState();
                 food.gameObject.GetComponent<pickUpFood>().resetCont();
+                food.gameObject.GetComponent<pickUpFood>().enabled = false;
+                food.GetComponent<Rigidbody>().useGravity = false;
             }
             //Debug.Log(cont + food.name);
         }
@@ -59,29 +63,36 @@ public class cookingPan : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) && onTable && cont >= 0.5)
             {
+                food.transform.position = obj.transform.GetChild(6).position;
+                food.transform.parent = obj.transform.GetChild(6).transform;
+                food.GetComponent<pickUpFood>().enabled = true;
+                obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
+                obj.gameObject.GetComponent<MoveCharacter>().holdFood(food);
+                food.gameObject.GetComponent<pickUpFood>().setPlayer(obj.gameObject);
                 onTable = false;
                 food = null;
                 cont = 0;
                 cooked = false;
                 burned = false;
             }
-            //Debug.Log("Soy Player");
+            Debug.Log("Soy Player");
         }
         else if (obj.tag == "Cutted" && obj.gameObject.GetComponent<convertInTo>().nextFood != null)
         {
             if (Input.GetKey(KeyCode.Space) && !onTable && cont >= 2)
             {
-                //obj.GetComponent<BoxCollider>().enabled = true;
-                //obj.GetComponent<Rigidbody>().useGravity = true;
+
+                obj.gameObject.GetComponent<pickUpFood>().emptyPlayer();
                 obj.transform.position = this.transform.GetChild(0).position;
                 obj.transform.parent = this.transform.GetChild(0).transform;
-                onTable = true;
                 obj.gameObject.GetComponent<pickUpFood>().changeState();
                 obj.gameObject.GetComponent<pickUpFood>().resetCont();
+                obj.gameObject.GetComponent<pickUpFood>().enabled = false;
+                onTable = true;
                 food = obj.gameObject;
                 cont = 0;
             }
-            //Debug.Log("Soy Comida");
+            Debug.Log("Soy Comida");
         }
     }
 

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4734226851282383421}
   - component: {fileID: 244217059580712037}
   - component: {fileID: -198729706103472743}
+  - component: {fileID: 2502229802344038028}
   m_Layer: 0
   m_Name: CookedFish
   m_TagString: Cooked
@@ -132,3 +133,15 @@ MonoBehaviour:
   Fish: {fileID: 360808277221908802, guid: be65063c3f2a4404d88569fded4585b4, type: 3}
   Meat: {fileID: 0}
   Potato: {fileID: 0}
+--- !u!114 &2502229802344038028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8609320465671385462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db9f3380c4b4f6e43b31839b496639cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

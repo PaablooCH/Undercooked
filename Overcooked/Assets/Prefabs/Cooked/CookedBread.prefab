@@ -14,9 +14,11 @@ GameObject:
   - component: {fileID: 8662099402370357087}
   - component: {fileID: 3466620473330312692}
   - component: {fileID: -5901873565431091709}
+  - component: {fileID: -7808307636972097938}
+  - component: {fileID: 6695792611059868275}
   m_Layer: 0
   m_Name: CookedBread
-  m_TagString: Untagged
+  m_TagString: Cooked
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,10 +94,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229699164102016516}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.4, y: 1.1, z: 2}
+  m_Size: {x: 4, y: 1.1, z: 4}
   m_Center: {x: -0.3, y: 0.55, z: -0.100000024}
 --- !u!54 &3466620473330312692
 Rigidbody:
@@ -132,3 +134,28 @@ MonoBehaviour:
   Fish: {fileID: 360808277221908802, guid: be65063c3f2a4404d88569fded4585b4, type: 3}
   Meat: {fileID: 5918736471308945597, guid: 1c6a70348c4110e47aa163f522f29c50, type: 3}
   Potato: {fileID: 0}
+--- !u!114 &-7808307636972097938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229699164102016516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db9f3380c4b4f6e43b31839b496639cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &6695792611059868275
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229699164102016516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.1, z: 0.02}
+  m_Center: {x: -0.3, y: 0.55, z: -0.100000024}
