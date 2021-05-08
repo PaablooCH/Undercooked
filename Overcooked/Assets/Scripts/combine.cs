@@ -17,50 +17,46 @@ public class combine : MonoBehaviour
     {
         
     }
-
-    /*private void OnTriggerStay(Collider obj)
-    {
-        if (Input.GetKey(KeyCode.Space))
-        {
-            if(obj.tag == "Cutted" || obj.tag == "Blended")
-            {
-                if (this.name == "SlicedBread" && obj.name == "SlicedCheese") combineWithCheese();
-                Debug.Log("Dentro de if");
-            }
-            Debug.Log("Pilla espacio");
-        }
-        Debug.Log("Se tocan");
-    }*/
-
-    // Update is called once per frame
     public GameObject combineWithCheese()
     {
+        if (Cheese == null) return null;
         GameObject a = Instantiate(Cheese, this.transform.position, Cheese.transform.rotation);
         return a;
     }
     public GameObject combineWithTomato()
     {
+        if (Tomato == null) return null;
         GameObject a = Instantiate(Tomato, this.transform.position, Tomato.transform.rotation);
         return a;
     }
     public GameObject combineWithCucumber()
     {
+        if (Cucumber == null) return null;
         GameObject a = Instantiate(Cucumber, this.transform.position, Cucumber.transform.rotation);
         return a;
     }
     public GameObject combineWithBread()
     {
+        if (Bread == null) return null;
         GameObject a = Instantiate(Bread, this.transform.position, Bread.transform.rotation);
         return a;
     }
     public GameObject combineWithFish()
     {
+        if (Fish == null) return null;
         GameObject a = Instantiate(Fish, this.transform.position, Fish.transform.rotation);
         return a;
     }
     public GameObject combineWithPotato()
     {
+        if (Potato == null) return null;
         GameObject a = Instantiate(Potato, this.transform.position, Potato.transform.rotation);
+        return a;
+    }
+    public GameObject combineWithMeat()
+    {
+        if (Meat == null) return null;
+        GameObject a = Instantiate(Meat, this.transform.position, Meat.transform.rotation);
         return a;
     }
 }

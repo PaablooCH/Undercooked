@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5054040706701374757}
   - component: {fileID: 2254894904846658587}
   - component: {fileID: 5420376261865405090}
+  - component: {fileID: -5111701638035531748}
   m_Layer: 0
   m_Name: BreadAndCucumber
   m_TagString: Combination
@@ -139,3 +140,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db9f3380c4b4f6e43b31839b496639cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-5111701638035531748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7227894610324431028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6134c5f6bf27a6348a602715e1165c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cheese: {fileID: 1503777355269115357, guid: ea0ec2489cacc2f47b7c2143bb3c56e6, type: 3}
+  Tomato: {fileID: 0}
+  Cucumber: {fileID: 0}
+  Bread: {fileID: 0}
+  Fish: {fileID: 0}
+  Meat: {fileID: 5168625229783704732, guid: f51b324ad0a6aba4cb8e6991e4a494dd, type: 3}
+  Potato: {fileID: 0}

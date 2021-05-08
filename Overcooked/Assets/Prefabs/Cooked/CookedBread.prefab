@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7238608615347466465}
   - component: {fileID: 8662099402370357087}
   - component: {fileID: 3466620473330312692}
+  - component: {fileID: -5901873565431091709}
   m_Layer: 0
   m_Name: CookedBread
   m_TagString: Untagged
@@ -112,3 +113,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
+--- !u!114 &-5901873565431091709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229699164102016516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6134c5f6bf27a6348a602715e1165c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cheese: {fileID: 5666127174068385696, guid: 9d84b554e361aaa40bacf357b8a645ca, type: 3}
+  Tomato: {fileID: 5311737278876708424, guid: c00a90946343a3545a22f5b990876d42, type: 3}
+  Cucumber: {fileID: 7227894610324431028, guid: 38b571a6605d5094e84e21d5e7e2d143, type: 3}
+  Bread: {fileID: 0}
+  Fish: {fileID: 360808277221908802, guid: be65063c3f2a4404d88569fded4585b4, type: 3}
+  Meat: {fileID: 5918736471308945597, guid: 1c6a70348c4110e47aa163f522f29c50, type: 3}
+  Potato: {fileID: 0}

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5279521617261385001}
   - component: {fileID: 6787521052440304350}
   - component: {fileID: 7803457351040174748}
+  - component: {fileID: 8138147976555603809}
   m_Layer: 0
   m_Name: CookedPotato
   m_TagString: Cooked
@@ -112,3 +113,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.3, z: 2}
   m_Center: {x: -0.100000024, y: 0.15, z: -0.100000024}
+--- !u!114 &8138147976555603809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3314678958813043660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6134c5f6bf27a6348a602715e1165c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cheese: {fileID: 0}
+  Tomato: {fileID: 0}
+  Cucumber: {fileID: 0}
+  Bread: {fileID: 0}
+  Fish: {fileID: 8700582686396448330, guid: 138e81fd0e6bf3c47b24a9b2302f8fe1, type: 3}
+  Meat: {fileID: 4342855870973595362, guid: 8271819889f0b3a4780c4443e9843fc8, type: 3}
+  Potato: {fileID: 0}

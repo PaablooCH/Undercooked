@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 9054743443746981811}
   - component: {fileID: 3057029153941148776}
   - component: {fileID: 3384260114470682454}
+  - component: {fileID: 6980613323949891716}
   m_Layer: 0
   m_Name: FishAndTomato
   m_TagString: Combination
@@ -139,3 +140,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.002, y: 0.1, z: 0.002}
   m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}
+--- !u!114 &6980613323949891716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6051912958494069211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6134c5f6bf27a6348a602715e1165c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cheese: {fileID: 0}
+  Tomato: {fileID: 0}
+  Cucumber: {fileID: 0}
+  Bread: {fileID: 1038751794663236996, guid: dec2df172aae2c64fafec9fe497ecda8, type: 3}
+  Fish: {fileID: 0}
+  Meat: {fileID: 0}
+  Potato: {fileID: 0}

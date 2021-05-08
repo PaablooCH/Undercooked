@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3784801616392139216}
   - component: {fileID: 41489039265689910}
   - component: {fileID: -7524463794355914163}
+  - component: {fileID: 2444393511232536510}
   m_Layer: 0
   m_Name: CookedMeat
   m_TagString: Cooked
@@ -127,3 +128,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextFood: {fileID: 229699164102016516, guid: b1867b5964b477240865f726181210f6, type: 3}
   blendFood: {fileID: 0}
+--- !u!114 &2444393511232536510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3164574992215977625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6134c5f6bf27a6348a602715e1165c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cheese: {fileID: 6528873505036178712, guid: 0fd9bf8dd67f5a84b81b5452be6d4458, type: 3}
+  Tomato: {fileID: 0}
+  Cucumber: {fileID: 7870613446001768255, guid: 8bc9e96cddb5c9f43ba3b04776f64f16, type: 3}
+  Bread: {fileID: 5918736471308945597, guid: 1c6a70348c4110e47aa163f522f29c50, type: 3}
+  Fish: {fileID: 0}
+  Meat: {fileID: 0}
+  Potato: {fileID: 0}
