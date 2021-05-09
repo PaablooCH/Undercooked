@@ -153,3 +153,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextFood: {fileID: 4102975363478568987, guid: 7ec031c394038fa408e332f8061e45db, type: 3}
+  blendFood: {fileID: 0}

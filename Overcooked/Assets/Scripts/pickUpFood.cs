@@ -33,6 +33,7 @@ public class pickUpFood : MonoBehaviour
                 obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
                 obj.gameObject.GetComponent<MoveCharacter>().holdFood(this.gameObject);
                 player = obj.gameObject;
+                Debug.Log("Holisss");
             }
             //Debug.Log("Soy Player");
         }
