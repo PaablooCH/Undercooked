@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class cookingPan : MonoBehaviour
 {
+    private ParticleSystem ps;
     private bool onTable;
     private GameObject food;
     private float cont;
@@ -17,6 +18,7 @@ public class cookingPan : MonoBehaviour
         cont = 0;
         cooked = false;
         burned = false;
+        ps = this.gameObject.transform.GetChild(1).GetComponent<ParticleSystem>();
     }
 
     // Update is called once per frame
@@ -37,6 +39,11 @@ public class cookingPan : MonoBehaviour
                 food.gameObject.GetComponent<pickUpFood>().resetCont();
                 food.gameObject.GetComponent<pickUpFood>().enabled = false;
                 food.GetComponent<Rigidbody>().useGravity = false;
+                var main = ps.main;
+                main.startColor = new Color(0.2078431f, 0.1882353f, 0.1882353f, 1);
+                main.startLifetime = 3;
+                var emission = ps.emission;
+                emission.rateOverTime = 100;
             }
             else if (cont >= 2 && !cooked)
             {
@@ -73,9 +80,15 @@ public class cookingPan : MonoBehaviour
                 food = null;
                 cont = 0;
                 cooked = false;
-                burned = false;
+                burned = false; 
+                var main = ps.main;
+                main.startColor = new Color(0.5471698f, 0.5471698f, 0.5471698f, 1);
+                main.startLifetime = 1.5f;
+                var emission = ps.emission;
+                emission.rateOverTime = 30;
+                ps.Stop();
             }
-            Debug.Log("Soy Player");
+            // Debug.Log("Soy Player");
         }
         else if (obj.tag == "Cutted" && obj.gameObject.GetComponent<convertInTo>().nextFood != null)
         {
@@ -91,8 +104,9 @@ public class cookingPan : MonoBehaviour
                 onTable = true;
                 food = obj.gameObject;
                 cont = 0;
+                ps.Play();
             }
-            Debug.Log("Soy Comida");
+            // Debug.Log("Soy Comida");
         }
     }
 

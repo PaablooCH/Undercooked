@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -5901873565431091709}
   - component: {fileID: -7808307636972097938}
   - component: {fileID: 6695792611059868275}
+  - component: {fileID: 8768201745810645003}
   m_Layer: 0
   m_Name: CookedBread
   m_TagString: Cooked
@@ -159,3 +160,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.1, z: 0.02}
   m_Center: {x: -0.3, y: 0.55, z: -0.100000024}
+--- !u!114 &8768201745810645003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229699164102016516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e653c9e70fd5d4e8f81d0d0d624cb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextFood: {fileID: 3945027450598366257, guid: a70fde14522305148b2083838164b52e, type: 3}
+  blendFood: {fileID: 0}

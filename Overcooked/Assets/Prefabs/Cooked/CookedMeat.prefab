@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64e653c9e70fd5d4e8f81d0d0d624cb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextFood: {fileID: 229699164102016516, guid: b1867b5964b477240865f726181210f6, type: 3}
+  nextFood: {fileID: 3945027450598366257, guid: a70fde14522305148b2083838164b52e, type: 3}
   blendFood: {fileID: 0}
 --- !u!114 &2444393511232536510
 MonoBehaviour:
