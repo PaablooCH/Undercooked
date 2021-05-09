@@ -25,7 +25,7 @@ public class LeaveFood : MonoBehaviour
     {
         if (obj.tag == "Player")
         {
-            if (Input.GetKey(KeyCode.Space) && onTable && cont >= 0.5 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
+            if (Input.GetKey(KeyCode.Space) && onTable && cont >= 1 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
                 food.transform.position = obj.transform.GetChild(6).position;
                 food.transform.parent = obj.transform.GetChild(6).transform;
@@ -38,9 +38,10 @@ public class LeaveFood : MonoBehaviour
                 food = null;
                 cont = 0;
             }
-            if (Input.GetKey(KeyCode.Space) && onTable && cont >= 0.5 && obj.gameObject.GetComponent<MoveCharacter>().checkHold())
+            else if (Input.GetKey(KeyCode.Space) && onTable && cont >= 0.5 && obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
                 GameObject com = obj.gameObject.GetComponent<MoveCharacter>().getFood();
+                com.GetComponent<pickUpFood>().resetCont();
                 if (com.name == "SlicedCheese(Clone)")
                 {
                     GameObject a = food.GetComponent<combine>().combineWithCheese();
@@ -49,13 +50,11 @@ public class LeaveFood : MonoBehaviour
                         Destroy(food);
                         obj.gameObject.GetComponent<MoveCharacter>().destroyFood();
                         food = a;
-                        food.transform.parent = this.transform.GetChild(0).transform;
                         food.GetComponent<pickUpFood>().enabled = false;
                         food.GetComponent<Rigidbody>().useGravity = false;
-                        //obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
+                        food.transform.parent = this.transform.GetChild(0).transform;
+                        obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                         cont = 0;
-                        onTable = false;
-                        food = null;
                     }
                     else Destroy(a);
                 }
@@ -70,10 +69,10 @@ public class LeaveFood : MonoBehaviour
                         food.transform.parent = this.transform.GetChild(0).transform;
                         food.GetComponent<pickUpFood>().enabled = false;
                         food.GetComponent<Rigidbody>().useGravity = false;
-                        //obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
+                        obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                         cont = 0;
-                        onTable = false;
-                        food = null;
+                        //onTable = false;
+                        //food = null;
                     }
                     else Destroy(a);
                 }
@@ -88,10 +87,10 @@ public class LeaveFood : MonoBehaviour
                         food.transform.parent = this.transform.GetChild(0).transform;
                         food.GetComponent<pickUpFood>().enabled = false;
                         food.GetComponent<Rigidbody>().useGravity = false;
-                        //obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
+                        obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                         cont = 0;
-                        onTable = false;
-                        food = null;
+                        //onTable = false;
+                        //food = null;
                     }
                     else Destroy(a);
                 }
@@ -106,10 +105,10 @@ public class LeaveFood : MonoBehaviour
                         food.transform.parent = this.transform.GetChild(0).transform;
                         food.GetComponent<pickUpFood>().enabled = false;
                         food.GetComponent<Rigidbody>().useGravity = false;
-                        //obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
+                        obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                         cont = 0;
-                        onTable = false;
-                        food = null;
+                        //onTable = false;
+                        //food = null;
                     }
                     else Destroy(a);
                 }
@@ -124,10 +123,10 @@ public class LeaveFood : MonoBehaviour
                         food.transform.parent = this.transform.GetChild(0).transform;
                         food.GetComponent<pickUpFood>().enabled = false;
                         food.GetComponent<Rigidbody>().useGravity = false;
-                        //obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
+                        obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                         cont = 0;
-                        onTable = false;
-                        food = null;
+                        //onTable = false;
+                        //food = null;
                     }
                     else Destroy(a);
                 }
@@ -142,10 +141,10 @@ public class LeaveFood : MonoBehaviour
                         food.transform.parent = this.transform.GetChild(0).transform;
                         food.GetComponent<pickUpFood>().enabled = false;
                         food.GetComponent<Rigidbody>().useGravity = false;
-                        //obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
+                        obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                         cont = 0;
-                        onTable = false;
-                        food = null;
+                        //onTable = false;
+                        //food = null;
                     }
                     else Destroy(a);
                 }
@@ -160,10 +159,10 @@ public class LeaveFood : MonoBehaviour
                         food.transform.parent = this.transform.GetChild(0).transform;
                         food.GetComponent<pickUpFood>().enabled = false;
                         food.GetComponent<Rigidbody>().useGravity = false;
-                        //obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
+                        obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                         cont = 0;
-                        onTable = false;
-                        food = null;
+                        //onTable = false;
+                        //food = null;
                     }
                     else Destroy(a);
                 }

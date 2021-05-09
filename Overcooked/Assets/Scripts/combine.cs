@@ -21,42 +21,49 @@ public class combine : MonoBehaviour
     {
         if (Cheese == null) return null;
         GameObject a = Instantiate(Cheese, this.transform.position, Cheese.transform.rotation);
+        a.GetComponent<pickUpFood>().resetCont();
         return a;
     }
     public GameObject combineWithTomato()
     {
         if (Tomato == null) return null;
         GameObject a = Instantiate(Tomato, this.transform.position, Tomato.transform.rotation);
+        a.GetComponent<pickUpFood>().resetCont();
         return a;
     }
     public GameObject combineWithCucumber()
     {
         if (Cucumber == null) return null;
         GameObject a = Instantiate(Cucumber, this.transform.position, Cucumber.transform.rotation);
+        a.GetComponent<pickUpFood>().resetCont();
         return a;
     }
     public GameObject combineWithBread()
     {
         if (Bread == null) return null;
         GameObject a = Instantiate(Bread, this.transform.position, Bread.transform.rotation);
+        a.GetComponent<pickUpFood>().resetCont();
         return a;
     }
     public GameObject combineWithFish()
     {
         if (Fish == null) return null;
         GameObject a = Instantiate(Fish, this.transform.position, Fish.transform.rotation);
+        a.GetComponent<pickUpFood>().resetCont();
         return a;
     }
     public GameObject combineWithPotato()
     {
         if (Potato == null) return null;
         GameObject a = Instantiate(Potato, this.transform.position, Potato.transform.rotation);
+        a.GetComponent<pickUpFood>().resetCont();
         return a;
     }
     public GameObject combineWithMeat()
     {
         if (Meat == null) return null;
         GameObject a = Instantiate(Meat, this.transform.position, Meat.transform.rotation);
+        a.GetComponent<pickUpFood>().resetCont();
         return a;
     }
 }

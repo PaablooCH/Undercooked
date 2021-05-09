@@ -25,6 +25,7 @@ public class generateFood: MonoBehaviour
         {
             GameObject obj = (GameObject)Instantiate(food, transform.position + new Vector3(-0.05f, 0.4f, 0.0f), food.transform.rotation);
             obj.transform.parent = transform;
+            obj.GetComponent<pickUpFood>().enabled = true;
             cont = 0;
             full = true;
         }
