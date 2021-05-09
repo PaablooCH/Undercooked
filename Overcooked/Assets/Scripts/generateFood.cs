@@ -13,6 +13,8 @@ public class generateFood: MonoBehaviour
     {
         GameObject obj = (GameObject) Instantiate(food, transform.position + new Vector3(-0.05f, 0.4f, 0.0f), food.transform.rotation);
         obj.transform.parent = transform;
+        obj.GetComponent<pickUpFood>().enabled = false;
+        food = obj;
         full = true;
     }
 
@@ -25,7 +27,8 @@ public class generateFood: MonoBehaviour
         {
             GameObject obj = (GameObject)Instantiate(food, transform.position + new Vector3(-0.05f, 0.4f, 0.0f), food.transform.rotation);
             obj.transform.parent = transform;
-            obj.GetComponent<pickUpFood>().enabled = true;
+            obj.GetComponent<pickUpFood>().enabled = false;
+            food = obj;
             cont = 0;
             full = true;
         }
@@ -37,7 +40,12 @@ public class generateFood: MonoBehaviour
         {
             if (obj.collider.tag == "Player")
             {
-                Debug.Log("hola");
+                food.transform.position = obj.transform.GetChild(6).position;
+                food.transform.parent = obj.transform.GetChild(6).transform;
+                food.GetComponent<pickUpFood>().enabled = true;
+                obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
+                obj.gameObject.GetComponent<MoveCharacter>().holdFood(food);
+                food.gameObject.GetComponent<pickUpFood>().setPlayer(obj.gameObject);
                 full = false;
                 cont = 0;
             }
