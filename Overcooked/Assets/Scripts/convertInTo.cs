@@ -6,7 +6,11 @@ public class convertInTo : MonoBehaviour
 {
     public GameObject nextFood;
 
+    public float countNext;
+
     public GameObject blendFood;
+
+    public float countBlend;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +27,16 @@ public class convertInTo : MonoBehaviour
     public GameObject convertFood()
     {
        return (GameObject)Instantiate(nextFood, transform.position, nextFood.transform.rotation);
+    }
+
+    public float getCountNext()
+    {
+        return countNext;
+    }
+
+    public float getCountBlend()
+    {
+        return countBlend;
     }
 
     public GameObject convertBlendfood()

@@ -21,7 +21,7 @@ public class blendingBlender : MonoBehaviour
     void Update()
     {
         cont += Time.deltaTime;
-        if (cont >= 2 && food != null && !finish)
+        if (cont >= food.gameObject.GetComponent<convertInTo>().getCountBlend() && food != null && !finish)
         {
             
             GameObject a = food.gameObject.GetComponent<convertInTo>().convertBlendfood();

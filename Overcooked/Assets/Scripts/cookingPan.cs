@@ -27,7 +27,7 @@ public class cookingPan : MonoBehaviour
         cont += Time.deltaTime;
         if(food != null)
         {
-            if (cont >= 6 && !burned)
+            if (cont >= food.gameObject.GetComponent<convertInTo>().getCountNext() && cooked)
             {
                 burned = true;
                 GameObject a = food.gameObject.GetComponent<convertInTo>().convertFood();
@@ -45,7 +45,7 @@ public class cookingPan : MonoBehaviour
                 var emission = ps.emission;
                 emission.rateOverTime = 100;
             }
-            else if (cont >= 2 && !cooked)
+            else if (cont >= food.gameObject.GetComponent<convertInTo>().getCountNext() && !cooked)
             {
                 cooked = true;
                 GameObject a = food.gameObject.GetComponent<convertInTo>().convertFood();
@@ -57,6 +57,7 @@ public class cookingPan : MonoBehaviour
                 food.gameObject.GetComponent<pickUpFood>().resetCont();
                 food.gameObject.GetComponent<pickUpFood>().enabled = false;
                 food.GetComponent<Rigidbody>().useGravity = false;
+                cont = 0;
             }
             //Debug.Log(cont + food.name);
         }
