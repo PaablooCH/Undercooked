@@ -20,7 +20,7 @@ public class SliceFood : MonoBehaviour
     void Update()
     {
         cont += Time.deltaTime;
-        if (cont >= food.gameObject.GetComponent<convertInTo>().getCountNext() && full && food.tag == "Food")
+        if (food != null && cont >= food.gameObject.GetComponent<convertInTo>().getCountNext() && full && food.tag == "Food")
         {
             GameObject a = food.gameObject.GetComponent<convertInTo>().convertFood();
             Destroy(food);

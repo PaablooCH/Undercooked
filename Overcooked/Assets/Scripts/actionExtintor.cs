@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class actionExtintor : MonoBehaviour
 {
+    private ParticleSystem ps;
     // Start is called before the first frame update
     void Start()
     {
-        this.transform.GetChild(0).GetComponent<ParticleSystem>().Pause();
+        ps = this.transform.GetChild(0).GetComponent<ParticleSystem>();
     }
 
     // Update is called once per frame
@@ -19,11 +20,17 @@ public class actionExtintor : MonoBehaviour
 
     public void throw_smoke()
     {
-        this.transform.GetChild(0).GetComponent<ParticleSystem>().Play();
+        ps.Play();
     }
 
     internal void stop_smoke()
     {
-        this.transform.GetChild(0).GetComponent<ParticleSystem>().Stop();
+        ps.Stop();
     }
+
+    /*private void OnParticleCollision(GameObject other)
+    {
+        other.GetComponent<cookingPan>().extinguish();
+    }*/
+
 }
