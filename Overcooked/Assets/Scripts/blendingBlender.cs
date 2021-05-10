@@ -21,17 +21,20 @@ public class blendingBlender : MonoBehaviour
     void Update()
     {
         cont += Time.deltaTime;
-        if (cont >= food.gameObject.GetComponent<convertInTo>().getCountBlend() && food != null && !finish)
+
+        if (food != null && !finish && cont >= food.gameObject.GetComponent<convertInTo>().getCountBlend())
         {
-            
-            GameObject a = food.gameObject.GetComponent<convertInTo>().convertBlendfood();
+
+            GameObject a = food.GetComponent<convertInTo>().convertBlendfood();
             Destroy(food);
             food = a;
             food.transform.position = this.transform.GetChild(0).position;
             food.transform.parent = this.transform.GetChild(0).transform;
-            food.gameObject.GetComponent<pickUpFood>().changeState();
-            food.gameObject.GetComponent<pickUpFood>().resetCont();
+            food.GetComponent<pickUpFood>().changeState();
+            food.GetComponent<pickUpFood>().resetCont();
+            finish = true;
         }
+        
         //Debug.Log(cont + food.name);
         
     }

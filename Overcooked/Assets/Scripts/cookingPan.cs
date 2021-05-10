@@ -27,17 +27,18 @@ public class cookingPan : MonoBehaviour
         cont += Time.deltaTime;
         if(food != null)
         {
-            if (cont >= food.gameObject.GetComponent<convertInTo>().getCountNext() && cooked)
+            if (food.tag != "Complete" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked)
             {
+                Debug.Log("jida");
                 burned = true;
-                GameObject a = food.gameObject.GetComponent<convertInTo>().convertFood();
+                GameObject a = food.GetComponent<convertInTo>().convertFood();
                 Destroy(food);
                 food = a;
                 food.transform.position = this.transform.GetChild(0).position;
                 food.transform.parent = this.transform.GetChild(0).transform;
-                food.gameObject.GetComponent<pickUpFood>().changeState();
-                food.gameObject.GetComponent<pickUpFood>().resetCont();
-                food.gameObject.GetComponent<pickUpFood>().enabled = false;
+                food.GetComponent<pickUpFood>().changeState();
+                food.GetComponent<pickUpFood>().resetCont();
+                food.GetComponent<pickUpFood>().enabled = false;
                 food.GetComponent<Rigidbody>().useGravity = false;
                 var main = ps.main;
                 main.startColor = new Color(0.2078431f, 0.1882353f, 0.1882353f, 1);
@@ -45,17 +46,17 @@ public class cookingPan : MonoBehaviour
                 var emission = ps.emission;
                 emission.rateOverTime = 100;
             }
-            else if (cont >= food.gameObject.GetComponent<convertInTo>().getCountNext() && !cooked)
+            else if (!cooked &&  cont >= food.GetComponent<convertInTo>().getCountNext())
             {
                 cooked = true;
-                GameObject a = food.gameObject.GetComponent<convertInTo>().convertFood();
+                GameObject a = food.GetComponent<convertInTo>().convertFood();
                 Destroy(food);
                 food = a;
                 food.transform.position = this.transform.GetChild(0).position;
                 food.transform.parent = this.transform.GetChild(0).transform;
-                food.gameObject.GetComponent<pickUpFood>().changeState();
-                food.gameObject.GetComponent<pickUpFood>().resetCont();
-                food.gameObject.GetComponent<pickUpFood>().enabled = false;
+                food.GetComponent<pickUpFood>().changeState();
+                food.GetComponent<pickUpFood>().resetCont();
+                food.GetComponent<pickUpFood>().enabled = false;
                 food.GetComponent<Rigidbody>().useGravity = false;
                 cont = 0;
             }
@@ -67,7 +68,7 @@ public class cookingPan : MonoBehaviour
 
     private void OnTriggerStay(Collider obj)
     {
-        if (obj.tag == "Player")
+        if (obj.tag == "Player" && !burned)
         {
             if (Input.GetKey(KeyCode.Space) && onTable && cont >= 0.5)
             {
@@ -80,8 +81,7 @@ public class cookingPan : MonoBehaviour
                 onTable = false;
                 food = null;
                 cont = 0;
-                cooked = false;
-                burned = false; 
+                cooked = false; 
                 var main = ps.main;
                 main.startColor = new Color(0.5471698f, 0.5471698f, 0.5471698f, 1);
                 main.startLifetime = 1.5f;
@@ -115,5 +115,22 @@ public class cookingPan : MonoBehaviour
     {
         if (onTable) onTable = false;
         else onTable = true;
+    }
+
+    /*public void extinguish()
+    {
+        if (burned)
+        {
+            burned = false;
+            ps.Stop();
+        }
+    }*/
+    private void OnParticleCollision(GameObject other)
+    {
+        if (burned)
+        {
+            burned = false;
+            ps.Stop();
+        }
     }
 }
