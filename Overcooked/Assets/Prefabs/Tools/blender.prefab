@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 820095770175836280}
   - component: {fileID: 8141551984906925584}
   - component: {fileID: -2595042903455972699}
+  - component: {fileID: 1876360109608595431}
   m_Layer: 0
   m_Name: blender
   m_TagString: Untagged
@@ -126,6 +127,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 813c011d3a8e6874d96ac3d31fb27861, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1876360109608595431
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3700096684481253496}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3000226, y: 1.6000001, z: 1.5983189}
+  m_Center: {x: -0.049988627, y: 0.8000001, z: 0.59915924}
 --- !u!1 &8179780134484363890
 GameObject:
   m_ObjectHideFlags: 0
@@ -135,7 +149,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6324399853005570355}
-  - component: {fileID: 2974810977611405905}
   m_Layer: 0
   m_Name: Child
   m_TagString: Untagged
@@ -157,16 +170,3 @@ Transform:
   m_Father: {fileID: 5615792106439508803}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2974810977611405905
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8179780134484363890}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5512455, y: 1.7380476, z: 1}
-  m_Center: {x: 0.011743307, y: -0.009658076, z: 0}

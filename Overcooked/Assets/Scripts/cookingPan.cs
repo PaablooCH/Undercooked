@@ -70,7 +70,7 @@ public class cookingPan : MonoBehaviour
     {
         if (obj.tag == "Player" && !burned)
         {
-            if (Input.GetKey(KeyCode.Space) && onTable && cont >= 0.5)
+            if (Input.GetKey(KeyCode.Space) && onTable && cont >= 0.5 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
                 food.transform.position = obj.transform.GetChild(6).position;
                 food.transform.parent = obj.transform.GetChild(6).transform;
@@ -93,7 +93,7 @@ public class cookingPan : MonoBehaviour
         }
         else if (obj.tag == "Cutted" && obj.gameObject.GetComponent<convertInTo>().nextFood != null)
         {
-            if (Input.GetKey(KeyCode.Space) && !onTable && cont >= 2)
+            if (Input.GetKey(KeyCode.Space) && !onTable && cont >= 2 )
             {
 
                 obj.gameObject.GetComponent<pickUpFood>().emptyPlayer();

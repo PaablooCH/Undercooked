@@ -5,6 +5,7 @@ using UnityEngine;
 public class generateFood: MonoBehaviour
 {
     public GameObject food;
+    private GameObject generate;
     private float cont;
     private bool full;
 
@@ -14,7 +15,7 @@ public class generateFood: MonoBehaviour
         GameObject obj = (GameObject) Instantiate(food, transform.position + new Vector3(-0.05f, 0.4f, 0.0f), food.transform.rotation);
         obj.transform.parent = transform;
         obj.GetComponent<pickUpFood>().enabled = false;
-        food = obj;
+        generate = obj;
         full = true;
     }
 
@@ -28,28 +29,32 @@ public class generateFood: MonoBehaviour
             GameObject obj = (GameObject)Instantiate(food, transform.position + new Vector3(-0.05f, 0.4f, 0.0f), food.transform.rotation);
             obj.transform.parent = transform;
             obj.GetComponent<pickUpFood>().enabled = false;
-            food = obj;
+            generate = obj;
             cont = 0;
             full = true;
+            Debug.Log("generar");
         }
+        //if(this.name == "generatorCheese (1)")Debug.Log(this.name + ": " + full);
+        //if(this.name == "generatorCheese (1)")Debug.Log(this.name + ": " + cont);
     }
 
-    private void OnCollisionStay(Collision obj)
+    private void OnTriggerStay(Collider obj)
     {
-        if (Input.GetKey(KeyCode.Space) && full)
+        if (obj.tag == "Player")
         {
-            if (obj.collider.tag == "Player")
+            if (Input.GetKey(KeyCode.Space) && full && cont >= 0.5 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
-                food.transform.position = obj.transform.GetChild(6).position;
-                food.transform.parent = obj.transform.GetChild(6).transform;
-                food.GetComponent<pickUpFood>().enabled = true;
+                generate.transform.position = obj.transform.GetChild(6).position;
+                generate.transform.parent = obj.transform.GetChild(6).transform;
+                generate.GetComponent<pickUpFood>().enabled = true;
                 obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
                 obj.gameObject.GetComponent<MoveCharacter>().holdFood(food);
-                food.gameObject.GetComponent<pickUpFood>().setPlayer(obj.gameObject);
+                generate.gameObject.GetComponent<pickUpFood>().setPlayer(obj.gameObject);
                 full = false;
                 cont = 0;
+                generate = null;
             }
+            Debug.Log("Player");
         }
     }
-
 }

@@ -1370,6 +1370,10 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -0.10451087
       objectReference: {fileID: 0}
+    - target: {fileID: 8175808193781370462, guid: 582882383cc23fa46ad277d959f4b98c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8175808193781370463, guid: 582882383cc23fa46ad277d959f4b98c, type: 3}
       propertyPath: m_Name
       value: cheffOutput

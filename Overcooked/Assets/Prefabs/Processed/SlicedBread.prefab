@@ -154,5 +154,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextFood: {fileID: 229699164102016516, guid: b1867b5964b477240865f726181210f6, type: 3}
   countNext: 10
-  blendFood: {fileID: 5700633622481492900, guid: cafbb32eba370a64a93911533953a895, type: 3}
+  blendFood: {fileID: 5099786129948918509, guid: cafbb32eba370a64a93911533953a895, type: 3}
   countBlend: 5
