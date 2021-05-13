@@ -5,7 +5,7 @@ using UnityEngine;
 public class cookingPan : MonoBehaviour
 {
     private ParticleSystem ps;
-    private bool onTable;
+    private bool onPan;
     private GameObject food;
     private float cont;
     private bool cooked;
@@ -14,7 +14,7 @@ public class cookingPan : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        onTable = false;
+        onPan = false;
         cont = 0;
         cooked = false;
         burned = false;
@@ -29,7 +29,7 @@ public class cookingPan : MonoBehaviour
         {
             if (food.tag != "Complete" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked)
             {
-                Debug.Log("jida");
+                //Debug.Log("jida");
                 burned = true;
                 GameObject a = food.GetComponent<convertInTo>().convertFood();
                 Destroy(food);
@@ -70,7 +70,7 @@ public class cookingPan : MonoBehaviour
     {
         if (obj.tag == "Player" && !burned)
         {
-            if (Input.GetKey(KeyCode.Space) && onTable && cont >= 0.5 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
+            if (Input.GetKey(KeyCode.Space) && onPan && cont >= 0.5 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
                 food.transform.position = obj.transform.GetChild(6).position;
                 food.transform.parent = obj.transform.GetChild(6).transform;
@@ -78,7 +78,7 @@ public class cookingPan : MonoBehaviour
                 obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
                 obj.gameObject.GetComponent<MoveCharacter>().holdFood(food);
                 food.gameObject.GetComponent<pickUpFood>().setPlayer(obj.gameObject);
-                onTable = false;
+                onPan = false;
                 food = null;
                 cont = 0;
                 cooked = false; 
@@ -93,7 +93,7 @@ public class cookingPan : MonoBehaviour
         }
         else if (obj.tag == "Cutted" && obj.gameObject.GetComponent<convertInTo>().nextFood != null)
         {
-            if (Input.GetKey(KeyCode.Space) && !onTable && cont >= 2 )
+            if (Input.GetKey(KeyCode.Space) && !onPan && cont >= 2 )
             {
 
                 obj.gameObject.GetComponent<pickUpFood>().emptyPlayer();
@@ -102,7 +102,7 @@ public class cookingPan : MonoBehaviour
                 obj.gameObject.GetComponent<pickUpFood>().changeState();
                 obj.gameObject.GetComponent<pickUpFood>().resetCont();
                 obj.gameObject.GetComponent<pickUpFood>().enabled = false;
-                onTable = true;
+                onPan = true;
                 food = obj.gameObject;
                 cont = 0;
                 ps.Play();
@@ -113,8 +113,8 @@ public class cookingPan : MonoBehaviour
 
     public void changeState()
     {
-        if (onTable) onTable = false;
-        else onTable = true;
+        if (onPan) onPan = false;
+        else onPan = true;
     }
 
     /*public void extinguish()
