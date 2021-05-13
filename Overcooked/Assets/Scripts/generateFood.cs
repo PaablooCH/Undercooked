@@ -40,6 +40,7 @@ public class generateFood: MonoBehaviour
 
     private void OnTriggerStay(Collider obj)
     {
+        Debug.Log(obj.tag);
         if (obj.tag == "Player")
         {
             if (Input.GetKey(KeyCode.Space) && full && cont >= 0.5 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
@@ -47,14 +48,16 @@ public class generateFood: MonoBehaviour
                 generate.transform.position = obj.transform.GetChild(6).position;
                 generate.transform.parent = obj.transform.GetChild(6).transform;
                 generate.GetComponent<pickUpFood>().enabled = true;
+                generate.GetComponent<Rigidbody>().useGravity = false;
+                generate.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
                 obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
                 obj.gameObject.GetComponent<MoveCharacter>().holdFood(food);
                 generate.gameObject.GetComponent<pickUpFood>().setPlayer(obj.gameObject);
                 full = false;
                 cont = 0;
                 generate = null;
+                Debug.Log("Player");
             }
-            Debug.Log("Player");
         }
     }
 }
