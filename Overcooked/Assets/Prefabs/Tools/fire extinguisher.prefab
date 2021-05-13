@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 6996202320610567698}
   m_Layer: 0
   m_Name: fire extinguisher
-  m_TagString: Untagged
+  m_TagString: Extinguisher
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,7 +153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe30b4ce2c32bbf4d9759b3df5dd1285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colliderGO: {fileID: 0}
 --- !u!1 &4914250149350342539
 GameObject:
   m_ObjectHideFlags: 0

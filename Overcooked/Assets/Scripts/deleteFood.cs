@@ -21,10 +21,13 @@ public class deleteFood : MonoBehaviour
 
     private void OnTriggerStay(Collider obj)
     {
-        if (obj.tag == "Food" || obj.tag == "Cutted" || obj.tag == "Cooked" || obj.tag == "Blended" || obj.tag == "Complete" || obj.tag == "Combination")
+        if (obj.tag == "Food" || obj.tag == "Cutted" || obj.tag == "Cooked" || obj.tag == "Blended" || obj.tag == "Complete" || obj.tag == "Combination" || obj.tag == "Extinguisher")
         {
             if (Input.GetKey(KeyCode.Space) && cont >= 2)
             {
+                obj.gameObject.GetComponent<pickUpFood>().emptyPlayer();
+                obj.gameObject.GetComponent<pickUpFood>().changeState();
+                obj.gameObject.GetComponent<pickUpFood>().resetCont();
                 Destroy(obj.gameObject);
                 cont = 0;
             }

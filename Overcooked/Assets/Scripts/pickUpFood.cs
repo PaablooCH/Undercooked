@@ -32,6 +32,7 @@ public class pickUpFood : MonoBehaviour
                 holded = true;
                 obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
                 obj.gameObject.GetComponent<MoveCharacter>().holdFood(this.gameObject);
+                if (this.tag == "Extinguisher") this.GetComponent<BoxCollider>().enabled = false;
                 player = obj.gameObject;
                 Debug.Log("Holisss");
             }

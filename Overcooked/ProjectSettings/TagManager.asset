@@ -12,6 +12,7 @@ TagManager:
   - Blended
   - Combination
   - Complete
+  - Extinguisher
   layers:
   - Default
   - TransparentFX
