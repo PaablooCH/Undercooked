@@ -11,6 +11,14 @@ public class combine : MonoBehaviour
     public GameObject Fish;
     public GameObject Meat;
     public GameObject Potato;
+    public GameObject TomatoSauce;
+    public GameObject CucumberSauce;
+    public GameObject BreadPics;
+    public GameObject CuttedBread;
+    public GameObject CuttedFish;
+    public GameObject CuttedPotato;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -63,6 +71,48 @@ public class combine : MonoBehaviour
     {
         if (Meat == null) return null;
         GameObject a = Instantiate(Meat, this.transform.position, Meat.transform.rotation);
+        a.GetComponent<pickUpFood>().resetCont();
+        return a;
+    }
+    public GameObject combineWithTomatoSauce()
+    {
+        if (TomatoSauce == null) return null;
+        GameObject a = Instantiate(TomatoSauce, this.transform.position, TomatoSauce.transform.rotation);
+        a.GetComponent<pickUpFood>().resetCont();
+        return a;
+    }
+    public GameObject combineWithCucumberSauce()
+    {
+        if (CucumberSauce == null) return null;
+        GameObject a = Instantiate(CucumberSauce, this.transform.position, CucumberSauce.transform.rotation);
+        a.GetComponent<pickUpFood>().resetCont();
+        return a;
+    }
+    public GameObject combineWithBreadPics()
+    {
+        if (BreadPics == null) return null;
+        GameObject a = Instantiate(BreadPics, this.transform.position, BreadPics.transform.rotation);
+        a.GetComponent<pickUpFood>().resetCont();
+        return a;
+    }
+    public GameObject combineWithCuttedBread()
+    {
+        if (CuttedBread == null) return null;
+        GameObject a = Instantiate(CuttedBread, this.transform.position, CuttedBread.transform.rotation);
+        a.GetComponent<pickUpFood>().resetCont();
+        return a;
+    }
+    public GameObject combineWithCuttedFish()
+    {
+        if (CuttedFish == null) return null;
+        GameObject a = Instantiate(CuttedFish, this.transform.position, CuttedFish.transform.rotation);
+        a.GetComponent<pickUpFood>().resetCont();
+        return a;
+    }
+    public GameObject combineWithCuttedPotato()
+    {
+        if (CuttedPotato == null) return null;
+        GameObject a = Instantiate(CuttedPotato, this.transform.position, CuttedPotato.transform.rotation);
         a.GetComponent<pickUpFood>().resetCont();
         return a;
     }

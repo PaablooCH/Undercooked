@@ -151,6 +151,9 @@ MonoBehaviour:
   Fish: {fileID: 0}
   Meat: {fileID: 0}
   Potato: {fileID: 0}
+  TomatoSauce: {fileID: 2881612429535126615, guid: 7238eb891769b21458c6588520662636, type: 3}
+  CucumberSauce: {fileID: 0}
+  BreadPics: {fileID: 0}
 --- !u!114 &-7393468377842187117
 MonoBehaviour:
   m_ObjectHideFlags: 0

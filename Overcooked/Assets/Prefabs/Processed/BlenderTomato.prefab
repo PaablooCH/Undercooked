@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2709626053876209707}
   - component: {fileID: 3664993529803370454}
   - component: {fileID: 8779633933029226394}
+  - component: {fileID: -4089986147135295694}
   m_Layer: 0
   m_Name: BlenderTomato
   m_TagString: Blended
@@ -139,3 +140,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db9f3380c4b4f6e43b31839b496639cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-4089986147135295694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3075140457135027230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6134c5f6bf27a6348a602715e1165c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cheese: {fileID: 414927330101561875, guid: b84f10426abea634d951a0a8710766b0, type: 3}
+  Tomato: {fileID: 0}
+  Cucumber: {fileID: 0}
+  Bread: {fileID: 0}
+  Fish: {fileID: 0}
+  Meat: {fileID: 2881612429535126615, guid: 7238eb891769b21458c6588520662636, type: 3}
+  Potato: {fileID: 0}
+  TomatoSauce: {fileID: 0}
+  CucumberSauce: {fileID: 0}
+  BreadPics: {fileID: 0}
+  CuttedBread: {fileID: 7977938094164692679, guid: a280f64008fda584c8739795ec7ad934, type: 3}
+  CuttedFish: {fileID: 0}
+  CuttedPotato: {fileID: 0}

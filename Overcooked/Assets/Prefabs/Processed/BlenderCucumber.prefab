@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1680455864967582720}
   - component: {fileID: 2963515634896095796}
   - component: {fileID: 5077210464871387550}
+  - component: {fileID: 5545121529374088945}
   m_Layer: 0
   m_Name: BlenderCucumber
   m_TagString: Blended
@@ -139,3 +140,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.002, y: 0.1, z: 0.002}
   m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}
+--- !u!114 &5545121529374088945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6066117144516207602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6134c5f6bf27a6348a602715e1165c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cheese: {fileID: 0}
+  Tomato: {fileID: 0}
+  Cucumber: {fileID: 0}
+  Bread: {fileID: 0}
+  Fish: {fileID: 0}
+  Meat: {fileID: 0}
+  Potato: {fileID: 0}
+  TomatoSauce: {fileID: 9008382488813054201, guid: 610ecd9003131d24e87bbe8f527dab9a, type: 3}
+  CucumberSauce: {fileID: 0}
+  BreadPics: {fileID: 0}

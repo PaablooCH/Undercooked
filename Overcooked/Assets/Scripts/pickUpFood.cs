@@ -34,9 +34,7 @@ public class pickUpFood : MonoBehaviour
                 obj.gameObject.GetComponent<MoveCharacter>().holdFood(this.gameObject);
                 if (this.tag == "Extinguisher") this.GetComponent<BoxCollider>().enabled = false;
                 player = obj.gameObject;
-                Debug.Log("Holisss");
             }
-            //Debug.Log("Soy Player");
         }
     }
 
