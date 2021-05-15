@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 8175808193781370403}
   - component: {fileID: 8175808193781370462}
   - component: {fileID: 5489991276928732987}
+  - component: {fileID: -9040465188797431998}
   m_Layer: 0
   m_Name: cheffOutput
   m_TagString: Player
@@ -195,6 +196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   Dest: {fileID: 8175808193621057808}
+  food: {fileID: 0}
 --- !u!114 &5489991276928732987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,6 +209,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54dfb57374e8e0540943fcc4f42e7d20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!143 &-9040465188797431998
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8175808193781370463}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.98, z: 0}
 --- !u!1 &8175808193909377532
 GameObject:
   m_ObjectHideFlags: 0
