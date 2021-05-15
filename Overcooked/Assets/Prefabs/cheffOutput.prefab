@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2178928a73ce3f14da99113d22eb91c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  playerSpeed: 3
   Dest: {fileID: 8175808193621057808}
   food: {fileID: 0}
 --- !u!114 &5489991276928732987
@@ -226,7 +226,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.98, z: 0}
+  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!1 &8175808193909377532
 GameObject:
   m_ObjectHideFlags: 0
