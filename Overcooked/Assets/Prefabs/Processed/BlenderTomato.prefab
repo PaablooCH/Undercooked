@@ -163,5 +163,5 @@ MonoBehaviour:
   CucumberSauce: {fileID: 0}
   BreadPics: {fileID: 0}
   CuttedBread: {fileID: 7977938094164692679, guid: a280f64008fda584c8739795ec7ad934, type: 3}
-  CuttedFish: {fileID: 0}
-  CuttedPotato: {fileID: 0}
+  CuttedFish: {fileID: 6578870639091908164, guid: 911d66a55a11f754987d860568123c16, type: 3}
+  CuttedPotato: {fileID: 681848196536504063, guid: 8fcd6e5de9fc24a4092f9d28112d5c43, type: 3}
