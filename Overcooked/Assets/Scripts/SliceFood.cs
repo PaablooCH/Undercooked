@@ -47,6 +47,7 @@ public class SliceFood : MonoBehaviour
                 obj.gameObject.GetComponent<pickUpFood>().emptyPlayer();
                 GameObject.FindWithTag("Player").gameObject.GetComponent<MoveCharacter>().enabled = false;
                 obj.transform.position = this.transform.GetChild(0).position;
+                obj.transform.eulerAngles = this.transform.GetChild(0).eulerAngles;
                 obj.transform.parent = this.transform.GetChild(0).transform;
                 obj.gameObject.GetComponent<pickUpFood>().changeState();
                 obj.gameObject.GetComponent<pickUpFood>().resetCont();
@@ -56,11 +57,12 @@ public class SliceFood : MonoBehaviour
                 full = true;
             }
         }
-        if (obj.tag == "Player")
+        else if (obj.tag == "Player")
         {
             if (Input.GetKey(KeyCode.Space) && full && cont >= 1 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
                 food.transform.position = obj.transform.GetChild(6).position;
+                food.transform.eulerAngles = obj.transform.GetChild(6).eulerAngles;
                 food.transform.parent = obj.transform.GetChild(6).transform;
                 food.GetComponent<pickUpFood>().enabled = true;
                 obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);

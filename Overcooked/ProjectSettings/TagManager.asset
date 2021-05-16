@@ -6,13 +6,12 @@ TagManager:
   tags:
   - Food
   - Furniture
-  - Knife
   - Cutted
   - Cooked
   - Blended
   - Combination
   - Complete
-  - Extinguisher
+  - Tool
   layers:
   - Default
   - TransparentFX

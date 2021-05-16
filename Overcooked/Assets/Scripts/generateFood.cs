@@ -45,6 +45,7 @@ public class generateFood: MonoBehaviour
             if (Input.GetKey(KeyCode.Space) && full && cont >= 0.5 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
                 generate.transform.position = obj.transform.GetChild(6).position;
+                generate.transform.eulerAngles = obj.transform.GetChild(6).eulerAngles;
                 generate.transform.parent = obj.transform.GetChild(6).transform;
                 generate.GetComponent<pickUpFood>().enabled = true;
                 generate.GetComponent<Rigidbody>().useGravity = false;

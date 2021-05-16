@@ -47,6 +47,7 @@ public class blendingBlender : MonoBehaviour
             if (Input.GetKey(KeyCode.Space) && onTable && cont >= 0.5 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
                 food.transform.position = obj.transform.GetChild(6).position;
+                food.transform.eulerAngles = obj.transform.GetChild(6).eulerAngles;
                 food.transform.parent = obj.transform.GetChild(6).transform;
                 food.GetComponent<pickUpFood>().enabled = true;
                 obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
@@ -65,6 +66,7 @@ public class blendingBlender : MonoBehaviour
             {
                 obj.gameObject.GetComponent<pickUpFood>().emptyPlayer();
                 obj.transform.position = this.transform.GetChild(0).position;
+                obj.transform.eulerAngles = this.transform.GetChild(0).eulerAngles;
                 obj.transform.parent = this.transform.GetChild(0).transform;
                 obj.gameObject.GetComponent<pickUpFood>().changeState();
                 obj.gameObject.GetComponent<pickUpFood>().resetCont();
