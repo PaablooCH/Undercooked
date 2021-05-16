@@ -40,7 +40,6 @@ public class generateFood: MonoBehaviour
 
     private void OnTriggerStay(Collider obj)
     {
-        Debug.Log(obj.tag);
         if (obj.tag == "Player")
         {
             if (Input.GetKey(KeyCode.Space) && full && cont >= 0.5 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
@@ -56,7 +55,6 @@ public class generateFood: MonoBehaviour
                 full = false;
                 cont = 0;
                 generate = null;
-                Debug.Log("Player");
             }
         }
     }
