@@ -15,7 +15,7 @@ public class actionChef : MonoBehaviour
     void Update()
     {
         cont += Time.deltaTime;
-        if(this.transform.GetChild(6).gameObject.transform.childCount > 0 && this.transform.GetChild(6).gameObject.transform.GetChild(0).gameObject.name == "fire extinguisher")
+        if(this.transform.GetChild(6).gameObject.transform.childCount > 0 && this.transform.GetChild(6).gameObject.transform.GetChild(0).gameObject.tag == "Tool")
         {
             if (Input.GetKey(KeyCode.F))
             {

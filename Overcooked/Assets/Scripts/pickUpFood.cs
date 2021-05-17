@@ -6,7 +6,7 @@ public class pickUpFood : MonoBehaviour
 {
     private bool holded;
     private float cont = 1;
-    GameObject player;
+    private GameObject player;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,14 +26,17 @@ public class pickUpFood : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) && !holded && cont >= 1 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
+                //Debug.Log(obj.transform.rotation.eulerAngles);
                 this.GetComponent<Rigidbody>().useGravity = false;
                 this.transform.position = obj.transform.GetChild(6).position;
+                this.transform.eulerAngles = obj.transform.GetChild(6).eulerAngles;
                 this.transform.parent = GameObject.Find("ToPickUp").transform;
                 holded = true;
                 obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
                 obj.gameObject.GetComponent<MoveCharacter>().holdFood(this.gameObject);
                 if (this.tag == "Extinguisher") this.GetComponent<BoxCollider>().enabled = false;
                 player = obj.gameObject;
+                //Debug.Log(this.transform.rotation.eulerAngles);
             }
         }
     }
@@ -49,9 +52,12 @@ public class pickUpFood : MonoBehaviour
     }
     public void emptyPlayer()
     {
-         player.gameObject.GetComponent<MoveCharacter>().changeHold(false);
-         player.gameObject.GetComponent<MoveCharacter>().leaveFood();
-         player = null;
+        if (player != null)
+        {
+            player.gameObject.GetComponent<MoveCharacter>().changeHold(false);
+            player.gameObject.GetComponent<MoveCharacter>().leaveFood();
+            player = null;
+        }
     }
 
     public void setPlayer(GameObject p)
