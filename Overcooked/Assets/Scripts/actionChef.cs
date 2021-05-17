@@ -15,14 +15,14 @@ public class actionChef : MonoBehaviour
     void Update()
     {
         cont += Time.deltaTime;
-        if(this.transform.GetChild(6).gameObject.transform.childCount > 0 && this.transform.GetChild(6).gameObject.transform.GetChild(0).gameObject.tag == "Tool")
+        if(this.transform.Find("ToPickUp").gameObject.transform.childCount > 0 && this.transform.Find("ToPickUp").gameObject.transform.GetChild(0).gameObject.tag == "Tool")
         {
             if (Input.GetKey(KeyCode.F))
             {
                 cont = 0;
-                this.transform.GetChild(6).gameObject.transform.GetChild(0).gameObject.GetComponent<actionExtintor>().throw_smoke(); //dependiendo cuantos tenga, hay que elegui el ToPickUp
+                this.transform.Find("ToPickUp").gameObject.transform.GetChild(0).gameObject.GetComponent<actionExtintor>().throw_smoke(); //dependiendo cuantos tenga, hay que elegui el ToPickUp
             }
-            if (cont >= 0.25) this.transform.GetChild(6).gameObject.transform.GetChild(0).gameObject.GetComponent<actionExtintor>().stop_smoke(); //dependiendo cuantos tenga, hay que elegui el ToPickUp
+            if (cont >= 0.25) this.transform.Find("ToPickUp").gameObject.transform.GetChild(0).gameObject.GetComponent<actionExtintor>().stop_smoke(); //dependiendo cuantos tenga, hay que elegui el ToPickUp
         }
         
 

@@ -12,6 +12,8 @@ public class MoveCharacter : MonoBehaviour
     private Vector3 playerVelocity;
     private bool groundedPlayer;
     private float gravityValue = -9.81f;
+    private Animator anim;
+    private bool isMove;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +21,8 @@ public class MoveCharacter : MonoBehaviour
         holding = false;
         controller = this.GetComponent<CharacterController>();
         controller.detectCollisions = false;
+        anim = GetComponent<Animator>();
+        isMove = false;
     }
 
     // Update is called once per frame
@@ -32,12 +36,24 @@ public class MoveCharacter : MonoBehaviour
 
         Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         controller.Move(move * Time.deltaTime * playerSpeed);
-
-        if (move != Vector3.zero)
+        if(move == Vector3.zero)
+        {
+            if (isMove)
+            {
+                isMove = false;
+                anim.SetTrigger("Idle");
+            }
+        }
+        else if(move != Vector3.zero)
         {
             gameObject.transform.forward = move;
+            if (!isMove)
+            {
+                isMove = true;
+                anim.SetTrigger("Move");
+            }
+            
         }
-
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
     }
