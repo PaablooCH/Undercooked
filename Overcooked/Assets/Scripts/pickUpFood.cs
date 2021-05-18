@@ -28,8 +28,8 @@ public class pickUpFood : MonoBehaviour
             {
                 //Debug.Log(obj.transform.rotation.eulerAngles);
                 this.GetComponent<Rigidbody>().useGravity = false;
-                this.transform.position = obj.transform.GetChild(6).position;
-                this.transform.eulerAngles = obj.transform.GetChild(6).eulerAngles;
+                this.transform.position = obj.transform.Find("ToPickUp").position;
+                this.transform.eulerAngles = obj.transform.Find("ToPickUp").eulerAngles;
                 this.transform.parent = GameObject.Find("ToPickUp").transform;
                 holded = true;
                 obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);

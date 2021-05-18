@@ -1,0 +1,1932 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'es' Physical Memory: 16343 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/VJ/VJ-3D/Overcooked
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58222
+Successfully changed project path to: E:/VJ/VJ-3D/Overcooked
+E:/VJ/VJ-3D/Overcooked
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/VJ/VJ-3D/Overcooked/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   
+    VRAM:     2988 MB
+    Driver:   27.21.14.6627
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002423 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 28.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.152 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000569 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018972D17A00 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972834010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972B4B710 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897763C030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018976C5A020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189777D3E30 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189723F0020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897763C030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018976C87A30 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972B4B710 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.007 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.5 MB.
+System memory in use after: 78.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1600.
+Total: 2.210700 ms (FindLiveObjects: 0.139700 ms CreateObjectMapping: 0.053000 ms MarkObjects: 1.898000 ms  DeleteObjects: 0.118500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/cheffOutput.prefab
+  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27397b864993cc9cb3b5ba63e082b02') in 0.136441 seconds
+  Import took 0.138666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/fire stand.obj
+  artifactKey: Guid(7dcf27b1af607244a8896837f185f879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fire stand.obj using Guid(7dcf27b1af607244a8896837f185f879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d039f7fc67fde242b8d6d11cc79db72') in 0.094116 seconds
+  Import took 0.096975 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1643.
+Total: 2.045700 ms (FindLiveObjects: 0.128200 ms CreateObjectMapping: 0.044000 ms MarkObjects: 1.767000 ms  DeleteObjects: 0.105700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.422152 seconds.
+  path: Assets/Prefabs/cheffOutput.prefab
+  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6620f43ebe009beaa4fb72f3f31e9d82') in 0.023446 seconds
+  Import took 0.026375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.438711 seconds.
+  path: Assets/Prefabs/cheffOutput.prefab
+  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733b7b136fcaee026c2ce119d9791cfa') in 0.016473 seconds
+  Import took 0.022269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026522 seconds.
+  path: Assets/Prefabs/cheffOutput.prefab
+  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733b7b136fcaee026c2ce119d9791cfa') in 0.014975 seconds
+  Import took 0.019142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 874.828779 seconds.
+  path: Assets/3DCharacterDummy
+  artifactKey: Guid(bbded66f86604884c9cc35ba69d3b2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DCharacterDummy using Guid(bbded66f86604884c9cc35ba69d3b2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac07c0e9a60ac2ffa9d7213af08a2f9') in 0.014044 seconds
+  Import took 0.016801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.087606 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(42ad97ee12de2534dbdf4bc2f28f3e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(42ad97ee12de2534dbdf4bc2f28f3e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e2c8085920d8eefdc044e3139c0be7') in 0.008675 seconds
+  Import took 0.011078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.765664 seconds.
+  path: Assets/Animation/chefmove.anim
+  artifactKey: Guid(956a18fb879ae21439a1e5757907b6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/chefmove.anim using Guid(956a18fb879ae21439a1e5757907b6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c151cc04d1f660b9c89fa77d9918a5') in 0.009983 seconds
+  Import took 0.012769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014409 seconds.
+  path: Assets/Animation/chefmove.anim
+  artifactKey: Guid(956a18fb879ae21439a1e5757907b6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/chefmove.anim using Guid(956a18fb879ae21439a1e5757907b6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c151cc04d1f660b9c89fa77d9918a5') in 0.009539 seconds
+  Import took 0.013133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.690737 seconds.
+  path: Assets/Animation/cheffOutput (1).controller
+  artifactKey: Guid(57085f18687516c44adc57f4c384e719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/cheffOutput (1).controller using Guid(57085f18687516c44adc57f4c384e719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bfd18dacf9c43d2b9ba1bf858f88ae') in 0.010809 seconds
+  Import took 0.014590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.879745 seconds.
+  path: Assets/Animation/chefController.controller
+  artifactKey: Guid(fc1e06313db940642921765ae4cc6d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/chefController.controller using Guid(fc1e06313db940642921765ae4cc6d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b701f601315573e55421d0b1c04eb273') in 0.009766 seconds
+  Import took 0.012109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.456500 seconds.
+  path: Assets/Animation/moveChef.anim
+  artifactKey: Guid(3a6b6616e5f0a06469872e3e6a5662fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/moveChef.anim using Guid(3a6b6616e5f0a06469872e3e6a5662fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4dfa939a62d259b2de6dbeb3318bdb5') in 0.011056 seconds
+  Import took 0.013903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 584.541290 seconds.
+  path: Assets/Prefabs/cheffOutput.prefab
+  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e87dc1eb06f51765558e293f4115ee3') in 0.043185 seconds
+  Import took 0.046143 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001747 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001896D4C7C40 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972E62010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977E86020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979842010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018976F28020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189777D3E30 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897243A010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979BE6DB0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972C076F0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1646.
+Total: 1.898400 ms (FindLiveObjects: 0.155000 ms CreateObjectMapping: 0.045600 ms MarkObjects: 1.594000 ms  DeleteObjects: 0.102200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 679.070393 seconds.
+  path: Assets/Prefabs/cheffOutput.prefab
+  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0e43a9537eb8d23afe0a389fc2be8c') in 0.083028 seconds
+  Import took 0.086585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.920997 seconds.
+  path: Assets/Scripts/actionChef.cs
+  artifactKey: Guid(54dfb57374e8e0540943fcc4f42e7d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/actionChef.cs using Guid(54dfb57374e8e0540943fcc4f42e7d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd811a272c1203fcf73289e08a63f990c') in 0.019371 seconds
+  Import took 0.021968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.863112 seconds.
+  path: Assets/Scripts/actionExtintor.cs
+  artifactKey: Guid(fe30b4ce2c32bbf4d9759b3df5dd1285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/actionExtintor.cs using Guid(fe30b4ce2c32bbf4d9759b3df5dd1285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c6925550599eca0530a34e17576f6d') in 0.667611 seconds
+  Import took 0.673541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.996405 seconds.
+  path: Assets/Scripts/blendingBlender.cs
+  artifactKey: Guid(813c011d3a8e6874d96ac3d31fb27861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/blendingBlender.cs using Guid(813c011d3a8e6874d96ac3d31fb27861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c474bcbe85ea36c5012f3e94f5bf82a') in 0.012947 seconds
+  Import took 0.015681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.904067 seconds.
+  path: Assets/Scripts/checkHold.cs
+  artifactKey: Guid(42d40a42f1303fa449b7ad47afa34e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/checkHold.cs using Guid(42d40a42f1303fa449b7ad47afa34e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed9441c1f99261e0f9592594b74d4d3') in 0.045644 seconds
+  Import took 0.049207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.511657 seconds.
+  path: Assets/Scripts/combine.cs
+  artifactKey: Guid(6134c5f6bf27a6348a602715e1165c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/combine.cs using Guid(6134c5f6bf27a6348a602715e1165c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4863c974fc7af91ff33893406f1b5598') in 0.008406 seconds
+  Import took 0.010529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.236380 seconds.
+  path: Assets/Scripts/cookingOven.cs
+  artifactKey: Guid(e1f7ae9233077c14db3e8ae0f9f4fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/cookingOven.cs using Guid(e1f7ae9233077c14db3e8ae0f9f4fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35c6266f615fc3ce0a1cb827790bae9') in 0.334967 seconds
+  Import took 0.337716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.009484 seconds.
+  path: Assets/Scripts/cookingPan.cs
+  artifactKey: Guid(d0d6193996c64a54ab328b9236175d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/cookingPan.cs using Guid(d0d6193996c64a54ab328b9236175d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c05b0a716eab0d73e942f40a74bad1') in 0.012963 seconds
+  Import took 0.027754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.690304 seconds.
+  path: Assets/Scripts/deleteFood.cs
+  artifactKey: Guid(b5f65a34d3ec8c447a08d8c488ca63e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/deleteFood.cs using Guid(b5f65a34d3ec8c447a08d8c488ca63e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aed1ebf0bf10377a3168cb619c50db8') in 0.015536 seconds
+  Import took 0.019198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.189062 seconds.
+  path: Assets/Scripts/generateFood.cs
+  artifactKey: Guid(1d69be49ad492a549b53d87fffab3aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/generateFood.cs using Guid(1d69be49ad492a549b53d87fffab3aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a7e397a020336482e0b78c2da63820') in 0.010692 seconds
+  Import took 0.015450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.340928 seconds.
+  path: Assets/Scripts/generateKitchenTool.cs
+  artifactKey: Guid(575adc69f1a3ff14fab26f58d6913220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/generateKitchenTool.cs using Guid(575adc69f1a3ff14fab26f58d6913220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baed6db5cde603600cba4c381afeb68b') in 0.015089 seconds
+  Import took 0.017627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.202778 seconds.
+  path: Assets/Scripts/LeaveFood.cs
+  artifactKey: Guid(788e557267e060d449c817453823a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LeaveFood.cs using Guid(788e557267e060d449c817453823a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a8ba5a0ac6966668aad19fc3cedf7e') in 0.009595 seconds
+  Import took 0.011727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002416 seconds.
+  path: Assets/Scripts/LeaveFood.cs
+  artifactKey: Guid(788e557267e060d449c817453823a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LeaveFood.cs using Guid(788e557267e060d449c817453823a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a8ba5a0ac6966668aad19fc3cedf7e') in 0.004542 seconds
+  Import took 0.008618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.561208 seconds.
+  path: Assets/Scripts/leaveTool.cs
+  artifactKey: Guid(9808da3d6133a954ea505f7189e8af2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/leaveTool.cs using Guid(9808da3d6133a954ea505f7189e8af2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126763ccee7e3076b142ecfb2f4d075a') in 0.009759 seconds
+  Import took 0.014097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.892319 seconds.
+  path: Assets/Scripts/pickUpFood.cs
+  artifactKey: Guid(db9f3380c4b4f6e43b31839b496639cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/pickUpFood.cs using Guid(db9f3380c4b4f6e43b31839b496639cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2e0d72b6eb73ccdeebca9a0922f71d') in 0.011822 seconds
+  Import took 0.013949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.558024 seconds.
+  path: Assets/Scripts/SliceFood.cs
+  artifactKey: Guid(7421fc4cc431a5b439de8aa768eb8243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SliceFood.cs using Guid(7421fc4cc431a5b439de8aa768eb8243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70545e24d756fa9d45303469385095d5') in 0.016042 seconds
+  Import took 0.018853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1206.583187 seconds.
+  path: Assets/Animation/moveCharacter.anim
+  artifactKey: Guid(c4f6694d087705c49a8e825eef661e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/moveCharacter.anim using Guid(c4f6694d087705c49a8e825eef661e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646ce52d733a20c674bb6a6af21930bc') in 0.014972 seconds
+  Import took 0.017919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/Animation/moveCharacter.anim
+  artifactKey: Guid(c4f6694d087705c49a8e825eef661e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/moveCharacter.anim using Guid(c4f6694d087705c49a8e825eef661e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646ce52d733a20c674bb6a6af21930bc') in 0.005202 seconds
+  Import took 0.009786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 273.191359 seconds.
+  path: Assets/Prefabs/cheffOutput.prefab
+  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3da4bc73e71072a1ea69ba273ceea8') in 0.020192 seconds
+  Import took 0.023604 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000601 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001897992A8E0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977002020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977E86020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018976B92D80 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018976F28020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018976C18010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189798F7050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972AAC860 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977F29A20 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.950 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1650.
+Total: 1.743200 ms (FindLiveObjects: 0.188500 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.400700 ms  DeleteObjects: 0.115100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000677 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001899B002460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977002020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977E86020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189777D7030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899A750C40 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018976C18010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189798F7050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972AAC860 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899ADB0BC0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972D159F0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1653.
+Total: 1.884000 ms (FindLiveObjects: 0.159200 ms CreateObjectMapping: 0.040700 ms MarkObjects: 1.542000 ms  DeleteObjects: 0.141000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003561 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001896D4C7C40 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897943D0A0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189795C1600 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979A09020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018976F28020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018978C3A030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018976AB6010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897888C010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.809 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1656.
+Total: 2.731900 ms (FindLiveObjects: 0.170100 ms CreateObjectMapping: 0.047400 ms MarkObjects: 2.420300 ms  DeleteObjects: 0.092200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000614 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001897991FCB0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018978D91030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189795C1600 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189728AD010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018976F28020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899A677010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972ABEB90 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189728AD010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AE5A020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977520010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.910 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1659.
+Total: 1.973900 ms (FindLiveObjects: 0.185300 ms CreateObjectMapping: 0.056700 ms MarkObjects: 1.630200 ms  DeleteObjects: 0.100100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001144 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001899AADF210 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899A8F8010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189725471E0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EBC020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979E22820 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899A762010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EBC020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979AFCF40 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.331 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1662.
+Total: 1.752900 ms (FindLiveObjects: 0.154200 ms CreateObjectMapping: 0.038600 ms MarkObjects: 1.473400 ms  DeleteObjects: 0.085500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000666 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001896D4C7C40 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979EAA010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189725471E0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897963B040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897918C370 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977923010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972ABEB90 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897963B040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977635040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1665.
+Total: 2.466200 ms (FindLiveObjects: 0.258800 ms CreateObjectMapping: 0.145800 ms MarkObjects: 1.954700 ms  DeleteObjects: 0.105500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000762 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000187E820AB70 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899A5F5020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189725471E0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979E05AB0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899ADD4580 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977923010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979E05AB0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979796890 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726E2040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1668.
+Total: 1.732900 ms (FindLiveObjects: 0.161400 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.436800 ms  DeleteObjects: 0.091000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000581 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018977F45D80 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899A5F5020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189725471E0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979BEF010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899ADD4580 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018976F9E030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979BEF010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018976A80080 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726E2040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1671.
+Total: 2.762000 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.045300 ms MarkObjects: 2.378100 ms  DeleteObjects: 0.105000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000917 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001896D4C7C40 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AC99020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189791C84E0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EBC020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979985230 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899C6FA030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189778A29B0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EBC020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979AF76D0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972C076F0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.050 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1674.
+Total: 1.739700 ms (FindLiveObjects: 0.156500 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.444300 ms  DeleteObjects: 0.096300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000627 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018978A1EE40 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AC99020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189725471E0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189728AD010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AB58060 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899C6FA030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897959EF40 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189728AD010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899ADE45A0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979B08C30 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.291 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1677.
+Total: 4.374600 ms (FindLiveObjects: 0.159100 ms CreateObjectMapping: 0.049200 ms MarkObjects: 4.055800 ms  DeleteObjects: 0.108000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000596 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001896D4C7C40 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899DA9E010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189725471E0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897963B040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897855FA60 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977923010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897963B040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899A73E010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726E2040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.875 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1680.
+Total: 2.032000 ms (FindLiveObjects: 0.140900 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.725400 ms  DeleteObjects: 0.126600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000593 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001896D4C7C40 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899DA9E010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AE68D30 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189728AD010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897855FA60 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977261010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189728AD010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018976A80080 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726E2040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.877 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1683.
+Total: 1.775700 ms (FindLiveObjects: 0.152600 ms CreateObjectMapping: 0.040500 ms MarkObjects: 1.487200 ms  DeleteObjects: 0.094200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000612 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000189798519B0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979CC8050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189725471E0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899B3EF010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899C9CFA10 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899DE08020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189778A29B0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899B3EF010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899ADE45A0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972C076F0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.955 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1686.
+Total: 2.103700 ms (FindLiveObjects: 0.260100 ms CreateObjectMapping: 0.066700 ms MarkObjects: 1.624100 ms  DeleteObjects: 0.151500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000627 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000189798519B0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979CC8050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189725471E0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AEFE020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899A5A3020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897972E050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189778A29B0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AEFE020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979A710B0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.132 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 82.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1689.
+Total: 2.078700 ms (FindLiveObjects: 0.165800 ms CreateObjectMapping: 0.039900 ms MarkObjects: 1.780300 ms  DeleteObjects: 0.091500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4689.484476 seconds.
+  path: Assets/Animation/Idle.anim
+  artifactKey: Guid(d14729f33673de54da4f9f4d686bf7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Idle.anim using Guid(d14729f33673de54da4f9f4d686bf7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68957156bb3b246c77b9489664dc5f58') in 0.026417 seconds
+  Import took 0.028644 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000613 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001896D4C7C40 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979CC8050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897963B040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AF6CF80 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899E211020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897963B040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972DAB060 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972C076F0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 82.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1692.
+Total: 3.579200 ms (FindLiveObjects: 0.189900 ms CreateObjectMapping: 0.047200 ms MarkObjects: 3.236700 ms  DeleteObjects: 0.101000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000556 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018979643050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979CC8050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AEFE020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AF6CF80 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899E211020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AEFE020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189799B5250 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977520010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 82.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1695.
+Total: 2.130900 ms (FindLiveObjects: 0.157300 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.790400 ms  DeleteObjects: 0.139900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000659 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001897991B090 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979CC8050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977FAE010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977168050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977923010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189778A29B0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977FAE010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899ADE45A0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018976B8D030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 82.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1698.
+Total: 2.267600 ms (FindLiveObjects: 0.160300 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.960400 ms  DeleteObjects: 0.104200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000897 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018977FB7E40 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979CC8050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189728AD010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977168050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977923010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189778A29B0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189728AD010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189799B5250 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726E2040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 82.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1701.
+Total: 2.636000 ms (FindLiveObjects: 0.165900 ms CreateObjectMapping: 0.117600 ms MarkObjects: 2.238500 ms  DeleteObjects: 0.111900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001226 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001896D4C7C40 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979CC8050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AEFE020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899C9CFA10 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899C6FA040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AEFE020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979A710B0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972C076F0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.040 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 82.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1704.
+Total: 1.970800 ms (FindLiveObjects: 0.176900 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.644700 ms  DeleteObjects: 0.100700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000630 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018979A9B450 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979CC8050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189779D1020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899C9CFA10 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899C6FA040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897963B040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979A710B0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972C076F0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.102 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 82.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1707.
+Total: 8.817400 ms (FindLiveObjects: 0.164000 ms CreateObjectMapping: 0.043500 ms MarkObjects: 8.385700 ms  DeleteObjects: 0.222200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000907 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001896D4C7C40 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977106010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979C57010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899C730030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977923010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189778A29B0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979C57010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979A710B0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897840F010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1710.
+Total: 1.804300 ms (FindLiveObjects: 0.157800 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.503000 ms  DeleteObjects: 0.097200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001080 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001896D4C7C40 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977106010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AEFE030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899C730030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AF3C010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899CCEB020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AEFE030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979A710B0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977520010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1713.
+Total: 2.244400 ms (FindLiveObjects: 0.154400 ms CreateObjectMapping: 0.077100 ms MarkObjects: 1.900700 ms  DeleteObjects: 0.111200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000644 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018972BAA860 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979CC8050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899C446030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899E435FB0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897972E050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897963B040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897855E040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979E0B050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.031 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1716.
+Total: 1.745800 ms (FindLiveObjects: 0.172500 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.437500 ms  DeleteObjects: 0.090500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000590 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001899AF06040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979CC8050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899C446030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899E435FB0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977923010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897963B040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979A710B0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979E0B050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.942 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1719.
+Total: 2.030600 ms (FindLiveObjects: 0.161000 ms CreateObjectMapping: 0.038500 ms MarkObjects: 1.721400 ms  DeleteObjects: 0.107800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000707 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018979A9B450 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979CC8050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897714A010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977168050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AF3C010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897963B040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979A710B0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897840F010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1722.
+Total: 1.708800 ms (FindLiveObjects: 0.175000 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.404900 ms  DeleteObjects: 0.088800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3662.184253 seconds.
+  path: Assets/Scripts/actionChef.cs
+  artifactKey: Guid(54dfb57374e8e0540943fcc4f42e7d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/actionChef.cs using Guid(54dfb57374e8e0540943fcc4f42e7d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282b743406cbea8f659d0259e2741796') in 0.023871 seconds
+  Import took 0.026609 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000807 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018979A9B450 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979CC8050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897714A010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977168050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AF3C010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897963B040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972E3B030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899C728020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1725.
+Total: 2.199400 ms (FindLiveObjects: 0.240700 ms CreateObjectMapping: 0.159100 ms MarkObjects: 1.691400 ms  DeleteObjects: 0.106600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.978991 seconds.
+  path: Assets/Scripts/actionChef.cs
+  artifactKey: Guid(54dfb57374e8e0540943fcc4f42e7d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/actionChef.cs using Guid(54dfb57374e8e0540943fcc4f42e7d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453a8244eb15c2744cf83763661da5a7') in 0.004371 seconds
+  Import took 0.006587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.456906 seconds.
+  path: Assets/Scripts/actionChef.cs
+  artifactKey: Guid(54dfb57374e8e0540943fcc4f42e7d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/actionChef.cs using Guid(54dfb57374e8e0540943fcc4f42e7d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453a8244eb15c2744cf83763661da5a7') in 0.002159 seconds
+  Import took 0.004198 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001438 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001896D4C7C40 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979CC8050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897714A010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899B005880 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899C6FA040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897963B040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899B057020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1728.
+Total: 2.959000 ms (FindLiveObjects: 0.179200 ms CreateObjectMapping: 0.051400 ms MarkObjects: 2.573600 ms  DeleteObjects: 0.153100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.071286 seconds.
+  path: Assets/Scripts/cookingOven.cs
+  artifactKey: Guid(e1f7ae9233077c14db3e8ae0f9f4fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/cookingOven.cs using Guid(e1f7ae9233077c14db3e8ae0f9f4fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c63a84187f9727c9b5752f9bc7c1da1') in 0.016162 seconds
+  Import took 0.018451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020617 seconds.
+  path: Assets/Scripts/cookingOven.cs
+  artifactKey: Guid(e1f7ae9233077c14db3e8ae0f9f4fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/cookingOven.cs using Guid(e1f7ae9233077c14db3e8ae0f9f4fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c63a84187f9727c9b5752f9bc7c1da1') in 0.029569 seconds
+  Import took 0.032810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.621094 seconds.
+  path: Assets/Scripts/cookingPan.cs
+  artifactKey: Guid(d0d6193996c64a54ab328b9236175d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/cookingPan.cs using Guid(d0d6193996c64a54ab328b9236175d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e183763b054c8dc83f1ac1bc8b297a') in 0.013118 seconds
+  Import took 0.016608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.603681 seconds.
+  path: Assets/Prefabs/Processed
+  artifactKey: Guid(8cac4fa9e04a4454eb28926614b68546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Processed using Guid(8cac4fa9e04a4454eb28926614b68546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdd93fa4624eec620cd1c54f8acc8c6') in 0.024805 seconds
+  Import took 0.029274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051506 seconds.
+  path: Assets/Prefabs/Processed/BlenderBread.prefab
+  artifactKey: Guid(cafbb32eba370a64a93911533953a895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Processed/BlenderBread.prefab using Guid(cafbb32eba370a64a93911533953a895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62787e8649264e93f05c36bed58b9bb') in 0.136586 seconds
+  Import took 0.138975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Prefabs/Processed/BlenderTomato.prefab
+  artifactKey: Guid(4275c555fab2971419cacc0bb59788f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Processed/BlenderTomato.prefab using Guid(4275c555fab2971419cacc0bb59788f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853e2dd7e93405d3e5960f49f00c948d') in 0.079415 seconds
+  Import took 0.082055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Prefabs/Processed/SlicedCucumber.prefab
+  artifactKey: Guid(9800c1632ddeb564ba14b2423df2f6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Processed/SlicedCucumber.prefab using Guid(9800c1632ddeb564ba14b2423df2f6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b341dd719e38017eb3a20272d93c5c9') in 0.065524 seconds
+  Import took 0.068626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Prefabs/Processed/SlicedPotato.prefab
+  artifactKey: Guid(243640df7e54c4345a1d2ba9536ee27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Processed/SlicedPotato.prefab using Guid(243640df7e54c4345a1d2ba9536ee27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d1cb1598874b521619d2a7d4d54efd') in 0.063254 seconds
+  Import took 0.077029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Prefabs/Processed/SlicedMeat.prefab
+  artifactKey: Guid(0de1e241328207646ad40a1f7a89db6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Processed/SlicedMeat.prefab using Guid(0de1e241328207646ad40a1f7a89db6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66d1d0579e03b61ecd3ebe8802958b5') in 0.037562 seconds
+  Import took 0.040389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Prefabs/Processed/SlicedCheese.prefab
+  artifactKey: Guid(0e9e9513dd266db4eb29e2470505bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Processed/SlicedCheese.prefab using Guid(0e9e9513dd266db4eb29e2470505bc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8bb4fa76925040058e35e1e998a810') in 0.071702 seconds
+  Import took 0.074377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Prefabs/Processed/SlicedBread.prefab
+  artifactKey: Guid(ff4f98335007e3f4e816c528d0c7d767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Processed/SlicedBread.prefab using Guid(ff4f98335007e3f4e816c528d0c7d767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2edc3496491a3b7ffc09bd27d78f8d') in 0.063637 seconds
+  Import took 0.066508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Prefabs/Processed/SlicedTomato.prefab
+  artifactKey: Guid(86fbc948ca19bbe48a52fc5f4a03a185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Processed/SlicedTomato.prefab using Guid(86fbc948ca19bbe48a52fc5f4a03a185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfd89b31b8f0d9cb3ff8e0ca2cb099b') in 0.061311 seconds
+  Import took 0.064602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Prefabs/Processed/BlenderCucumber.prefab
+  artifactKey: Guid(6448757175ca9b94db9a912821d03a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Processed/BlenderCucumber.prefab using Guid(6448757175ca9b94db9a912821d03a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a019136b0b8ba8f2363876e3dbf4ac69') in 0.041805 seconds
+  Import took 0.045080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Prefabs/Processed/SlicedFish.prefab
+  artifactKey: Guid(7ec031c394038fa408e332f8061e45db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Processed/SlicedFish.prefab using Guid(7ec031c394038fa408e332f8061e45db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f928be20c7dc3590d4d93c875c1dc881') in 0.044426 seconds
+  Import took 0.047230 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010826 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018979A9B450 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979CC8050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897714A010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899B005880 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018977261010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897963B040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972E3B030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897840F010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.335 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1732.
+Total: 8.485000 ms (FindLiveObjects: 0.172200 ms CreateObjectMapping: 0.044000 ms MarkObjects: 8.157300 ms  DeleteObjects: 0.109700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000724 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018979A9B450 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018978655060 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018976C18010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899B005880 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899C6FA040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899B3EF010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189799B5270 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899B0D5410 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.629 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1735.
+Total: 2.149900 ms (FindLiveObjects: 0.182300 ms CreateObjectMapping: 0.050800 ms MarkObjects: 1.768000 ms  DeleteObjects: 0.146700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.432314 seconds.
+  path: Assets/Scripts/blendingBlender.cs
+  artifactKey: Guid(813c011d3a8e6874d96ac3d31fb27861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/blendingBlender.cs using Guid(813c011d3a8e6874d96ac3d31fb27861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae1617de99faa4bf9528c928c170820') in 0.053537 seconds
+  Import took 0.060495 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000616 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018979643050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018978655060 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979BEF010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899CD2CDC0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899DE08030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979BEF010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897855E040 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899D6FC030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.277 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1738.
+Total: 1.899300 ms (FindLiveObjects: 0.155800 ms CreateObjectMapping: 0.039500 ms MarkObjects: 1.602600 ms  DeleteObjects: 0.100000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002096 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018979643050 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018978655060 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AEFE030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899D84C020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899DE08030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AEFE030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899BF74060 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001897792B020 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.461 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1741.
+Total: 4.161400 ms (FindLiveObjects: 0.194900 ms CreateObjectMapping: 0.054400 ms MarkObjects: 3.814800 ms  DeleteObjects: 0.096200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.990557 seconds.
+  path: Assets/Prefabs/Tools/blender.prefab
+  artifactKey: Guid(f5e81e7c4630df54bbf3a851993998e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/blender.prefab using Guid(f5e81e7c4630df54bbf3a851993998e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0dc5603dee61d5df73993ff73eab85') in 0.352447 seconds
+  Import took 0.357666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000889 seconds.
+  path: Assets/Prefabs/Tools/fire extinguisher.prefab
+  artifactKey: Guid(1ba5eb831cf26ed47a244e375d65312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/fire extinguisher.prefab using Guid(1ba5eb831cf26ed47a244e375d65312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccd5bf7b8991c446c9fff887c82cc13') in 0.059923 seconds
+  Import took 0.064479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001139 seconds.
+  path: Assets/Prefabs/Tools/cutting board.prefab
+  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d6713a700d35fef0289446a978feaf') in 0.096829 seconds
+  Import took 0.100775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001134 seconds.
+  path: Assets/Prefabs/Tools/generatorCheese.prefab
+  artifactKey: Guid(a958b0c8c4e42e447b72dfcec854c362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/generatorCheese.prefab using Guid(a958b0c8c4e42e447b72dfcec854c362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ae58911929e6f2f5f418cbc3bd4ca1') in 0.178469 seconds
+  Import took 0.184316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000810 seconds.
+  path: Assets/Prefabs/Tools/generatorMeat.prefab
+  artifactKey: Guid(29c73f1c78b9d224491cbac2f010eb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/generatorMeat.prefab using Guid(29c73f1c78b9d224491cbac2f010eb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306231deb0de13d492a0aa93e78bf14f') in 0.055484 seconds
+  Import took 0.060838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000944 seconds.
+  path: Assets/Prefabs/Tools/generatorBread.prefab
+  artifactKey: Guid(75a709d23c8e8c24d9322f3ab8a3df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/generatorBread.prefab using Guid(75a709d23c8e8c24d9322f3ab8a3df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0192530cda73523da2ad281f924c987') in 0.073900 seconds
+  Import took 0.081175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001385 seconds.
+  path: Assets/Prefabs/Tools/generatorFish.prefab
+  artifactKey: Guid(70a7c1bb2b3309741809678f6cacb370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/generatorFish.prefab using Guid(70a7c1bb2b3309741809678f6cacb370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c287ebeb86cbfdf3598f4ebabe5aa74') in 0.066827 seconds
+  Import took 0.070658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000752 seconds.
+  path: Assets/Prefabs/Tools/generatorPotato.prefab
+  artifactKey: Guid(5ae1f419ad4c98444b04d4f399dddd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/generatorPotato.prefab using Guid(5ae1f419ad4c98444b04d4f399dddd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3139168bd24c273232cbf9620706b1d1') in 0.041888 seconds
+  Import took 0.047928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000652 seconds.
+  path: Assets/Prefabs/Tools/fire stand.prefab
+  artifactKey: Guid(d5681a8f05410744aa0e91573c1ba043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/fire stand.prefab using Guid(d5681a8f05410744aa0e91573c1ba043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4002290d251ca1d37dd5cf026755bdb') in 0.042725 seconds
+  Import took 0.045969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Prefabs/Tools/pan.prefab
+  artifactKey: Guid(7feac264e0694ae4aa241b5d784dab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/pan.prefab using Guid(7feac264e0694ae4aa241b5d784dab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d34ff8748c9052428e6029c8964e67') in 0.044557 seconds
+  Import took 0.047712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001808 seconds.
+  path: Assets/Prefabs/Tools/Knife.prefab
+  artifactKey: Guid(9971792cdcae85547b6735010c83c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/Knife.prefab using Guid(9971792cdcae85547b6735010c83c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a6abc78bf00e8a694008621bdad3f7') in 0.059704 seconds
+  Import took 0.074358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000932 seconds.
+  path: Assets/Prefabs/Tools/generatorTomato.prefab
+  artifactKey: Guid(7e5deb15b58e948418600ab549183120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/generatorTomato.prefab using Guid(7e5deb15b58e948418600ab549183120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a691b3974ac253932a0e4591f14051e') in 0.043469 seconds
+  Import took 0.049198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000695 seconds.
+  path: Assets/Prefabs/Tools/generatorCucumber.prefab
+  artifactKey: Guid(bf371809587cc7e44ae2750eb1c8fab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/generatorCucumber.prefab using Guid(bf371809587cc7e44ae2750eb1c8fab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acce1eb27abbd48d36397ba04b73f67c') in 0.034578 seconds
+  Import took 0.040196 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000778 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018979A9B450 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018978655060 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189726EA460 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018976C18010 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899DA60030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899DE08030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018972EC8440 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001899AEFE030 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018979B27700 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189725471E0 doesn't match image E:\VJ\VJ-3D\Overcooked\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.471 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1745.
+Total: 4.234100 ms (FindLiveObjects: 0.156800 ms CreateObjectMapping: 0.039000 ms MarkObjects: 3.915500 ms  DeleteObjects: 0.120500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
