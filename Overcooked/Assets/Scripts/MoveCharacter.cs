@@ -12,8 +12,10 @@ public class MoveCharacter : MonoBehaviour
     private Vector3 playerVelocity;
     private bool groundedPlayer;
     private float gravityValue = -9.81f;
-    private Animator anim;
+    private animationsChef anim;
     private bool isMove;
+    private Transform leftArm;
+    private Transform rightArm;
 
     // Start is called before the first frame update
     void Start()
@@ -21,9 +23,11 @@ public class MoveCharacter : MonoBehaviour
         holding = false;
         controller = this.GetComponent<CharacterController>();
         controller.detectCollisions = false;
-        anim = GetComponent<Animator>();
+        anim = GetComponent<animationsChef>();
         isMove = false;
-    }
+        leftArm = this.transform.Find("leftArm");
+        rightArm = this.transform.Find("rightArm");
+}
 
     // Update is called once per frame
     void Update()
@@ -41,7 +45,7 @@ public class MoveCharacter : MonoBehaviour
             if (isMove)
             {
                 isMove = false;
-                anim.SetTrigger("Idle");
+                anim.Relax();
             }
         }
         else if(move != Vector3.zero)
@@ -50,7 +54,7 @@ public class MoveCharacter : MonoBehaviour
             if (!isMove)
             {
                 isMove = true;
-                anim.SetTrigger("Move");
+                anim.Move();
             }
             
         }
@@ -66,11 +70,19 @@ public class MoveCharacter : MonoBehaviour
     public void holdFood(GameObject f)
     {
         food = f;
+        rightArm.localEulerAngles = new Vector3(-90, 0, 0);
+        rightArm.localPosition = new Vector3(-0.137f, 0.486f, 0.637f);
+        leftArm.localEulerAngles = new Vector3(-90, 0, 0);
+        leftArm.localEulerAngles = new Vector3(0.196f, 0.486f, 0.637f);
     }
 
     public void leaveFood()
     {
         food = null;
+        rightArm.localEulerAngles = new Vector3(0, 0, 0);
+        rightArm.localPosition = new Vector3(0.048f, 0.105f, -0.006f);
+        leftArm.localEulerAngles = new Vector3(0, 0, 0);
+        leftArm.localEulerAngles = new Vector3(0.056f, 0.105f, -0.006f);
     }
 
     public GameObject getFood()
