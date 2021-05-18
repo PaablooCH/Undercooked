@@ -5,233 +5,129 @@ using UnityEngine.UI;
 
 public class gameManager : MonoBehaviour
 {
-    public Text levelText;
-    public Text godModeText;
 
     public GameObject panelMenu;
-    //public GameObject panelPlay;
-    //public GameObject panelLevels;
-    //public GameObject panelLevelCompleted;
-    //public GameObject panelGameOver;
-    //public GameObject panelInstructions;
-    //public GameObject panelCredits;
+    public GameObject panelPlay;
+    public GameObject panelInstructions;
+    public GameObject panelCredits;
+    public GameObject panelLevelComplete;
+
+    public Text Recipes;
 
     public GameObject[] levels;
 
-    public GameObject menuScene;
-
     public static gameManager Instance { get; private set; }
-
     public enum State { MENU, LVLS, INST, CREDITS, INIT, PLAY, LEVELCOMPLETED, LOADLEVEL, GAMEOVER }
     State _state;
     GameObject _currentLevel;
-    GameObject _menuScene;
+    bool _isSwitching;
 
-    private int _level;
-    private bool _godMode;
+    private int _levels;
+    private float cont;
 
-    public int Level
+    public int Levels
     {
-        get { return _level; }
-        set
-        {
-            _level = value;
-            levelText.text = "LEVEL: " + (_level + 1);
-        }
+        get { return _levels; }
+        set { _levels = value; }
     }
 
-    /*public bool GodMode
-    {
-        get { return _godMode; }
-        set
-        {
-            _godMode = value;
-            if (_godMode) godModeText.text = "GODMODE: ON";
-            else godModeText.text = "GODMODE: OFF";
-        }
-    }*/
 
-    public void PlayClicked()
-    {
-        Level = 0;
-        //GameSounds.Instance.playClickButtonMenu();
-        changeState(State.INIT, 0f);
-    }
 
-    public void MenuClicked()
-    {
-        //GameSounds.Instance.playClickButtonMenu();
-        changeState(State.MENU, 0f);
-    }
-
-    public void LevelsClicked()
-    {
-        //GameSounds.Instance.playClickButtonMenu();
-        changeState(State.LVLS, 0f);
-    }
-
-    public void InstClicked()
-    {
-        //GameSounds.Instance.playClickButtonMenu();
-        changeState(State.INST, 0f);
-    }
-
-    public void CreditsClicked()
-    {
-        //GameSounds.Instance.playClickButtonMenu();
-        changeState(State.CREDITS, 0f);
-    }
-
-    public void Level1Clicked()
-    {
-        Level = 0;
-        //GameSounds.Instance.playClickButtonMenu();
-        changeState(State.INIT, 0f);
-    }
-
-    public void Level2Clicked()
-    {
-        Level = 1;
-        //GameSounds.Instance.playClickButtonMenu();
-        changeState(State.INIT, 0f);
-    }
-
-    public void Level3Clicked()
-    {
-        Level = 2;
-        //GameSounds.Instance.playClickButtonMenu();
-        changeState(State.INIT, 0f);
-    }
-
-    public void Level4Clicked()
-    {
-        Level = 3;
-        //GameSounds.Instance.playClickButtonMenu();
-        changeState(State.INIT, 0f);
-    }
-
-    public void Level5Clicked()
-    {
-        Level = 4;
-        //GameSounds.Instance.playClickButtonMenu();
-        changeState(State.INIT, 0f);
-    }
-
-    public void ExitClicked()
-    {
-        //GameSounds.Instance.playClickButtonMenu();
-        Application.Quit();
-    }
 
     void Start()
     {
         Instance = this;
-        _menuScene = Instantiate(menuScene);
-        //GodMode = false;
-        changeState(State.MENU, 0f);
+        changeState(State.MENU);
+        cont = 0;
     }
 
-
-    public void changeState(State newState, float time)
+    public void ClickPlay()
     {
-        StartCoroutine(changeStateTime(newState, time));
+        changeState(State.INIT);
+    }
+    public void ClickInstructions()
+    {
+        changeState(State.INST);
+    }
+    public void ClickCredits()
+    {
+        changeState(State.CREDITS);
     }
 
-    IEnumerator changeStateTime(State newState, float time)
+    public void changeState(State newState, float delay = 0)
     {
-        yield return new WaitForSeconds(time);
+        StartCoroutine(changeDelay(newState, delay));
+    }
+
+    IEnumerator changeDelay(State newState, float delay)
+    {
+        _isSwitching = true;
+        yield return new WaitForSeconds(delay);
         finishCurrentState();
         _state = newState;
         startNewState(newState);
+        _isSwitching = false;
     }
 
-    private void changeToMenu()
-    {
-        if (_currentLevel != null)
-        {
-            Destroy(_currentLevel);
-        }
-        if (_menuScene == null)
-        {
-            _menuScene = Instantiate(menuScene);
-        }
-        changeState(State.MENU, 0f);
-    }
+
 
     void startNewState(State state)
     {
         switch (state)
         {
             case State.MENU:
-                Cursor.visible = true;
                 panelMenu.SetActive(true);
-                //GameSounds.Instance.playTitleTheme();
                 break;
             case State.LVLS:
-                //panelLevels.SetActive(true);
                 break;
             case State.INST:
-                //panelInstructions.SetActive(true);
+                panelInstructions.SetActive(true);
                 break;
             case State.CREDITS:
-                Cursor.visible = true;
-                //panelCredits.SetActive(true);
+                panelCredits.SetActive(true);
                 break;
             case State.INIT:
-                Cursor.visible = false;
-                //panelPlay.SetActive(true);
-                if (_currentLevel != null)
-                {
-                    Destroy(_currentLevel);
-                }
-                changeState(State.LOADLEVEL, 0f);
+                Levels = 0;
+                panelPlay.SetActive(true);
+                changeState(State.LOADLEVEL);
                 break;
             case State.PLAY:
-                //panelPlay.SetActive(true);
-                //GameSounds.Instance.playMainTheme();
                 break;
             case State.LEVELCOMPLETED:
-                Destroy(_currentLevel);
-                _menuScene = Instantiate(menuScene);
-                Level++;
-                float timeS = 0f;
-                if (Level < levels.Length)
-                {
-                    //panelLevelCompleted.SetActive(true);
-                    timeS = 2f;
-                }
-                changeState(State.LOADLEVEL, timeS);
+                panelLevelComplete.SetActive(true);
                 break;
             case State.LOADLEVEL:
-                //GodMode = false;
-                if (Level >= levels.Length)
+                if (Levels >= levels.Length)
                 {
-                    changeState(State.GAMEOVER, 0f);
+                    changeState(State.GAMEOVER);
                 }
                 else
                 {
-                    Destroy(_menuScene);
-                    _currentLevel = Instantiate(levels[Level]);
-                    changeState(State.PLAY, 0f);
+                    Destroy(_currentLevel);
+                    _currentLevel = Instantiate(levels[Levels]);
+                    changeState(State.PLAY);
                 }
                 break;
             case State.GAMEOVER:
-                //GameSounds.Instance.playEndGameTheme();
-                //panelGameOver.SetActive(true);
-                changeState(State.CREDITS, 2.5f);
+                if (_currentLevel != null) Destroy(_currentLevel);
+                changeState(State.MENU);
                 break;
         }
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && _state == State.MENU)
+        cont += Time.deltaTime;
+        if (Input.GetKey(KeyCode.N) && cont >= 0.5)
         {
-            Application.Quit();
+            ++Levels;
+            changeState(State.LOADLEVEL);
+            cont = 0;
         }
-        else if (Input.GetKeyDown(KeyCode.Escape) && _state != State.MENU && _state != State.LEVELCOMPLETED && _state != State.GAMEOVER)
+        if (Input.GetKey(KeyCode.Escape) && cont >= 0.5)
         {
-            changeToMenu();
+            changeState(State.GAMEOVER);
+            cont = 0;
         }
     }
 
@@ -243,27 +139,24 @@ public class gameManager : MonoBehaviour
                 panelMenu.SetActive(false);
                 break;
             case State.LVLS:
-                //panelLevels.SetActive(false);
                 break;
             case State.INST:
-                //panelInstructions.SetActive(false);
+                panelInstructions.SetActive(false);
                 break;
             case State.CREDITS:
-                //panelCredits.SetActive(false);
+                panelCredits.SetActive(false);
                 break;
             case State.INIT:
                 break;
             case State.PLAY:
-                //panelPlay.SetActive(false);
                 break;
             case State.LEVELCOMPLETED:
-                //panelLevelCompleted.SetActive(false);
+                panelLevelComplete.SetActive(false);
                 break;
             case State.LOADLEVEL:
                 break;
             case State.GAMEOVER:
-                //panelPlay.SetActive(false);
-                //panelGameOver.SetActive(false);
+                panelPlay.SetActive(false);
                 break;
         }
     }
