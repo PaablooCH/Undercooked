@@ -12,6 +12,7 @@ TagManager:
   - Combination
   - Complete
   - Tool
+  - Oven
   layers:
   - Default
   - TransparentFX
