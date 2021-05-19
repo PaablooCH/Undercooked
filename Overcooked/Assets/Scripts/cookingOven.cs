@@ -27,7 +27,7 @@ public class cookingOven : MonoBehaviour
         cont += Time.deltaTime;
         if (food != null)
         {
-            if (food.tag != "Complete" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked)
+            if (food.name != "Burned" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked)
             {
                 //Debug.Log("jida");
                 burned = true;
@@ -92,7 +92,7 @@ public class cookingOven : MonoBehaviour
             }
             // Debug.Log("Soy Player");
         }
-        else if (obj.tag == "Cutted" && obj.gameObject.GetComponent<convertInTo>().nextFood != null)
+        else if (obj.tag == "Oven")
         {
             if (Input.GetKey(KeyCode.Space) && !onOven && cont >= 2)
             {

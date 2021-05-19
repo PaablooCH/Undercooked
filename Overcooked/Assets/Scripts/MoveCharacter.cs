@@ -73,7 +73,7 @@ public class MoveCharacter : MonoBehaviour
         rightArm.localEulerAngles = new Vector3(-90, 0, 0);
         rightArm.localPosition = new Vector3(-0.137f, 0.486f, 0.637f);
         leftArm.localEulerAngles = new Vector3(-90, 0, 0);
-        leftArm.localEulerAngles = new Vector3(0.196f, 0.486f, 0.637f);
+        leftArm.localPosition = new Vector3(0.196f, 0.486f, 0.637f);
     }
 
     public void leaveFood()
@@ -82,7 +82,7 @@ public class MoveCharacter : MonoBehaviour
         rightArm.localEulerAngles = new Vector3(0, 0, 0);
         rightArm.localPosition = new Vector3(0.048f, 0.105f, -0.006f);
         leftArm.localEulerAngles = new Vector3(0, 0, 0);
-        leftArm.localEulerAngles = new Vector3(0.056f, 0.105f, -0.006f);
+        leftArm.localPosition = new Vector3(0.056f, 0.105f, -0.006f);
     }
 
     public GameObject getFood()
