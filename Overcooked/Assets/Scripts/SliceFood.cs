@@ -32,6 +32,10 @@ public class SliceFood : MonoBehaviour
             food.gameObject.GetComponent<pickUpFood>().enabled = false;
             food.GetComponent<Rigidbody>().useGravity = false;
             GameObject.FindWithTag("Player").gameObject.GetComponent<MoveCharacter>().enabled = true;
+            GameObject knife = GameObject.FindWithTag("Player").GetComponent<MoveCharacter>().leaveObjectHand();
+            knife.transform.parent = this.transform;
+            knife.transform.localEulerAngles = this.transform.localEulerAngles;
+            knife.transform.position = this.transform.position + new Vector3(-0.25f, 0.7f, 0.1f);
         }
         //Debug.Log(food);
     }
@@ -52,6 +56,7 @@ public class SliceFood : MonoBehaviour
                 obj.gameObject.GetComponent<pickUpFood>().changeState();
                 obj.gameObject.GetComponent<pickUpFood>().resetCont();
                 obj.gameObject.GetComponent<pickUpFood>().enabled = false;
+                GameObject.FindWithTag("Player").GetComponent<MoveCharacter>().objectHand(transform.Find("Knife(Clone)").gameObject);
                 food = obj.gameObject;
                 cont = 0;
                 full = true;
