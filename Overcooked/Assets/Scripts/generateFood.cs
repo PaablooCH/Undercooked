@@ -51,7 +51,7 @@ public class generateFood: MonoBehaviour
                 generate.GetComponent<Rigidbody>().useGravity = false;
                 generate.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
                 obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
-                obj.gameObject.GetComponent<MoveCharacter>().holdFood(food);
+                obj.gameObject.GetComponent<MoveCharacter>().holdFood(generate);
                 generate.gameObject.GetComponent<pickUpFood>().setPlayer(obj.gameObject);
                 full = false;
                 cont = 0;

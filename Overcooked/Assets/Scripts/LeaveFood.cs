@@ -381,7 +381,7 @@ public class LeaveFood : MonoBehaviour
                         GameObject a = food.GetComponent<combine>().combineWithCucumberSauce();
                         if (a != null)
                         {
-                            Destroy(food);
+                            Destroy(food, 0.1f);
                             obj.gameObject.GetComponent<MoveCharacter>().destroyFood();
                             food = a;
                             food.transform.parent = this.transform.GetChild(0).transform;
@@ -412,9 +412,8 @@ public class LeaveFood : MonoBehaviour
                         }
                         else Destroy(a);
                     }
-                    if (com.name == "Dish(Clone)")
+                    if (com.tag == "Dish")
                     {
-                        Debug.Log("Carne");
                         GameObject a = food.GetComponent<combine>().combineWithDish();
                         if (a != null)
                         {
