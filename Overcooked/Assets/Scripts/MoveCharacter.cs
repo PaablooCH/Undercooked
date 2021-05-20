@@ -22,12 +22,12 @@ public class MoveCharacter : MonoBehaviour
     void Start()
     {
         holding = false;
-        controller = this.GetComponent<CharacterController>();
+        controller = GetComponent<CharacterController>();
         controller.detectCollisions = false;
         anim = GetComponent<animationsChef>();
         isMove = false;
-        leftArm = this.transform.Find("leftArm");
-        rightArm = this.transform.Find("rightArm");
+        leftArm = transform.Find("leftArm");
+        rightArm = transform.Find("rightArm");
 }
 
     // Update is called once per frame
@@ -80,9 +80,9 @@ public class MoveCharacter : MonoBehaviour
 
     public void objectHand(GameObject obj)
     {
-        obj.transform.position = this.transform.Find("rightArm").Find("Hand").position;
-        obj.transform.eulerAngles = this.transform.Find("rightArm").Find("Hand").eulerAngles;
-        obj.transform.parent = this.transform.Find("rightArm").Find("Hand").transform;
+        obj.transform.position = rightArm.Find("Hand").position;
+        obj.transform.eulerAngles = rightArm.Find("Hand").eulerAngles;
+        obj.transform.parent = rightArm.Find("Hand").transform;
         hand = obj;
     }
 

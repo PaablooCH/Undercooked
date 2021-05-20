@@ -18,7 +18,7 @@ public class cookingPan : MonoBehaviour
         cont = 0;
         cooked = false;
         burned = false;
-        ps = this.gameObject.transform.GetChild(1).GetComponent<ParticleSystem>();
+        ps = transform.Find("effects").GetComponent<ParticleSystem>();
     }
 
     // Update is called once per frame
@@ -109,7 +109,7 @@ public class cookingPan : MonoBehaviour
                 cont = 0;
                 ps.Play();
             }
-            Debug.Log("Soy Comida");
+            // Debug.Log("Soy Comida");
         }
     }
 

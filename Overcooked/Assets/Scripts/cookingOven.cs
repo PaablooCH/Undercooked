@@ -18,7 +18,7 @@ public class cookingOven : MonoBehaviour
         cont = 0;
         cooked = false;
         burned = false;
-        ps = this.gameObject.transform.GetChild(1).GetComponent<ParticleSystem>();
+        ps = transform.Find("effects").GetComponent<ParticleSystem>();
     }
 
     // Update is called once per frame
@@ -34,8 +34,8 @@ public class cookingOven : MonoBehaviour
                 GameObject a = food.GetComponent<convertInTo>().convertFood();
                 Destroy(food);
                 food = a;
-                food.transform.position = this.transform.GetChild(0).position;
-                food.transform.parent = this.transform.GetChild(0).transform;
+                food.transform.position = transform.GetChild(0).position;
+                food.transform.parent = transform.GetChild(0).transform;
                 food.GetComponent<pickUpFood>().changeState();
                 food.GetComponent<pickUpFood>().resetCont();
                 food.GetComponent<pickUpFood>().enabled = false;
@@ -52,8 +52,8 @@ public class cookingOven : MonoBehaviour
                 GameObject a = food.GetComponent<convertInTo>().convertFood();
                 Destroy(food);
                 food = a;
-                food.transform.position = this.transform.GetChild(0).position;
-                food.transform.parent = this.transform.GetChild(0).transform;
+                food.transform.position = transform.GetChild(0).position;
+                food.transform.parent = transform.GetChild(0).transform;
                 food.GetComponent<pickUpFood>().changeState();
                 food.GetComponent<pickUpFood>().resetCont();
                 food.GetComponent<pickUpFood>().enabled = false;
@@ -98,9 +98,9 @@ public class cookingOven : MonoBehaviour
             {
 
                 obj.gameObject.GetComponent<pickUpFood>().emptyPlayer();
-                obj.transform.position = this.transform.GetChild(0).position;
-                obj.transform.eulerAngles = this.transform.GetChild(0).eulerAngles;
-                obj.transform.parent = this.transform.GetChild(0).transform;
+                obj.transform.position = transform.GetChild(0).position;
+                obj.transform.eulerAngles = transform.GetChild(0).eulerAngles;
+                obj.transform.parent = transform.GetChild(0).transform;
                 obj.gameObject.GetComponent<pickUpFood>().changeState();
                 obj.gameObject.GetComponent<pickUpFood>().resetCont();
                 obj.gameObject.GetComponent<pickUpFood>().enabled = false;
