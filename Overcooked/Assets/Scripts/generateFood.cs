@@ -56,6 +56,7 @@ public class generateFood: MonoBehaviour
                 full = false;
                 cont = 0;
                 generate = null;
+                Debug.Log("Hello");
             }
         }
     }

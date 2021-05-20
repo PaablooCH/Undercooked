@@ -12,6 +12,12 @@ TagManager:
   - Combination
   - Complete
   - Tool
+<<<<<<< HEAD
+  - NoDishFood
+  - Dish
+=======
+  - Oven
+>>>>>>> 30c7b67a09318467296fca86e52b5abc701669b8
   layers:
   - Default
   - TransparentFX

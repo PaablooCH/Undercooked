@@ -176,7 +176,7 @@ MonoBehaviour:
   Fish: {fileID: 0}
   Meat: {fileID: 0}
   Potato: {fileID: 0}
-  TomatoSauce: {fileID: 681848196536504063, guid: 8fcd6e5de9fc24a4092f9d28112d5c43, type: 3}
+  TomatoSauce: {fileID: 8644540932703930575, guid: 8fcd6e5de9fc24a4092f9d28112d5c43, type: 3}
   CucumberSauce: {fileID: 0}
   BreadPics: {fileID: 0}
   CuttedBread: {fileID: 0}

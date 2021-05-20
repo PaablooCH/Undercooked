@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 9208143484795227859}
   - component: {fileID: 6433264632468431656}
   - component: {fileID: 2056411375034382484}
+  - component: {fileID: -7885676910560046726}
   m_Layer: 0
   m_Name: Panini
   m_TagString: Complete
@@ -139,3 +140,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &-7885676910560046726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4502480205434716388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e653c9e70fd5d4e8f81d0d0d624cb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextFood: {fileID: 3945027450598366257, guid: a70fde14522305148b2083838164b52e, type: 3}
+  countNext: 7
+  blendFood: {fileID: 0}
+  countBlend: 0

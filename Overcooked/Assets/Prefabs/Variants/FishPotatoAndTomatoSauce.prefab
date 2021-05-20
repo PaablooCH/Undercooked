@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: -8586302332740497076}
   m_Layer: 0
   m_Name: FishPotatoAndTomatoSauce
-  m_TagString: Combination
+  m_TagString: Oven
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,6 +153,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextFood: {fileID: 5589395707206302167, guid: 13e18745a48644a4280f7878efe0c55f, type: 3}
-  countNext: 0
+  countNext: 15
   blendFood: {fileID: 0}
   countBlend: 0

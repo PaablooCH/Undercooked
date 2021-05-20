@@ -17,6 +17,8 @@ public class combine : MonoBehaviour
     public GameObject CuttedBread;
     public GameObject CuttedFish;
     public GameObject CuttedPotato;
+    public GameObject Dish;
+
 
 
 
@@ -113,6 +115,14 @@ public class combine : MonoBehaviour
     {
         if (CuttedPotato == null) return null;
         GameObject a = Instantiate(CuttedPotato, this.transform.position, CuttedPotato.transform.rotation);
+        a.GetComponent<pickUpFood>().resetCont();
+        return a;
+    }
+
+    public GameObject combineWithDish()
+    {
+        if (Dish == null) return null;
+        GameObject a = Instantiate(Dish, this.transform.position, Dish.transform.rotation);
         a.GetComponent<pickUpFood>().resetCont();
         return a;
     }
