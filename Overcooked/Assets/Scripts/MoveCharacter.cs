@@ -109,9 +109,11 @@ public class MoveCharacter : MonoBehaviour
 
     public void destroyFood()
     {
-        Destroy(food);
+        Destroy(food, 0.2f);
         food = null;
         holding = false;
+        Debug.Log(food);
+        Debug.Log(holding);
     }
 
     public bool checkHold() { return holding; }
