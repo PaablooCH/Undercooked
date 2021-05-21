@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class cookingOven : MonoBehaviour
 {
@@ -10,12 +11,16 @@ public class cookingOven : MonoBehaviour
     private float cont;
     private bool cooked;
     private bool burned;
+    public Slider progress;
+    public Image danger;
+    public float dangerCount;
 
     // Start is called before the first frame update
     void Start()
     {
         onOven = false;
         cont = 0;
+        dangerCount = 0;
         cooked = false;
         burned = false;
         ps = transform.Find("effects").GetComponent<ParticleSystem>();
@@ -25,8 +30,10 @@ public class cookingOven : MonoBehaviour
     void Update()
     {
         cont += Time.deltaTime;
+        if (cooked) dangerCount += Time.deltaTime;
         if (food != null)
         {
+            if (cooked && dangerCount >= 2.0f && danger.gameObject.active == false) danger.gameObject.active = true;
             if (food.name != "Burned" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked)
             {
                 //Debug.Log("jida");
@@ -59,6 +66,7 @@ public class cookingOven : MonoBehaviour
                 food.GetComponent<pickUpFood>().enabled = false;
                 food.GetComponent<Rigidbody>().useGravity = false;
                 cont = 0;
+                progress.gameObject.active = false;
             }
             //Debug.Log(cont + food.name);
         }
@@ -89,6 +97,7 @@ public class cookingOven : MonoBehaviour
                 var emission = ps.emission;
                 emission.rateOverTime = 15;
                 ps.Stop();
+                danger.gameObject.active = false;
             }
             // Debug.Log("Soy Player");
         }
@@ -108,6 +117,8 @@ public class cookingOven : MonoBehaviour
                 food = obj.gameObject;
                 cont = 0;
                 ps.Play();
+                progress.gameObject.active = true;
+                progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountNext());
             }
             Debug.Log("Soy Comida");
         }

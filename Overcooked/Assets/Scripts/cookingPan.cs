@@ -13,12 +13,17 @@ public class cookingPan : MonoBehaviour
     private bool burned;
     private GameObject tapa;
     public Slider progress;
+    public Image danger;
+    public float dangerCount;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
         onPan = false;
         cont = 0;
+        dangerCount = 0;
         cooked = false;
         burned = false;
         ps = transform.Find("effects").GetComponent<ParticleSystem>();
@@ -29,9 +34,11 @@ public class cookingPan : MonoBehaviour
     void Update()
     {
         cont += Time.deltaTime;
+        if (cooked) dangerCount += Time.deltaTime;
         if(food != null)
         {
             food.SetActive(false);
+            if (cooked && dangerCount >= 2.0f && danger.gameObject.active == false) danger.gameObject.active = true;
             if (food.tag != "Complete" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked)
             {
                 //Debug.Log("jida");
@@ -64,6 +71,7 @@ public class cookingPan : MonoBehaviour
                 food.GetComponent<pickUpFood>().enabled = false;
                 food.GetComponent<Rigidbody>().useGravity = false;
                 cont = 0;
+                progress.gameObject.active = false;
             }
             //Debug.Log(cont + food.name);
         }
@@ -88,6 +96,7 @@ public class cookingPan : MonoBehaviour
                 onPan = false;
                 food = null;
                 cont = 0;
+                dangerCount = 0;
                 cooked = false; 
                 var main = ps.main;
                 main.startColor = new Color(0.5471698f, 0.5471698f, 0.5471698f, 1);
@@ -96,6 +105,7 @@ public class cookingPan : MonoBehaviour
                 emission.rateOverTime = 30;
                 ps.Stop();
                 tapa.SetActive(false);
+                danger.gameObject.active = false;
             }
             // Debug.Log("Soy Player");
         }
@@ -116,6 +126,8 @@ public class cookingPan : MonoBehaviour
                 cont = 0;
                 ps.Play();
                 tapa.SetActive(true);
+                progress.gameObject.active = true;
+                progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountNext());
             }
             // Debug.Log("Soy Comida");
         }
