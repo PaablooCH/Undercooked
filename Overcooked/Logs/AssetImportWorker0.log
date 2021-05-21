@@ -15,11 +15,11 @@ E:/VJ/VJ-3D/Overcooked
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62514
+50312
 Successfully changed project path to: E:/VJ/VJ-3D/Overcooked
 E:/VJ/VJ-3D/Overcooked
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,453 +35,741 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002513 seconds.
+Registered in 0.002383 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.356 seconds
+- Completed reload, in  1.139 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000578 seconds.
+Registered in 0.000582 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.044 seconds
+- Completed reload, in  0.895 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.6 MB.
-System memory in use after: 78.7 MB.
+System memory in use before: 78.7 MB.
+System memory in use after: 78.8 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1602.
-Total: 2.050400 ms (FindLiveObjects: 0.177000 ms CreateObjectMapping: 0.066900 ms MarkObjects: 1.666200 ms  DeleteObjects: 0.138700 ms)
+Total: 2.146300 ms (FindLiveObjects: 0.156400 ms CreateObjectMapping: 0.051600 ms MarkObjects: 1.799700 ms  DeleteObjects: 0.137200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/cheffOutput.prefab
-  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bda3ccd24fdbd89d0f4ad33c38d43cc') in 0.139506 seconds
-  Import took 0.143390 seconds .
+  path: Assets/PotatoAndTomatoSauce.obj
+  artifactKey: Guid(13329876f82c54a4c8321dd974300731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PotatoAndTomatoSauce.obj using Guid(13329876f82c54a4c8321dd974300731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc0b3527d76a7f1a696d22102be9f82') in 0.193542 seconds
+  Import took 0.195780 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.881387 seconds.
-  path: Assets/Prefabs/cheffOutput.prefab
-  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabf7f31367c7301e557e25de0ad4e13') in 0.021824 seconds
-  Import took 0.024277 seconds .
+  Time since last request: 85.089360 seconds.
+  path: Assets/generatorDish.obj
+  artifactKey: Guid(f361f1588f598884ebe25092d637bd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/generatorDish.obj using Guid(f361f1588f598884ebe25092d637bd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4f9f2bd4e216f7e91f126ff14ffb68') in 0.041546 seconds
+  Import took 0.044247 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.604918 seconds.
-  path: Assets/Prefabs/cheffOutput.prefab
-  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c5580379b5fa2c07aaa6f213735c13') in 0.022832 seconds
-  Import took 0.026454 seconds .
+  Time since last request: 0.000287 seconds.
+  path: Assets/tapa.png
+  artifactKey: Guid(9ad3e8ce349d24147bbc2136d0f55f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tapa.png using Guid(9ad3e8ce349d24147bbc2136d0f55f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ce28a32c089dce1319e337e2317ff1') in 0.059147 seconds
+  Import took 0.061183 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.109086 seconds.
-  path: Assets/Prefabs/cheffOutput.prefab
-  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8da6bacb7f15f80685dd31d729cbe37') in 0.021792 seconds
-  Import took 0.024725 seconds .
+  Time since last request: 0.000275 seconds.
+  path: Assets/tapa.obj
+  artifactKey: Guid(4a793c527ee6e6c4e96c42685e8a5ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tapa.obj using Guid(4a793c527ee6e6c4e96c42685e8a5ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92b7e4ca7dc3c19396afd1c6cd0181b') in 0.026035 seconds
+  Import took 0.028538 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.052720 seconds.
-  path: Assets/Prefabs/cheffOutput.prefab
-  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0ed856fe4b876db46e2ed3f5a4fd35') in 0.017365 seconds
-  Import took 0.021426 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000579 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.964 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.7 MB.
-System memory in use after: 81.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1612.
-Total: 1.575000 ms (FindLiveObjects: 0.136300 ms CreateObjectMapping: 0.038600 ms MarkObjects: 1.318800 ms  DeleteObjects: 0.080400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002486 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.559 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.8 MB.
-System memory in use after: 81.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1615.
-Total: 2.082900 ms (FindLiveObjects: 0.150700 ms CreateObjectMapping: 0.044000 ms MarkObjects: 1.791700 ms  DeleteObjects: 0.095100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000571 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.000 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.8 MB.
-System memory in use after: 81.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1618.
-Total: 1.695000 ms (FindLiveObjects: 0.142800 ms CreateObjectMapping: 0.037700 ms MarkObjects: 1.397400 ms  DeleteObjects: 0.116000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000772 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.900 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.8 MB.
-System memory in use after: 81.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1621.
-Total: 1.987600 ms (FindLiveObjects: 0.136400 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.606700 ms  DeleteObjects: 0.201300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000659 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.931 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.8 MB.
-System memory in use after: 81.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1624.
-Total: 1.790100 ms (FindLiveObjects: 0.163200 ms CreateObjectMapping: 0.044800 ms MarkObjects: 1.483800 ms  DeleteObjects: 0.097300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000618 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.923 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.8 MB.
-System memory in use after: 81.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1627.
-Total: 1.783700 ms (FindLiveObjects: 0.137200 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.508900 ms  DeleteObjects: 0.099900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000594 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.939 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.8 MB.
-System memory in use after: 81.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1630.
-Total: 2.119500 ms (FindLiveObjects: 0.217300 ms CreateObjectMapping: 0.051900 ms MarkObjects: 1.717600 ms  DeleteObjects: 0.130400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000591 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.8 MB.
-System memory in use after: 81.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1633.
-Total: 1.754200 ms (FindLiveObjects: 0.185600 ms CreateObjectMapping: 0.045800 ms MarkObjects: 1.432800 ms  DeleteObjects: 0.088800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000571 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.903 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.8 MB.
-System memory in use after: 81.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1636.
-Total: 5.743600 ms (FindLiveObjects: 0.309200 ms CreateObjectMapping: 0.060600 ms MarkObjects: 5.264400 ms  DeleteObjects: 0.107100 ms)
+  Time since last request: 0.000268 seconds.
+  path: Assets/generatorDish.png
+  artifactKey: Guid(2eeea73243cb5c44791e478262a188f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/generatorDish.png using Guid(2eeea73243cb5c44791e478262a188f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136550648d69ec094f9f2408afaff177') in 0.014235 seconds
+  Import took 0.016754 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1222.301170 seconds.
-  path: Assets/Prefabs/Food
-  artifactKey: Guid(ce8ab26952338f346888405229abbb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Food using Guid(ce8ab26952338f346888405229abbb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6cb081de03257b2cd7d333fd2865bf') in 0.021937 seconds
-  Import took 0.024560 seconds .
+  Time since last request: 71.324135 seconds.
+  path: Assets/Prefabs/Tools/cutting board.prefab
+  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc6e92381e0c58f1eeefb7f7b4304a0') in 0.030048 seconds
+  Import took 0.032916 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.173781 seconds.
-  path: Assets/Prefabs/Food/bread.prefab
-  artifactKey: Guid(f11d452658ae44d49bc296793a8e90b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Food/bread.prefab using Guid(f11d452658ae44d49bc296793a8e90b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6840fa280b8f6394114a611aa2aa2e46') in 0.090486 seconds
-  Import took 0.093685 seconds .
+  Time since last request: 0.000267 seconds.
+  path: Assets/Prefabs/Tools/tapa.prefab
+  artifactKey: Guid(4f276bdaa4999294ea7595ad861308a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/tapa.prefab using Guid(4f276bdaa4999294ea7595ad861308a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443ecf176269a149141767399969b6f8') in 0.017369 seconds
+  Import took 0.019690 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Prefabs/Food/potato.prefab
-  artifactKey: Guid(d30a9adaacd171c469d5888ed1d673fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Food/potato.prefab using Guid(d30a9adaacd171c469d5888ed1d673fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476b553af23c17302d2edd571b2d9108') in 0.033779 seconds
-  Import took 0.036371 seconds .
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefabs/Tools/oven.prefab
+  artifactKey: Guid(8de72354a6a1ec849abd9d5d1983633a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/oven.prefab using Guid(8de72354a6a1ec849abd9d5d1983633a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d145cb89179e42c259aea5fd82d32e') in 0.024084 seconds
+  Import took 0.026653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Prefabs/Tools/generatorTomato.prefab
+  artifactKey: Guid(7e5deb15b58e948418600ab549183120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/generatorTomato.prefab using Guid(7e5deb15b58e948418600ab549183120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38265cde4458a923e5ff4a71f11dad4f') in 0.051719 seconds
+  Import took 0.054652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004199 seconds.
+  path: Assets/Prefabs/Tools/generatorTomato.prefab
+  artifactKey: Guid(7e5deb15b58e948418600ab549183120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/generatorTomato.prefab using Guid(7e5deb15b58e948418600ab549183120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38265cde4458a923e5ff4a71f11dad4f') in 0.024482 seconds
+  Import took 0.027395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.593605 seconds.
+  path: Assets/tapa.obj
+  artifactKey: Guid(4a793c527ee6e6c4e96c42685e8a5ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tapa.obj using Guid(4a793c527ee6e6c4e96c42685e8a5ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fae6746a6d91730b74d029c44129b3') in 0.054244 seconds
+  Import took 0.057891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.991167 seconds.
+  path: Assets/Prefabs/Tools/generatorDish.prefab
+  artifactKey: Guid(4408bff6619c96e4e9aec8b521352407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/generatorDish.prefab using Guid(4408bff6619c96e4e9aec8b521352407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e5288f4c48dc5821fb4f3b26696eb7') in 0.024797 seconds
+  Import took 0.028577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.926872 seconds.
+  path: Assets/generatorDish.mtl
+  artifactKey: Guid(0d37450e7d97bbb4b8b2f386250c5a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/generatorDish.mtl using Guid(0d37450e7d97bbb4b8b2f386250c5a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e2f28e7e14a28bca1a4c5ce766d585') in 0.007660 seconds
+  Import took 0.009833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2075.079223 seconds.
+  path: Assets/entrega.obj
+  artifactKey: Guid(d880f307d9b01174e99f9374e95740d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/entrega.obj using Guid(d880f307d9b01174e99f9374e95740d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182628f911d2e77ad68d6dc573314481') in 0.037577 seconds
+  Import took 0.040923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/entrega.png
+  artifactKey: Guid(f8de1df363b4120419534b4511e9577e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/entrega.png using Guid(f8de1df363b4120419534b4511e9577e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9cc0c1f9480759989b569af002edee1') in 0.007807 seconds
+  Import took 0.009812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.247370 seconds.
+  path: Assets/Prefabs/Tools/entrega.prefab
+  artifactKey: Guid(678fa605ffb2b824485d8f624ac42340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/entrega.prefab using Guid(678fa605ffb2b824485d8f624ac42340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc478ff087c7fbbebedd63ada222055') in 0.017316 seconds
+  Import took 0.020378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.732180 seconds.
+  path: Assets/entrega.mtl
+  artifactKey: Guid(647b39f81f1ef244e8e80fcdfbc9ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/entrega.mtl using Guid(647b39f81f1ef244e8e80fcdfbc9ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9663266106b8ba4e35ca2a58b3ba7f') in 0.003181 seconds
+  Import took 0.005542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.759760 seconds.
+  path: Assets/Models
+  artifactKey: Guid(72048bda3d9311345b88b2ca2b49ea29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(72048bda3d9311345b88b2ca2b49ea29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d683a7840146ed4c64d6497e26a0c4') in 0.007894 seconds
+  Import took 0.010106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039553 seconds.
+  path: Assets/Models/arms.obj
+  artifactKey: Guid(e19a26127c01a1b44a2dd38c4ea8792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/arms.obj using Guid(e19a26127c01a1b44a2dd38c4ea8792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b23ebabec418c0d10205f4faa8878e') in 0.113248 seconds
+  Import took 0.115585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Models/BreadAndBurgerAndCucumber.obj
+  artifactKey: Guid(95d21da6a99530b43aac5f1ba915a49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BreadAndBurgerAndCucumber.obj using Guid(95d21da6a99530b43aac5f1ba915a49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4463c0e33c046a08abfc358f21965e98') in 0.051567 seconds
+  Import took 0.053695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Models/CookedBread.obj
+  artifactKey: Guid(0428d2e8ae0b45942945dc06afff1064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CookedBread.obj using Guid(0428d2e8ae0b45942945dc06afff1064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a55f4e91d1c7ba3ce76136bfbbb6caa') in 0.051656 seconds
+  Import took 0.053752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Models/BreadAndTomatoSauce.obj
+  artifactKey: Guid(38116af9f5941214d8a59bb2a8ea5561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BreadAndTomatoSauce.obj using Guid(38116af9f5941214d8a59bb2a8ea5561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c11a34cc306b6c801c135af8a81ded') in 0.053132 seconds
+  Import took 0.055329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Models/BreadAndTomatoSauceAndCheese.obj
+  artifactKey: Guid(42cf3b9ac9a64e64c945a2e189a2619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BreadAndTomatoSauceAndCheese.obj using Guid(42cf3b9ac9a64e64c945a2e189a2619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99208479280e77de9e4c487ffa29b003') in 0.049076 seconds
+  Import took 0.051440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Models/BreadAndCucumberAndCheese.obj
+  artifactKey: Guid(c6d8762d2ee21394180276a97868a206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BreadAndCucumberAndCheese.obj using Guid(c6d8762d2ee21394180276a97868a206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99f758f36e1595a624787d4404b4c77') in 0.058744 seconds
+  Import took 0.060903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Models/BreadAndCucumber.obj
+  artifactKey: Guid(594ddb8130601cb47bd659e7e5c8ba50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BreadAndCucumber.obj using Guid(594ddb8130601cb47bd659e7e5c8ba50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac8222843075b383108ec5facc4b320') in 0.070474 seconds
+  Import took 0.072614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Models/blender.obj
+  artifactKey: Guid(4074861bee562fc4b9c029d3e5a1509c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/blender.obj using Guid(4074861bee562fc4b9c029d3e5a1509c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd8351a3b0d838a69204ab5391ef11f') in 0.051612 seconds
+  Import took 0.053802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Models/CheeseAndTomatoSauce.obj
+  artifactKey: Guid(93ecf45e226816044892fee8c602e104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CheeseAndTomatoSauce.obj using Guid(93ecf45e226816044892fee8c602e104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3a946f0190f14989bc5446d5f85c3f') in 0.047396 seconds
+  Import took 0.049355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Models/BlenderBread.obj
+  artifactKey: Guid(62b4f328206978640b020f2f131cd337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BlenderBread.obj using Guid(62b4f328206978640b020f2f131cd337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528eaa1991adcc1352e6cda630722882') in 0.078793 seconds
+  Import took 0.080847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Models/chefOutput.obj
+  artifactKey: Guid(87cc4342c014b3a4d80400366774661b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/chefOutput.obj using Guid(87cc4342c014b3a4d80400366774661b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2b412529fec6f58f60d8ab60b39e24') in 0.050343 seconds
+  Import took 0.052203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Models/CompleteBurger.obj
+  artifactKey: Guid(031d41693494a764d95758b62b66a375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CompleteBurger.obj using Guid(031d41693494a764d95758b62b66a375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0274946eaed88158f4aeb98b32942f8e') in 0.049012 seconds
+  Import took 0.051025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Models/BreadAndBurger.obj
+  artifactKey: Guid(e423c46fa94fd274f8021732f5106e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BreadAndBurger.obj using Guid(e423c46fa94fd274f8021732f5106e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2376b32a3805f0d91064e1822fac10b') in 0.046714 seconds
+  Import took 0.048808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Models/BreadAndTomato.obj
+  artifactKey: Guid(10f83b097ebc7d24bb81c1477462c92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BreadAndTomato.obj using Guid(10f83b097ebc7d24bb81c1477462c92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5a500031c4f5dab16169d660358394') in 0.053101 seconds
+  Import took 0.055331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Models/CookedPotato.obj
+  artifactKey: Guid(d8cf2777962a3f949b10a5da0a4ad1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CookedPotato.obj using Guid(d8cf2777962a3f949b10a5da0a4ad1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dac34865ca410057b82297b43075382') in 0.046355 seconds
+  Import took 0.048547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Models/BreadAndFish.obj
+  artifactKey: Guid(7d2334ddfd4763e4395bfa0fc81f03ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BreadAndFish.obj using Guid(7d2334ddfd4763e4395bfa0fc81f03ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48aeab581c798945c5bd5ec38df9aecf') in 0.058875 seconds
+  Import took 0.060927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Models/chef.obj
+  artifactKey: Guid(74d7aabc93893f542a87e4a3edd31f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/chef.obj using Guid(74d7aabc93893f542a87e4a3edd31f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae012f20b7515d5bba7c4aa42a16d2c') in 0.028668 seconds
+  Import took 0.030912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Models/BreadAndCheese.obj
+  artifactKey: Guid(96facd1a5d13dad45851293b726a5b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BreadAndCheese.obj using Guid(96facd1a5d13dad45851293b726a5b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54d812844cf6785a5a20283ac24692c') in 0.043732 seconds
+  Import took 0.046059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Models/BlenderTomato.obj
+  artifactKey: Guid(8cca9bc49379a6f4eb489b4066202d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BlenderTomato.obj using Guid(8cca9bc49379a6f4eb489b4066202d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae32eec58df47b35da1304741a63e9cc') in 0.047161 seconds
+  Import took 0.049172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Models/entrega.obj
+  artifactKey: Guid(d880f307d9b01174e99f9374e95740d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/entrega.obj using Guid(d880f307d9b01174e99f9374e95740d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c66105dc493330179ebefb4fcba0465') in 0.037205 seconds
+  Import took 0.039213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Models/BlenderCucumber.obj
+  artifactKey: Guid(2a38f7a7508a3a747a20f2c679b34d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BlenderCucumber.obj using Guid(2a38f7a7508a3a747a20f2c679b34d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5800fc5fb152f149e0c98b3ebfaafb05') in 0.052804 seconds
+  Import took 0.054894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Models/bin.obj
+  artifactKey: Guid(62d9bd2aaa7a781419974c2ea1b59cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/bin.obj using Guid(62d9bd2aaa7a781419974c2ea1b59cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed7911c9705cb1b802bb38685749444') in 0.037395 seconds
+  Import took 0.039638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Models/Cucumber.obj
+  artifactKey: Guid(f1d0281b2c48131489e17d2276f3517c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cucumber.obj using Guid(f1d0281b2c48131489e17d2276f3517c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c89948bffaf1ebf6a064b6a7720791c') in 0.044825 seconds
+  Import took 0.046857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Models/CheeseAndBread.obj
+  artifactKey: Guid(eb788d9776011614bb3609f8f4a3cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CheeseAndBread.obj using Guid(eb788d9776011614bb3609f8f4a3cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660ef875a7f672de5fc68c676eae35bb') in 0.036420 seconds
+  Import took 0.038495 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000152 seconds.
-  path: Assets/Prefabs/Food/fish.prefab
-  artifactKey: Guid(ae7d5df0dfb0acd4faeaf9591c7e982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Food/fish.prefab using Guid(ae7d5df0dfb0acd4faeaf9591c7e982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d15c2ef75d9ebdf0631976c2267a624') in 0.040280 seconds
-  Import took 0.043167 seconds .
+  path: Assets/Models/CookedFish.obj
+  artifactKey: Guid(a360a661e13fd974199b715edcf81a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CookedFish.obj using Guid(a360a661e13fd974199b715edcf81a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06c0ee0a7b0b189c7514c131b6a0ff8') in 0.042346 seconds
+  Import took 0.044408 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Prefabs/Food/tomato3.0.prefab
-  artifactKey: Guid(cd8a5cd7bf959024aaee59bb02c73f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Food/tomato3.0.prefab using Guid(cd8a5cd7bf959024aaee59bb02c73f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b606d9d9af7c41bef702915117a90679') in 0.144880 seconds
-  Import took 0.147794 seconds .
+  Time since last request: 0.000244 seconds.
+  path: Assets/Models/BreadAndBurgerAndCheese.obj
+  artifactKey: Guid(50f5a9e3b90f06148a52237884286475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BreadAndBurgerAndCheese.obj using Guid(50f5a9e3b90f06148a52237884286475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c109d9cde08c73f1cc12a60506dbf32e') in 0.047548 seconds
+  Import took 0.049524 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Prefabs/Food/cucumber.prefab
-  artifactKey: Guid(f6bbe5312a726c24591e5bbe34d1bba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Food/cucumber.prefab using Guid(f6bbe5312a726c24591e5bbe34d1bba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5bcb2fd88e447606166f5b16126b51') in 0.049135 seconds
-  Import took 0.051947 seconds .
+  Time since last request: 0.000198 seconds.
+  path: Assets/Models/Bread.obj
+  artifactKey: Guid(a1f14fde466d851479a56094f95b687a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bread.obj using Guid(a1f14fde466d851479a56094f95b687a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f78364723dbb182ce7a71d291d9386') in 0.047407 seconds
+  Import took 0.049535 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Prefabs/Food/meat.prefab
-  artifactKey: Guid(e93c4c4240101d54381ee95c7bf83873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Food/meat.prefab using Guid(e93c4c4240101d54381ee95c7bf83873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8505a164b382b2ae07c74b27ff8c8a') in 0.029581 seconds
-  Import took 0.032576 seconds .
+  Time since last request: 0.000163 seconds.
+  path: Assets/Models/CompleteFishBurger.obj
+  artifactKey: Guid(c82e66102c733404aa11686049eb56cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CompleteFishBurger.obj using Guid(c82e66102c733404aa11686049eb56cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b8de46eb5b54845fad6c595039f776') in 0.049093 seconds
+  Import took 0.051214 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Prefabs/Food/cheese.prefab
-  artifactKey: Guid(5c493cc42ec32db44949bf0015005ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Food/cheese.prefab using Guid(5c493cc42ec32db44949bf0015005ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a86e921e841ef9f294ecb45a634690') in 0.042363 seconds
-  Import took 0.045018 seconds .
+  Time since last request: 0.000196 seconds.
+  path: Assets/Models/CheeseAndCucumber.obj
+  artifactKey: Guid(c45880ee7b527bb4d85276e6a0b9501d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CheeseAndCucumber.obj using Guid(c45880ee7b527bb4d85276e6a0b9501d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06effcaf425b170553f18dcee3d0bed8') in 0.046689 seconds
+  Import took 0.048826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Models/CookedMeat.obj
+  artifactKey: Guid(4f84f129ae4f0ed4cbb8dfaecc242740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CookedMeat.obj using Guid(4f84f129ae4f0ed4cbb8dfaecc242740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165b98af6bda6058f1de18680b34c904') in 0.042223 seconds
+  Import took 0.044212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Models/Burned.obj
+  artifactKey: Guid(85accb083cd2ec04ab59a8403a6c4915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Burned.obj using Guid(85accb083cd2ec04ab59a8403a6c4915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e15de57e93218293ceb58bb07fe3c9a') in 0.046256 seconds
+  Import took 0.048375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Models/cutting board.obj
+  artifactKey: Guid(2c3a891697d82e14a9f75f4d8fc49c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/cutting board.obj using Guid(2c3a891697d82e14a9f75f4d8fc49c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265d02c04d3c60bd3c44845f63addce9') in 0.032346 seconds
+  Import took 0.034519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Models/Dish.obj
+  artifactKey: Guid(21a7436446f489b4e8732ec55154e151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Dish.obj using Guid(21a7436446f489b4e8732ec55154e151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd926f886ec623f0b43823be3119f46f6') in 0.032701 seconds
+  Import took 0.034726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Models/CompleteFishTomatoPotato.obj
+  artifactKey: Guid(61a504bf2d73d2347af22ccfbecc5886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CompleteFishTomatoPotato.obj using Guid(61a504bf2d73d2347af22ccfbecc5886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a23792b5e33b13b5eb5184310a1dd4') in 0.052011 seconds
+  Import took 0.054091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Models/Cheese.obj
+  artifactKey: Guid(eb37abdefa39af44faf01b339c354615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cheese.obj using Guid(eb37abdefa39af44faf01b339c354615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1af5b6060e8dbad68c0d0574f879917') in 0.061269 seconds
+  Import took 0.063327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.292469 seconds.
+  path: Assets/Models/fire extinguisher.obj
+  artifactKey: Guid(b91229bbc763a9c41af1bf58d7c8f079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fire extinguisher.obj using Guid(b91229bbc763a9c41af1bf58d7c8f079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f82b2b948264a8404ae4d434122eb95') in 0.032904 seconds
+  Import took 0.037362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Models/FishAndTomatoSauce.obj
+  artifactKey: Guid(9d86153f5b2111541847924ec8b6a8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FishAndTomatoSauce.obj using Guid(9d86153f5b2111541847924ec8b6a8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5deb13a7ee2726f80deb798a99665e') in 0.048037 seconds
+  Import took 0.050092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Models/FishAndTomato.obj
+  artifactKey: Guid(88359d6ca4179124aa19701129e14742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FishAndTomato.obj using Guid(88359d6ca4179124aa19701129e14742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26ed45c95c70a6551848433a0142ae0') in 0.047936 seconds
+  Import took 0.049952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Models/FishAndPotato.obj
+  artifactKey: Guid(0934b8655a8592d499d1dd350b4f79af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FishAndPotato.obj using Guid(0934b8655a8592d499d1dd350b4f79af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cbed433f5b1d3ca06a34f8716d97c2') in 0.039548 seconds
+  Import took 0.041612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Models/fire stand.obj
+  artifactKey: Guid(7dcf27b1af607244a8896837f185f879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fire stand.obj using Guid(7dcf27b1af607244a8896837f185f879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1d2d9f9dcf333ac0e94d643cb671da') in 0.029557 seconds
+  Import took 0.032056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Models/Fish.obj
+  artifactKey: Guid(94754ef157992184889903d274a872b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Fish.obj using Guid(94754ef157992184889903d274a872b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dface1e45e486588aa91589a748f11d') in 0.060143 seconds
+  Import took 0.062191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Models/generatorCheese.obj
+  artifactKey: Guid(6920c8b4e5bf7aa4a8bca39e8c3cb42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/generatorCheese.obj using Guid(6920c8b4e5bf7aa4a8bca39e8c3cb42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557137f859d61c6e7fa4cb0ad9a46ed4') in 0.046226 seconds
+  Import took 0.048332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Models/generatorFish.obj
+  artifactKey: Guid(44d5ebe1e8616094ba207f3e1d735648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/generatorFish.obj using Guid(44d5ebe1e8616094ba207f3e1d735648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fd3883ab8d1be4248347010577529e') in 0.044033 seconds
+  Import took 0.046145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Models/generatorCucumber.obj
+  artifactKey: Guid(7936cdf0d1aaf714890730a3ada3f2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/generatorCucumber.obj using Guid(7936cdf0d1aaf714890730a3ada3f2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a21bf9c25cd57caf58d7fe130a8b14') in 0.029544 seconds
+  Import took 0.031638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Models/Gazpacho.obj
+  artifactKey: Guid(796a669d95c39f04d87ef291908c286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Gazpacho.obj using Guid(796a669d95c39f04d87ef291908c286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21be2cac805b7bdb2263940e980611d') in 0.056942 seconds
+  Import took 0.058957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Models/generatorDish.obj
+  artifactKey: Guid(f361f1588f598884ebe25092d637bd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/generatorDish.obj using Guid(f361f1588f598884ebe25092d637bd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853d574fb77dbcee74e0e34b734a6385') in 0.030141 seconds
+  Import took 0.032216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Models/furniture.obj
+  artifactKey: Guid(59c06fab2410edc4891d521abbac9a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/furniture.obj using Guid(59c06fab2410edc4891d521abbac9a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a842cf254f7c987a57ab8e044fd9341c') in 0.030868 seconds
+  Import took 0.033017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Models/generatorBread.obj
+  artifactKey: Guid(499bef6156cb8f54b8850211b594abfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/generatorBread.obj using Guid(499bef6156cb8f54b8850211b594abfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f0482f106caec6579df922b737bd59') in 0.029617 seconds
+  Import took 0.032286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Models/fire stand.obj
+  artifactKey: Guid(7dcf27b1af607244a8896837f185f879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fire stand.obj using Guid(7dcf27b1af607244a8896837f185f879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1d2d9f9dcf333ac0e94d643cb671da') in 0.029177 seconds
+  Import took 0.031449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Models/FishPotatoAndTomatoSauceobj.obj
+  artifactKey: Guid(fef9251a1e3f1aa478450650e35f11b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/FishPotatoAndTomatoSauceobj.obj using Guid(fef9251a1e3f1aa478450650e35f11b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedb3bcf05fd8db87d6b610678a9014b') in 0.049497 seconds
+  Import took 0.051602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.478579 seconds.
+  path: Assets/Models/generatorMeat.obj
+  artifactKey: Guid(5da56edcf7d572d478f5aa23de4b2ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/generatorMeat.obj using Guid(5da56edcf7d572d478f5aa23de4b2ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3d8efbf4e9b147ab2a2c07191cb791') in 0.033592 seconds
+  Import took 0.036691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Models/knife.obj
+  artifactKey: Guid(1636fed57f2fc954894883afb7f64e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/knife.obj using Guid(1636fed57f2fc954894883afb7f64e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbca2bdd9ca394390f0cef22b49da97d') in 0.047070 seconds
+  Import took 0.049322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Models/generatorPotato.obj
+  artifactKey: Guid(0f25cd4be06976c44a8f7e39046b5a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/generatorPotato.obj using Guid(0f25cd4be06976c44a8f7e39046b5a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4051f92640c557d75e6abc56a3544882') in 0.030259 seconds
+  Import took 0.032735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Models/Meat.obj
+  artifactKey: Guid(b2e96fe99ed0cfe488c32079f1328eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Meat.obj using Guid(b2e96fe99ed0cfe488c32079f1328eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e167fdff8cc58e16dc4ae4d5126d09') in 0.034807 seconds
+  Import took 0.037021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Models/generatorPotato.obj
+  artifactKey: Guid(0f25cd4be06976c44a8f7e39046b5a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/generatorPotato.obj using Guid(0f25cd4be06976c44a8f7e39046b5a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4051f92640c557d75e6abc56a3544882') in 0.029103 seconds
+  Import took 0.032013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Models/generatorTomato.obj
+  artifactKey: Guid(b4fe38f050d651643a6150c5da835694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/generatorTomato.obj using Guid(b4fe38f050d651643a6150c5da835694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb2ffa8ecd76af6c7ce2278d862c328') in 0.027319 seconds
+  Import took 0.029422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Models/leftArm.obj
+  artifactKey: Guid(7d843097d64c75b47833673a48dd8692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/leftArm.obj using Guid(7d843097d64c75b47833673a48dd8692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba40e2e737bd5a2d6af7bf4d0f6aeb5') in 0.035977 seconds
+  Import took 0.038147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Models/MeatAndCheese.obj
+  artifactKey: Guid(de6a3fc91ca7e33448e9c1ae1d07ab9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MeatAndCheese.obj using Guid(de6a3fc91ca7e33448e9c1ae1d07ab9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d463a9e9cbc090619956a8259f8c62') in 0.043315 seconds
+  Import took 0.045367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.384126 seconds.
+  path: Assets/Models/entrega.obj
+  artifactKey: Guid(d880f307d9b01174e99f9374e95740d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/entrega.obj using Guid(d880f307d9b01174e99f9374e95740d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6228c77a1b46cb78635f89691153e90') in 0.036119 seconds
+  Import took 0.038815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.977138 seconds.
+  path: Assets/Prefabs/cheffOutput.prefab
+  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e361d9a960cfd70a925623d5abd53a8') in 0.037713 seconds
+  Import took 0.040924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002357 seconds.
+  path: Assets/Prefabs/cheffOutput.prefab
+  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e361d9a960cfd70a925623d5abd53a8') in 0.015319 seconds
+  Import took 0.018307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.977555 seconds.
+  path: Assets/Prefabs/Tools/pan.prefab
+  artifactKey: Guid(7feac264e0694ae4aa241b5d784dab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/pan.prefab using Guid(7feac264e0694ae4aa241b5d784dab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baea0f7521e152b0695870ba86e16aac') in 0.029398 seconds
+  Import took 0.032707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.059983 seconds.
+  path: Assets/Prefabs/Tools/pan.prefab
+  artifactKey: Guid(7feac264e0694ae4aa241b5d784dab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/pan.prefab using Guid(7feac264e0694ae4aa241b5d784dab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a0d1b57ff93c1145f9b8c8f2f56df0') in 0.016823 seconds
+  Import took 0.021035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.346853 seconds.
+  path: Assets/Prefabs/Tools/pan.prefab
+  artifactKey: Guid(7feac264e0694ae4aa241b5d784dab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/pan.prefab using Guid(7feac264e0694ae4aa241b5d784dab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedd554eec5d5136c7f8ac5aee71a5ec') in 0.017536 seconds
+  Import took 0.021232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.808875 seconds.
+  path: Assets/Prefabs/Tools/pan.prefab
+  artifactKey: Guid(7feac264e0694ae4aa241b5d784dab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/pan.prefab using Guid(7feac264e0694ae4aa241b5d784dab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be064d8051f4d9bcaaeec1286752fcc') in 0.017035 seconds
+  Import took 0.020157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.808003 seconds.
+  path: Assets/Prefabs/Tools/pan.prefab
+  artifactKey: Guid(7feac264e0694ae4aa241b5d784dab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools/pan.prefab using Guid(7feac264e0694ae4aa241b5d784dab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ade5a217d969cd89a5398d273e7b68') in 0.016647 seconds
+  Import took 0.019177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.192061 seconds.
+  path: Assets/Scripts/cookingPan.cs
+  artifactKey: Guid(d0d6193996c64a54ab328b9236175d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/cookingPan.cs using Guid(d0d6193996c64a54ab328b9236175d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c9844791178d721a9cf55393f8b7e2') in 0.018819 seconds
+  Import took 0.021153 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000550 seconds.
+Registered in 0.000567 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.945 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.9 MB.
-System memory in use after: 82.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1640.
-Total: 4.139200 ms (FindLiveObjects: 0.161500 ms CreateObjectMapping: 0.044300 ms MarkObjects: 2.561200 ms  DeleteObjects: 1.370100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.203363 seconds.
-  path: Assets/Prefabs/Food/bread.prefab
-  artifactKey: Guid(f11d452658ae44d49bc296793a8e90b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Food/bread.prefab using Guid(f11d452658ae44d49bc296793a8e90b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f415b482f41815ac9853edc7531f1b') in 0.118311 seconds
-  Import took 0.121957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.885519 seconds.
-  path: Assets/Prefabs/Food/bread.prefab
-  artifactKey: Guid(f11d452658ae44d49bc296793a8e90b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Food/bread.prefab using Guid(f11d452658ae44d49bc296793a8e90b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afff7db1dd61c26c8a0bc56788d2e953') in 0.029938 seconds
-  Import took 0.034692 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000621 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.096 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.9 MB.
-System memory in use after: 82.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1644.
-Total: 1.648300 ms (FindLiveObjects: 0.144000 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.367000 ms  DeleteObjects: 0.096700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000861 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.193 seconds
+- Completed reload, in  0.912 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.10 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.0 MB.
-System memory in use after: 82.0 MB.
+System memory in use before: 82.6 MB.
+System memory in use after: 82.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1647.
-Total: 3.281900 ms (FindLiveObjects: 0.390400 ms CreateObjectMapping: 0.189100 ms MarkObjects: 2.604700 ms  DeleteObjects: 0.096400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 337.551544 seconds.
-  path: Assets/Animation/cut.anim
-  artifactKey: Guid(ca456583e284404409f546c2cdb80f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/cut.anim using Guid(ca456583e284404409f546c2cdb80f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9be134f079e158f831110d59b090c64') in 0.048811 seconds
-  Import took 0.051896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.466886 seconds.
-  path: Assets/Animation/Idle.anim
-  artifactKey: Guid(d14729f33673de54da4f9f4d686bf7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Idle.anim using Guid(d14729f33673de54da4f9f4d686bf7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ac693734a8b3ec413cf42f7fef9bdf') in 0.008451 seconds
-  Import took 0.011034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.502794 seconds.
-  path: Assets/Animation/moveCharacter.anim
-  artifactKey: Guid(c4f6694d087705c49a8e825eef661e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/moveCharacter.anim using Guid(c4f6694d087705c49a8e825eef661e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7078448c246182add13c462abe7fb34') in 0.009674 seconds
-  Import took 0.014753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002978 seconds.
-  path: Assets/Animation/moveCharacter.anim
-  artifactKey: Guid(c4f6694d087705c49a8e825eef661e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/moveCharacter.anim using Guid(c4f6694d087705c49a8e825eef661e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7078448c246182add13c462abe7fb34') in 0.005679 seconds
-  Import took 0.009839 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1650.
+Total: 3.004100 ms (FindLiveObjects: 0.153000 ms CreateObjectMapping: 0.151600 ms MarkObjects: 2.590400 ms  DeleteObjects: 0.107200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.111585 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.113 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.0 MB.
-System memory in use after: 82.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1650.
-Total: 1.769100 ms (FindLiveObjects: 0.179700 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.461700 ms  DeleteObjects: 0.088300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000601 seconds.
+Registered in 0.000616 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
@@ -489,1169 +777,133 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.917 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.0 MB.
-System memory in use after: 82.0 MB.
+System memory in use before: 82.6 MB.
+System memory in use after: 82.7 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1653.
-Total: 2.203000 ms (FindLiveObjects: 0.274400 ms CreateObjectMapping: 0.073500 ms MarkObjects: 1.719800 ms  DeleteObjects: 0.134100 ms)
+Total: 3.263700 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.051700 ms MarkObjects: 2.896400 ms  DeleteObjects: 0.094000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001653 seconds.
+Registered in 0.000569 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.787 seconds
+- Completed reload, in  1.064 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.0 MB.
-System memory in use after: 82.0 MB.
+System memory in use before: 82.6 MB.
+System memory in use after: 82.7 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1656.
-Total: 2.408200 ms (FindLiveObjects: 0.200500 ms CreateObjectMapping: 0.047500 ms MarkObjects: 1.875900 ms  DeleteObjects: 0.282400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 586.463406 seconds.
-  path: Assets/Prefabs/cheffOutput.prefab
-  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee265e5de57015e6bf8c32d9c981578') in 0.127584 seconds
-  Import took 0.132190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.849090 seconds.
-  path: Assets/Prefabs/cheffOutput.prefab
-  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e26111caa50c75f335e128509ddc351') in 0.021494 seconds
-  Import took 0.025271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.791603 seconds.
-  path: Assets/Prefabs/cheffOutput.prefab
-  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0469b91f40ab99361bb755d9a59e4f0c') in 0.016366 seconds
-  Import took 0.019303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.275783 seconds.
-  path: Assets/Prefabs/cheffOutput.prefab
-  artifactKey: Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/cheffOutput.prefab using Guid(582882383cc23fa46ad277d959f4b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea215d7ef373441e36a01caeb31d8fa5') in 0.015310 seconds
-  Import took 0.017818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.755580 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d56009d965a10fa89949def8b62dcc') in 0.078769 seconds
-  Import took 0.081507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030737 seconds.
-  path: Assets/Prefabs/Tools/Knife.prefab
-  artifactKey: Guid(9971792cdcae85547b6735010c83c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/Knife.prefab using Guid(9971792cdcae85547b6735010c83c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ab98e1487adee5942fb2088eb4ec80') in 0.056742 seconds
-  Import took 0.060844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004122 seconds.
-  path: Assets/Prefabs/Tools/Knife.prefab
-  artifactKey: Guid(9971792cdcae85547b6735010c83c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/Knife.prefab using Guid(9971792cdcae85547b6735010c83c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ab98e1487adee5942fb2088eb4ec80') in 0.017822 seconds
-  Import took 0.020886 seconds .
+Total: 2.436900 ms (FindLiveObjects: 0.140400 ms CreateObjectMapping: 0.037500 ms MarkObjects: 2.157600 ms  DeleteObjects: 0.099900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000779 seconds.
+Registered in 0.000655 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.850 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.0 MB.
-System memory in use after: 82.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1660.
-Total: 2.300500 ms (FindLiveObjects: 0.405000 ms CreateObjectMapping: 0.125100 ms MarkObjects: 1.666000 ms  DeleteObjects: 0.103200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.113020 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5635cf8318414a45bce5227c7247491f') in 0.110368 seconds
-  Import took 0.113107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 121.673652 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5ff87972d741f223086ac06183567c') in 0.022994 seconds
-  Import took 0.026753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.285614 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002e815fedb561c9f501ed67ad84a55d') in 0.017557 seconds
-  Import took 0.021868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.594132 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef6e4a4a76e1c100e1b34d979a30e0d') in 0.016268 seconds
-  Import took 0.018736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.531631 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f583c0332abfd2cb860af3f0adaa85e') in 0.022283 seconds
-  Import took 0.025354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.984296 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7149f595afeef18a267828a53772cfbf') in 0.018632 seconds
-  Import took 0.021996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.381116 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04785bae9195a2aa1b37abdfb8d4407a') in 0.024080 seconds
-  Import took 0.028044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.280521 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5826db473bded0209ca5abdaf651c19a') in 0.038046 seconds
-  Import took 0.042461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.611813 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96b91a3d5f3770d81c907224840af3b') in 0.024819 seconds
-  Import took 0.029657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.614921 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85411d9a33454d483657262832dabb9') in 0.027399 seconds
-  Import took 0.032089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.975864 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14ccddfe50dab6805b3cf7702b51bfc') in 0.016524 seconds
-  Import took 0.019786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.784907 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ea7a6f6cb9911e4fccc915f6488546') in 0.020636 seconds
-  Import took 0.024146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.252988 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e804a28ad1821ec955819fcfee18d4fa') in 0.034226 seconds
-  Import took 0.037328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.872424 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e24d9b13f4d5af6c194eaa072a762e4') in 0.025421 seconds
-  Import took 0.028577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.412397 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bfd7f6f418de63eabe3366b4aa10f6') in 0.021230 seconds
-  Import took 0.025116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.051204 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0d28356d3d2648705df50ecb37120c') in 0.015367 seconds
-  Import took 0.018352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.498288 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78e13a6b86ccc433a4bd345751dff19') in 0.023386 seconds
-  Import took 0.028096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.527523 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717c3eaf638d3e72d657f76eda944c89') in 0.018072 seconds
-  Import took 0.020784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.100171 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400dd2faa2a8b3477c23eaad1b964605') in 0.031899 seconds
-  Import took 0.034835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.373878 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c0452272e12d1061d235b55c4b0fb6') in 0.037004 seconds
-  Import took 0.044351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.198047 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397cb6c223ba269d0ad788ccefb5e669') in 0.046159 seconds
-  Import took 0.049262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.304085 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28df9a9145661354a1ae191ff47ef20f') in 0.023823 seconds
-  Import took 0.026997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.059335 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221d36d9e4ae21602c565950dfb1782d') in 0.020860 seconds
-  Import took 0.026814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.070698 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099fa858f54831874da8cd81a8da7d97') in 0.016798 seconds
-  Import took 0.020255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.290740 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd53f691b198b3887002de92062a09f8') in 0.019223 seconds
-  Import took 0.023792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.524017 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ec02e6d86206f95500e127521679dd') in 0.028650 seconds
-  Import took 0.033000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.070854 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675224176bbb378edfedfbbe4a804dcd') in 0.023546 seconds
-  Import took 0.027260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.153729 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cec112cd64ec1680a65094f839cad9') in 0.025668 seconds
-  Import took 0.030033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.744371 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdee4a01981fbb02a446b12808d88144') in 0.015397 seconds
-  Import took 0.019253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.039150 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe296205c30d0d977f55d1f289ebbd1c') in 0.041959 seconds
-  Import took 0.046714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.501962 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7aafca02e9b514b215e9532cf3bcd8') in 0.014364 seconds
-  Import took 0.018234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.815553 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b241b841832f5072f2b12c2850cc4e') in 0.048312 seconds
-  Import took 0.053188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.982194 seconds.
-  path: Assets/Prefabs/Tools/cutting board.prefab
-  artifactKey: Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/cutting board.prefab using Guid(f5bdb06313b4916468099daa036b37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ba7799acceedc93f4e7b6a444f4102') in 0.015495 seconds
-  Import took 0.019438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.053639 seconds.
-  path: Assets/Models/cheffOutput.dae
-  artifactKey: Guid(2960554ceb690324c8c6a2cfc8882b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/cheffOutput.dae using Guid(2960554ceb690324c8c6a2cfc8882b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580b7f5bc49fa0b0be4a3a958cdfa2d9') in 0.293426 seconds
-  Import took 0.296371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.006352 seconds.
-  path: Assets/Prefabs/Tools/oven.prefab
-  artifactKey: Guid(8de72354a6a1ec849abd9d5d1983633a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tools/oven.prefab using Guid(8de72354a6a1ec849abd9d5d1983633a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f5e3545765dbda4bd28bab70b93339') in 0.049307 seconds
-  Import took 0.052782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.532717 seconds.
-  path: Assets/Scripts/cookingOven.cs
-  artifactKey: Guid(e1f7ae9233077c14db3e8ae0f9f4fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/cookingOven.cs using Guid(e1f7ae9233077c14db3e8ae0f9f4fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74783d1cb29265913a6a0eaae8c9bf7') in 0.022716 seconds
-  Import took 0.025392 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000731 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.944 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.4 MB.
-System memory in use after: 82.5 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1700.
-Total: 1.710000 ms (FindLiveObjects: 0.188200 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.376700 ms  DeleteObjects: 0.104900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 145.940902 seconds.
-  path: Assets/Scripts/cookingOven.cs
-  artifactKey: Guid(e1f7ae9233077c14db3e8ae0f9f4fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/cookingOven.cs using Guid(e1f7ae9233077c14db3e8ae0f9f4fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cdd246eb39a16db946002a039809fc') in 0.007431 seconds
-  Import took 0.009613 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002690 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.932 seconds
+- Completed reload, in  1.099 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.4 MB.
-System memory in use after: 82.5 MB.
+System memory in use before: 82.6 MB.
+System memory in use after: 82.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1703.
-Total: 5.074500 ms (FindLiveObjects: 0.865500 ms CreateObjectMapping: 0.108400 ms MarkObjects: 4.006700 ms  DeleteObjects: 0.092100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000604 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.976 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.4 MB.
-System memory in use after: 82.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1706.
-Total: 1.758700 ms (FindLiveObjects: 0.179000 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.441400 ms  DeleteObjects: 0.091800 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1659.
+Total: 1.678900 ms (FindLiveObjects: 0.145100 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.402200 ms  DeleteObjects: 0.087500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001089 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.057 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.5 MB.
-System memory in use after: 82.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1709.
-Total: 3.177900 ms (FindLiveObjects: 0.169000 ms CreateObjectMapping: 0.044200 ms MarkObjects: 2.860900 ms  DeleteObjects: 0.101800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1634.876570 seconds.
-  path: Assets/Texture/arms.png
-  artifactKey: Guid(757e41ded8881b24f8f711c30cdfd19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/arms.png using Guid(757e41ded8881b24f8f711c30cdfd19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2858bb8db6f8823b88dbdd846249a0') in 0.427405 seconds
-  Import took 0.436084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Texture/knife.png
-  artifactKey: Guid(dc9bae44fb893d3498467c6bc2177ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/knife.png using Guid(dc9bae44fb893d3498467c6bc2177ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc1c0c8e9d22f58bb6f692281d8d167') in 0.081825 seconds
-  Import took 0.089876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000532 seconds.
-  path: Assets/Texture/bin.png
-  artifactKey: Guid(d441ee99a8ad96740b6f90c096810533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/bin.png using Guid(d441ee99a8ad96740b6f90c096810533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c37c72d0df46eb0d603778a3308bf6') in 0.078938 seconds
-  Import took 0.083354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Texture/CompleteFishTomatoPotato.png
-  artifactKey: Guid(e7c25424d9504844ab2ac3b34aafd42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/CompleteFishTomatoPotato.png using Guid(e7c25424d9504844ab2ac3b34aafd42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa28c405e98383658020b9bfcf8c4b7d') in 0.095413 seconds
-  Import took 0.098979 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Texture/BreadAndBurgerAndCucumber.png
-  artifactKey: Guid(6286ae3c5e5162744be631a931fb6864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/BreadAndBurgerAndCucumber.png using Guid(6286ae3c5e5162744be631a931fb6864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7c9856f6bac282bb1a1e3e1c0ed58f') in 0.062277 seconds
-  Import took 0.065729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Texture/generatorCucumber.png
-  artifactKey: Guid(19d0be36266ab1244a86cf81d9a1d8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/generatorCucumber.png using Guid(19d0be36266ab1244a86cf81d9a1d8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b3a9f843bb1d43db5fb0e1ce0cede2') in 0.039052 seconds
-  Import took 0.042972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Texture/BreadAndCucumber.png
-  artifactKey: Guid(9de02bdd052cb054a96888cacd0b947a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/BreadAndCucumber.png using Guid(9de02bdd052cb054a96888cacd0b947a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8c6c6fb149a56fd5011f2eeb9493a5') in 0.066980 seconds
-  Import took 0.072797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Texture/BlenderTomato.png
-  artifactKey: Guid(f1c96910cc00e9240962b3d2bb76a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/BlenderTomato.png using Guid(f1c96910cc00e9240962b3d2bb76a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77fad8e75ab6d920f9f623bbb3a2bf6') in 0.084150 seconds
-  Import took 0.090623 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Texture/Meat.png
-  artifactKey: Guid(a67235e2e98e12743827f4e06a660cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Meat.png using Guid(a67235e2e98e12743827f4e06a660cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d319b9f2cc04f1eadfcdf6458e3bdf5') in 0.053192 seconds
-  Import took 0.059240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Texture/Cheese.png
-  artifactKey: Guid(2779e627f0da34b4fa7c4c0b39872579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Cheese.png using Guid(2779e627f0da34b4fa7c4c0b39872579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba983e0c96c622ecf33fdcc36059f950') in 0.042975 seconds
-  Import took 0.046451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Texture/BreadAndTomatoSauce.png
-  artifactKey: Guid(dbaac2e3124832b42b06c649237a1cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/BreadAndTomatoSauce.png using Guid(dbaac2e3124832b42b06c649237a1cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee03b63fe66c83ff450f5aef835be1d') in 0.052740 seconds
-  Import took 0.057495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Texture/CookedMeat.png
-  artifactKey: Guid(d4f76c35084f13b4980f8fab3fc94f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/CookedMeat.png using Guid(d4f76c35084f13b4980f8fab3fc94f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05663fa708dac57c2ae2ec1f1f60bca') in 0.035182 seconds
-  Import took 0.039174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000724 seconds.
-  path: Assets/Texture/MeatAndCucumber.png
-  artifactKey: Guid(938d1b365a824044fa21c238a1293801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/MeatAndCucumber.png using Guid(938d1b365a824044fa21c238a1293801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf638767642ee45246ed908b0e78d84') in 0.080009 seconds
-  Import took 0.086430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Texture/Burned.png
-  artifactKey: Guid(4efd1e3236863664b90910359aaffad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Burned.png using Guid(4efd1e3236863664b90910359aaffad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2016df1b1a5ca248af59f77f66d482') in 0.048381 seconds
-  Import took 0.050655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Texture/Cucumber.png
-  artifactKey: Guid(c5779d6d251dcd44bbee579abb2c69ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Cucumber.png using Guid(c5779d6d251dcd44bbee579abb2c69ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36676c08b0a6f2e6ff7e6ba039df103') in 0.026472 seconds
-  Import took 0.029955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Texture/CookedFish.png
-  artifactKey: Guid(8426aaadcca585e48b4a054164239e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/CookedFish.png using Guid(8426aaadcca585e48b4a054164239e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f405eadbbb612dc0185e4022335fbeb8') in 0.045750 seconds
-  Import took 0.048020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Texture/FishAndTomato.png
-  artifactKey: Guid(bd038172b65c9e44c9bac04abc807080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/FishAndTomato.png using Guid(bd038172b65c9e44c9bac04abc807080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8d0b5f8b52b2f06d47d47080c5e8f5') in 0.030312 seconds
-  Import took 0.032837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Texture/cutting board.png
-  artifactKey: Guid(6bf77c3c16b4bac4cba77bb5a1383604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/cutting board.png using Guid(6bf77c3c16b4bac4cba77bb5a1383604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18c189ee4a0cc7a99c388cb4ae068ff') in 0.009652 seconds
-  Import took 0.019061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Texture/generatorMeat.png
-  artifactKey: Guid(8e2436c84611519478901e995ef4cf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/generatorMeat.png using Guid(8e2436c84611519478901e995ef4cf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae62510778b67f6e1f5ebfb6425df107') in 0.032674 seconds
-  Import took 0.035449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Texture/furniture.png
-  artifactKey: Guid(5bd1ee9873a727742951dbbae671e8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/furniture.png using Guid(5bd1ee9873a727742951dbbae671e8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d3993a8324760bd36b8c752b1ba98b') in 0.024420 seconds
-  Import took 0.028376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Texture/Materials/BlenderBread.mat
-  artifactKey: Guid(36cfb110aea673348980db8adf9d9d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Materials/BlenderBread.mat using Guid(36cfb110aea673348980db8adf9d9d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2017d6dc39cf880fcca8dcf2ee6ff20') in 0.082331 seconds
-  Import took 0.086328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Texture/Materials/fire stand.mat
-  artifactKey: Guid(92bd5a23028465d4fbd6d564233ad71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Materials/fire stand.mat using Guid(92bd5a23028465d4fbd6d564233ad71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd076df82ee2b91f5a2a3b2432f594c46') in 0.050973 seconds
-  Import took 0.054019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Texture/BreadAndCheese.png
-  artifactKey: Guid(53c115eef96b76a42a0868542e58dbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/BreadAndCheese.png using Guid(53c115eef96b76a42a0868542e58dbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d7978c89b50246f3bd8c04b04bb99e') in 0.119399 seconds
-  Import took 0.131269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Texture/BreadAndBurgerAndCheese.png
-  artifactKey: Guid(537fb4710970b8b4f841c4b156039f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/BreadAndBurgerAndCheese.png using Guid(537fb4710970b8b4f841c4b156039f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfaeab0f651e5a6e45afee9929a2f3a0') in 0.078081 seconds
-  Import took 0.082370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Texture/CheeseAndTomatoSauce.png
-  artifactKey: Guid(50f2b819eda9c2e4a8d7b14bc4dc5dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/CheeseAndTomatoSauce.png using Guid(50f2b819eda9c2e4a8d7b14bc4dc5dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a811514996e708001b2dbad6ebc26c7f') in 0.048695 seconds
-  Import took 0.050795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Texture/Materials/CookedFish.mat
-  artifactKey: Guid(910204940da4ee240879fc9806f208d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Materials/CookedFish.mat using Guid(910204940da4ee240879fc9806f208d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8739c61c62a31c458057429c5a1a9261') in 0.183504 seconds
-  Import took 0.211714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Texture/BlenderBread.png
-  artifactKey: Guid(d37b10cf8a2959a41a805b7569565bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/BlenderBread.png using Guid(d37b10cf8a2959a41a805b7569565bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ecdc43600f13857f1ff0d0d0c53973') in 0.224643 seconds
-  Import took 0.231242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Texture/BreadAndFish.png
-  artifactKey: Guid(7816a756765bf3849890100b36116b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/BreadAndFish.png using Guid(7816a756765bf3849890100b36116b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da40617d07fac2fa6b1201c4312cf18') in 0.127310 seconds
-  Import took 0.129804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Texture/FishPotatoAndTomatoSauceobj.png
-  artifactKey: Guid(7ed0fb1f334fa4d45a5eb984e160a05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/FishPotatoAndTomatoSauceobj.png using Guid(7ed0fb1f334fa4d45a5eb984e160a05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66b0e17f057a7c6f8e03089353d323b') in 0.046603 seconds
-  Import took 0.051340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Texture/MeatAndCheese.png
-  artifactKey: Guid(289c5d9e48d3c9c46aaa1a912163fc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/MeatAndCheese.png using Guid(289c5d9e48d3c9c46aaa1a912163fc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b87bfe57006edcffa5e58eb297950b') in 0.045599 seconds
-  Import took 0.048389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Texture/generatorFish.png
-  artifactKey: Guid(27476343d1ecda44ca3c135d45e1d9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/generatorFish.png using Guid(27476343d1ecda44ca3c135d45e1d9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2568352c0161684147b60146537d2e2d') in 0.039058 seconds
-  Import took 0.042235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Texture/fire stand.png
-  artifactKey: Guid(444efa7d462dfa545a5e61d3251e4f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/fire stand.png using Guid(444efa7d462dfa545a5e61d3251e4f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fc4cc7052ed8f0af482d6f104e4535') in 0.026980 seconds
-  Import took 0.032690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Texture/generatorBread.png
-  artifactKey: Guid(f34a2d3ae7f09784faa1e983b3011fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/generatorBread.png using Guid(f34a2d3ae7f09784faa1e983b3011fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52d83afe7429e1ffed0eef69704855c') in 0.029614 seconds
-  Import took 0.032116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Texture/blender.png
-  artifactKey: Guid(31f1900f5eb26f143bc38c1d7fada072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/blender.png using Guid(31f1900f5eb26f143bc38c1d7fada072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4a9ee25912b7893bef48ceaf4e1d85') in 0.032882 seconds
-  Import took 0.038180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Texture/Bread.png
-  artifactKey: Guid(da7a600020648104ea9ec0ac2fe1ad9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Bread.png using Guid(da7a600020648104ea9ec0ac2fe1ad9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb6128f4f65c836a043f137ec4152eb') in 0.026545 seconds
-  Import took 0.029191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Texture/oven.png
-  artifactKey: Guid(3100d0b9f6a759d4d984d42f9dc3a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/oven.png using Guid(3100d0b9f6a759d4d984d42f9dc3a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d03fd5c14cf3619b1a0e402a14b430c') in 0.017982 seconds
-  Import took 0.020650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Texture/pan.png
-  artifactKey: Guid(104308fb0876f7341bdb5346a9cb838d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/pan.png using Guid(104308fb0876f7341bdb5346a9cb838d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73082efb97e0491edc0e7da242f0d4f1') in 0.020235 seconds
-  Import took 0.022828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Texture/CookedBread.png
-  artifactKey: Guid(bce8dcf0850076e4eacb0238087fd087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/CookedBread.png using Guid(bce8dcf0850076e4eacb0238087fd087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50735f1148e1f8477d4479d3f4d5559') in 0.045086 seconds
-  Import took 0.048002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Texture/MeatAndCheeseAndCucumber.png
-  artifactKey: Guid(a909d827c8fa530459786621ed3da834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/MeatAndCheeseAndCucumber.png using Guid(a909d827c8fa530459786621ed3da834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8708fa9f9e7f26a6d06b650a2086d0') in 0.049769 seconds
-  Import took 0.052161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Texture/Gazpacho.png
-  artifactKey: Guid(5a5f6c1549e1c744fac07c01e69ff406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Gazpacho.png using Guid(5a5f6c1549e1c744fac07c01e69ff406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450707640f94f2a675604a5ea472696a') in 0.066758 seconds
-  Import took 0.070820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Texture/FishAndTomatoSauce.png
-  artifactKey: Guid(0ff65ad6a30ab3548a3fa2c92c67a43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/FishAndTomatoSauce.png using Guid(0ff65ad6a30ab3548a3fa2c92c67a43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407fcc3127cd5110d3c5da2541b23f5b') in 0.023995 seconds
-  Import took 0.028254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Texture/arms.png
-  artifactKey: Guid(757e41ded8881b24f8f711c30cdfd19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/arms.png using Guid(757e41ded8881b24f8f711c30cdfd19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2858bb8db6f8823b88dbdd846249a0') in 0.011502 seconds
-  Import took 0.014487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Texture/MeatAndChips.png
-  artifactKey: Guid(eb9d51f1ba461914b88b1a1f54132cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/MeatAndChips.png using Guid(eb9d51f1ba461914b88b1a1f54132cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f1dfa765798e69cc5427c580034967') in 0.040262 seconds
-  Import took 0.043407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Texture/BreadAndTomato.png
-  artifactKey: Guid(96cf940f74230ba4198c700ca9b68fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/BreadAndTomato.png using Guid(96cf940f74230ba4198c700ca9b68fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74df2bbaf82800e881fd886040f32973') in 0.043092 seconds
-  Import took 0.048510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Texture/generatorCheese.png
-  artifactKey: Guid(c9630c8817d654746bc582d408dfdef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/generatorCheese.png using Guid(c9630c8817d654746bc582d408dfdef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63fcfbf10173b30566d6305b5ff00ed') in 0.044435 seconds
-  Import took 0.047160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Texture/Materials
-  artifactKey: Guid(05136410722f4704b81bdeec44aa316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Materials using Guid(05136410722f4704b81bdeec44aa316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bc4bd3e18e23d765c3d50f6e7116f2') in 0.012006 seconds
-  Import took 0.014331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Texture/Materials/CookedPotato.mat
-  artifactKey: Guid(c8751676f67ee8e48a7ceda1157ee0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Materials/CookedPotato.mat using Guid(c8751676f67ee8e48a7ceda1157ee0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eff192ab70245a4b90c934ef6a988ef') in 0.063796 seconds
-  Import took 0.066683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Texture/fire extinguisher.png
-  artifactKey: Guid(4a3f710f5fccc1149a9756130657a4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/fire extinguisher.png using Guid(4a3f710f5fccc1149a9756130657a4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48697b43b690ae029d48d6ad9c90b4b5') in 0.028409 seconds
-  Import took 0.031673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Texture/Materials/BlenderTomato.mat
-  artifactKey: Guid(3b4f3a2b4ecb45346a33a38c16bef36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Materials/BlenderTomato.mat using Guid(3b4f3a2b4ecb45346a33a38c16bef36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fd42b4aa6ba15e008ff3b4018a9339') in 0.048126 seconds
-  Import took 0.050729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Texture/FishAndPotato.png
-  artifactKey: Guid(5cd3ca2aa50b49d4a83a400aefeb5267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/FishAndPotato.png using Guid(5cd3ca2aa50b49d4a83a400aefeb5267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84851f5b09c37fa68266f8d65d59e6d6') in 0.154849 seconds
-  Import took 0.160143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Texture/BreadAndCucumberAndCheese.png
-  artifactKey: Guid(a26c679ef95e23840a6bd4abcab0e398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/BreadAndCucumberAndCheese.png using Guid(a26c679ef95e23840a6bd4abcab0e398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96db017bc0bac77983e6f24347a1ad2') in 0.068383 seconds
-  Import took 0.074744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Texture/chef.png
-  artifactKey: Guid(767a764a29acec74d8370695f9da57f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/chef.png using Guid(767a764a29acec74d8370695f9da57f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de08f3f52157bc67bf993f1d9c95c68') in 0.041639 seconds
-  Import took 0.044750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001704 seconds.
-  path: Assets/Texture/CheeseAndCucumber.png
-  artifactKey: Guid(2794bb18d91c01642a06f61587b2bedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/CheeseAndCucumber.png using Guid(2794bb18d91c01642a06f61587b2bedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75750e233db27fc55c0323f22f20f6a6') in 0.065148 seconds
-  Import took 0.073653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Texture/CompleteFishBurger.png
-  artifactKey: Guid(5115b25e8690efc4aaf0d87ca7aa2e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/CompleteFishBurger.png using Guid(5115b25e8690efc4aaf0d87ca7aa2e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d172b59b62cc4180f7340a6f57ccf09') in 0.066907 seconds
-  Import took 0.071814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Texture/generatorTomato.png
-  artifactKey: Guid(f5e2145bd53c056479597c89b637e7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/generatorTomato.png using Guid(f5e2145bd53c056479597c89b637e7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbe7f7dcde4543ebefc8d15097a1199') in 0.060758 seconds
-  Import took 0.065769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Texture/generatorPotato.png
-  artifactKey: Guid(0148ab0e86f36a24ca5ca054e89fe599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/generatorPotato.png using Guid(0148ab0e86f36a24ca5ca054e89fe599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd9a8e3cb1d09eb586c9ddb77ae73f5') in 0.091847 seconds
-  Import took 0.099618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000461 seconds.
-  path: Assets/Texture/leftArm.png
-  artifactKey: Guid(f80b2e13cf3f99040bd253470ff59a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/leftArm.png using Guid(f80b2e13cf3f99040bd253470ff59a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025630836e244d2761ddc74740bd81f3') in 0.034330 seconds
-  Import took 0.038002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Texture/Materials/chef.mat
-  artifactKey: Guid(cce8ec53f15a8c8448946852880e1a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Materials/chef.mat using Guid(cce8ec53f15a8c8448946852880e1a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a39eaf672299229e5073774039859d') in 0.033001 seconds
-  Import took 0.047299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Texture/BreadAndTomatoSauceAndCheese.png
-  artifactKey: Guid(19503daf9bb6f7441b79b6eba19dba31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/BreadAndTomatoSauceAndCheese.png using Guid(19503daf9bb6f7441b79b6eba19dba31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f342fd9f526d58e55e18835c6523406c') in 0.041105 seconds
-  Import took 0.045126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Texture/CompleteBurger.png
-  artifactKey: Guid(96bb3adf461b0ab4b8be6ca24756ca6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/CompleteBurger.png using Guid(96bb3adf461b0ab4b8be6ca24756ca6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddc04d69efdfe89f2183f35b7c3b5bf') in 0.042542 seconds
-  Import took 0.049835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Texture/BreadAndBurger.png
-  artifactKey: Guid(ea7bb91bac3e7154d8b3c919e7551353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/BreadAndBurger.png using Guid(ea7bb91bac3e7154d8b3c919e7551353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8aae0682b2257c116a5ce274695cba') in 0.038169 seconds
-  Import took 0.041715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Texture/BlenderCucumber.png
-  artifactKey: Guid(e54bdc598b571b846b46f538199c2a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/BlenderCucumber.png using Guid(e54bdc598b571b846b46f538199c2a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a8380f2d65ac9b4031e192d0debb02') in 0.035807 seconds
-  Import took 0.039584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Texture/CookedPotato.png
-  artifactKey: Guid(18c1dab402c798644a0d58b5b1c6c15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/CookedPotato.png using Guid(18c1dab402c798644a0d58b5b1c6c15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a4eecabef68249829802e1a5293cc8') in 0.011601 seconds
-  Import took 0.015255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Texture/Fish.png
-  artifactKey: Guid(1740dc2491bcba8479661845256bbcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Fish.png using Guid(1740dc2491bcba8479661845256bbcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c852207737a088b1c9b50fc29974cf9c') in 0.032941 seconds
-  Import took 0.035739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.130531 seconds.
-  path: Assets/Texture/Panini.png
-  artifactKey: Guid(ff50d0efe62deb542af4a76d5a883377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Panini.png using Guid(ff50d0efe62deb542af4a76d5a883377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0bcf1421e9d811099f01b54b4ebe42') in 0.161865 seconds
-  Import took 0.168073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Texture/SlicedMeat.png
-  artifactKey: Guid(5c8018772a7b15a428044220fa7264fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SlicedMeat.png using Guid(5c8018772a7b15a428044220fa7264fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08749ce39a250afc2ecd6e22f25a53e3') in 0.052370 seconds
-  Import took 0.056458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/Texture/SlicedCucumber-0.png
-  artifactKey: Guid(57eaa52a5282a214ca5648d556f44c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SlicedCucumber-0.png using Guid(57eaa52a5282a214ca5648d556f44c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7476748b213445c446f26c79fb861a6c') in 0.054067 seconds
-  Import took 0.056659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Texture/SlicedPotato.png
-  artifactKey: Guid(59daa9032dd5bf144a9e5a71f9dd57d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SlicedPotato.png using Guid(59daa9032dd5bf144a9e5a71f9dd57d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b20abfdeb9ac2015f065d966b2ee8f') in 0.046962 seconds
-  Import took 0.051746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Texture/vitro.png
-  artifactKey: Guid(3f75a54206e86c54a9e4191c3a7f2d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/vitro.png using Guid(3f75a54206e86c54a9e4191c3a7f2d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c8fc49c34319286345f9ac2fde9839') in 0.054713 seconds
-  Import took 0.060208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000921 seconds.
-  path: Assets/Texture/rightArm.png
-  artifactKey: Guid(0367b7d9f491e594caf56ebb64fbc8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/rightArm.png using Guid(0367b7d9f491e594caf56ebb64fbc8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc51e96f720924fd4205bae746d193c') in 0.029434 seconds
-  Import took 0.034505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Texture/SlicedCheese.png
-  artifactKey: Guid(d2a7d5df5cb07554d954b7b39e8cfa6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SlicedCheese.png using Guid(d2a7d5df5cb07554d954b7b39e8cfa6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a589b0f599e9e7de2a48c13623a2f7') in 0.154523 seconds
-  Import took 0.160006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Texture/SlicedTomato.png
-  artifactKey: Guid(cc633bf05b4066a4dac842cca204717f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SlicedTomato.png using Guid(cc633bf05b4066a4dac842cca204717f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a8474d8f6c178d1ebc09b38057e139') in 0.038555 seconds
-  Import took 0.047281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Texture/Tomato3.0.png
-  artifactKey: Guid(39dc588a7a5fc1b46adab350d4e52fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Tomato3.0.png using Guid(39dc588a7a5fc1b46adab350d4e52fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158cd7354b79abebd482e38324114a1a') in 0.027463 seconds
-  Import took 0.029984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Texture/SlicedBread.png
-  artifactKey: Guid(589054653ee5da046966c9beec5280a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SlicedBread.png using Guid(589054653ee5da046966c9beec5280a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c55e1880020f737f744bee3aa31ce1') in 0.029982 seconds
-  Import took 0.032465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Texture/Potato.png
-  artifactKey: Guid(063401c43c4df4c48a47d078af3f903f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/Potato.png using Guid(063401c43c4df4c48a47d078af3f903f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6750c0f0b6917fa43cadd7d8bee29c0') in 0.032258 seconds
-  Import took 0.037151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Texture/TomatoMeatballs.png
-  artifactKey: Guid(715666c5fb42edd4099a85c1a1090a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/TomatoMeatballs.png using Guid(715666c5fb42edd4099a85c1a1090a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd4278c4363ccdf35f9c125f38331c3') in 0.035132 seconds
-  Import took 0.038515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Texture/smoke.png
-  artifactKey: Guid(bf09af1ee6f47ff42b8ef442299548be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/smoke.png using Guid(bf09af1ee6f47ff42b8ef442299548be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8090de34650268397cac6f072bed94f') in 0.037946 seconds
-  Import took 0.040199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Texture/SlicedFish.png
-  artifactKey: Guid(40728cc59702f93449e0b1005f252a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SlicedFish.png using Guid(40728cc59702f93449e0b1005f252a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4551afacee74bfb03204331fb8267561') in 0.033272 seconds
-  Import took 0.039554 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000612 seconds.
+Registered in 0.000562 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.034 seconds
+- Completed reload, in  0.872 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.5 MB.
-System memory in use after: 82.6 MB.
+System memory in use before: 82.7 MB.
+System memory in use after: 82.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1715.
-Total: 1.849800 ms (FindLiveObjects: 0.152900 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.482800 ms  DeleteObjects: 0.170800 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1662.
+Total: 3.993900 ms (FindLiveObjects: 0.161600 ms CreateObjectMapping: 0.049300 ms MarkObjects: 3.602000 ms  DeleteObjects: 0.179400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000607 seconds.
+Registered in 0.000830 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.914 seconds
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.7 MB.
+System memory in use after: 82.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1665.
+Total: 1.754500 ms (FindLiveObjects: 0.136400 ms CreateObjectMapping: 0.043700 ms MarkObjects: 1.431700 ms  DeleteObjects: 0.141000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000621 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.429 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.5 MB.
-System memory in use after: 82.6 MB.
+System memory in use before: 82.7 MB.
+System memory in use after: 82.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1718.
-Total: 2.208300 ms (FindLiveObjects: 0.279200 ms CreateObjectMapping: 0.073300 ms MarkObjects: 1.706200 ms  DeleteObjects: 0.146900 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1668.
+Total: 3.638100 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.059500 ms MarkObjects: 3.287500 ms  DeleteObjects: 0.100300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000597 seconds.
+Registered in 0.001449 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.878 seconds
+- Completed reload, in  2.110 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.5 MB.
-System memory in use after: 82.6 MB.
+System memory in use before: 82.7 MB.
+System memory in use after: 82.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1721.
-Total: 2.256100 ms (FindLiveObjects: 0.201700 ms CreateObjectMapping: 0.112200 ms MarkObjects: 1.829200 ms  DeleteObjects: 0.111700 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1671.
+Total: 3.514400 ms (FindLiveObjects: 0.204400 ms CreateObjectMapping: 0.048900 ms MarkObjects: 2.996200 ms  DeleteObjects: 0.262500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -10,6 +10,7 @@ public class cookingPan : MonoBehaviour
     private float cont;
     private bool cooked;
     private bool burned;
+    private GameObject tapa;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class cookingPan : MonoBehaviour
         cooked = false;
         burned = false;
         ps = transform.Find("effects").GetComponent<ParticleSystem>();
+        tapa = transform.Find("tapa").gameObject;
     }
 
     // Update is called once per frame
@@ -27,6 +29,7 @@ public class cookingPan : MonoBehaviour
         cont += Time.deltaTime;
         if(food != null)
         {
+            food.SetActive(false);
             if (food.tag != "Complete" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked)
             {
                 //Debug.Log("jida");
@@ -72,6 +75,7 @@ public class cookingPan : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) && onPan && cont >= 0.5 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
+                food.SetActive(true);
                 food.transform.position = obj.transform.Find("ToPickUp").position;
                 food.transform.eulerAngles = obj.transform.Find("ToPickUp").eulerAngles;
                 food.transform.parent = obj.transform.Find("ToPickUp").transform;
@@ -89,6 +93,7 @@ public class cookingPan : MonoBehaviour
                 var emission = ps.emission;
                 emission.rateOverTime = 30;
                 ps.Stop();
+                tapa.SetActive(false);
             }
             // Debug.Log("Soy Player");
         }
@@ -108,6 +113,7 @@ public class cookingPan : MonoBehaviour
                 food = obj.gameObject;
                 cont = 0;
                 ps.Play();
+                tapa.SetActive(true);
             }
             // Debug.Log("Soy Comida");
         }
