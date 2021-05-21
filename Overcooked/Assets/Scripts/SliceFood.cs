@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class SliceFood : MonoBehaviour
 {
@@ -9,6 +11,7 @@ public class SliceFood : MonoBehaviour
     private float cont;
     private bool full;
     private ParticleSystem ps;
+    public Slider progress;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +19,7 @@ public class SliceFood : MonoBehaviour
         cont = 0;
         full = false;
         ps = transform.GetComponent<ParticleSystem>();
+        progress.gameObject.active = false;
     }
 
     // Update is called once per frame
@@ -40,6 +44,7 @@ public class SliceFood : MonoBehaviour
             knife.transform.position = this.transform.position + new Vector3(-0.25f, 0.7f, 0.1f);
             GameObject.FindWithTag("Player").gameObject.GetComponent<MoveCharacter>().enabled = true;
             ps.Stop();
+            progress.gameObject.active = false;
         }
         //Debug.Log(food);
     }
@@ -67,6 +72,8 @@ public class SliceFood : MonoBehaviour
                 cont = 0;
                 full = true;
                 ps.Play();
+                progress.gameObject.active = true;
+                progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountNext());
             }
         }
         else if (obj.tag == "Player")

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class blendingBlender : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class blendingBlender : MonoBehaviour
     private GameObject food;
     private float cont;
     private bool finish;
+    public Slider progress;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +36,7 @@ public class blendingBlender : MonoBehaviour
             food.GetComponent<pickUpFood>().resetCont();
             food.GetComponent<pickUpFood>().enabled = false;
             food.GetComponent<Rigidbody>().useGravity = false;
+            progress.gameObject.active = false;
         }
         
         //Debug.Log(cont + food.name);
@@ -74,6 +77,8 @@ public class blendingBlender : MonoBehaviour
                 onTable = true;
                 food = obj.gameObject;
                 cont = 0;
+                progress.gameObject.active = true;
+                progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountBlend());
             }
             Debug.Log("Soy Comida");
         }
