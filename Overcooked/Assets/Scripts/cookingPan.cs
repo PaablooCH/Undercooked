@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class cookingPan : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class cookingPan : MonoBehaviour
     private bool cooked;
     private bool burned;
     private GameObject tapa;
+    public Slider progress;
 
     // Start is called before the first frame update
     void Start()
