@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: -7011409753875336647}
   - component: {fileID: -1581337031582363776}
   - component: {fileID: -8509169549273389282}
+  - component: {fileID: 3411571666878963876}
   m_Layer: 0
   m_Name: cheffOutput
   m_TagString: Player
@@ -227,6 +228,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 916a2d880edd637469092cef145d4b0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3411571666878963876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3363646813616988957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: febb1cab91ecf4e81834d41b6268fa6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3733109641974931703

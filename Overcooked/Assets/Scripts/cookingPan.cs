@@ -15,8 +15,7 @@ public class cookingPan : MonoBehaviour
     public Slider progress;
     public Image danger;
     public float dangerCount;
-
-
+    private GodKeys godKeys;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +27,7 @@ public class cookingPan : MonoBehaviour
         burned = false;
         ps = transform.Find("effects").GetComponent<ParticleSystem>();
         tapa = transform.Find("tapa").gameObject;
+        godKeys = GameObject.FindWithTag("Player").GetComponent<GodKeys>();
     }
 
     // Update is called once per frame
@@ -39,7 +39,7 @@ public class cookingPan : MonoBehaviour
         {
             food.SetActive(false);
             if (cooked && dangerCount >= 2.0f && danger.gameObject.active == false) danger.gameObject.active = true;
-            if (food.tag != "Complete" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked)
+            if (food.tag != "Complete" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked && godKeys.getBurned())
             {
                 //Debug.Log("jida");
                 burned = true;
