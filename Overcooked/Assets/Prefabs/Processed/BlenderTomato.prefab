@@ -160,8 +160,9 @@ MonoBehaviour:
   Meat: {fileID: 2881612429535126615, guid: 7238eb891769b21458c6588520662636, type: 3}
   Potato: {fileID: 0}
   TomatoSauce: {fileID: 0}
-  CucumberSauce: {fileID: 0}
+  CucumberSauce: {fileID: 9008382488813054201, guid: 610ecd9003131d24e87bbe8f527dab9a, type: 3}
   BreadPics: {fileID: 0}
   CuttedBread: {fileID: 7977938094164692679, guid: a280f64008fda584c8739795ec7ad934, type: 3}
   CuttedFish: {fileID: 6578870639091908164, guid: 911d66a55a11f754987d860568123c16, type: 3}
   CuttedPotato: {fileID: 8644540932703930575, guid: 8fcd6e5de9fc24a4092f9d28112d5c43, type: 3}
+  Dish: {fileID: 0}

@@ -12,14 +12,21 @@ public class gameManager : MonoBehaviour
     public GameObject panelCredits;
     public GameObject panelLevelComplete;
 
+
     public Text Recipes;
 
     public GameObject[] levels;
 
+    public GameObject[] lvl1recipes;
+
+    public GameObject[] lvl2recipes;
+
     public static gameManager Instance { get; private set; }
-    public enum State { MENU, LVLS, INST, CREDITS, INIT, PLAY, LEVELCOMPLETED, LOADLEVEL, GAMEOVER }
+    public enum State { MENU, LVLS, INST, CREDITS, INIT, PLAY, LEVELCOMPLETED, LOADLEVEL, GAMEOVER, NEXT_RECIPE }
     State _state;
     GameObject _currentLevel;
+    GameObject _currentRecipe;
+    GameObject[] currentlvlrecipes;
     bool _isSwitching;
 
     private int _levels;
@@ -31,6 +38,22 @@ public class gameManager : MonoBehaviour
         set { _levels = value; }
     }
 
+    private int _currentRecipes;
+
+    public int CurrentRecipes
+    {
+        get { return _currentRecipes; }
+        set { _currentRecipes = value; }
+    }
+
+
+    private int _lvl1recipes;
+
+    public int Lvl1Recipes
+    {
+        get { return _lvl1recipes; }
+        set { _lvl1recipes = value; }
+    }
 
 
 
@@ -52,6 +75,18 @@ public class gameManager : MonoBehaviour
     public void ClickCredits()
     {
         changeState(State.CREDITS);
+    }
+
+    public bool checkRecipe(GameObject f)
+    {
+        if (f.name == _currentRecipe.name) return true;
+        return false;
+    }
+
+    public void nextRecipe()
+    {
+        ++CurrentRecipes;
+        changeState(State.NEXT_RECIPE);
     }
 
     public void changeState(State newState, float delay = 0)
@@ -88,7 +123,10 @@ public class gameManager : MonoBehaviour
                 break;
             case State.INIT:
                 Levels = 0;
+                CurrentRecipes = 0;
+                currentlvlrecipes = lvl1recipes;
                 panelPlay.SetActive(true);
+                _currentRecipe = Instantiate(lvl1recipes[Lvl1Recipes], panelPlay.transform);
                 changeState(State.LOADLEVEL);
                 break;
             case State.PLAY:
@@ -104,13 +142,33 @@ public class gameManager : MonoBehaviour
                 else
                 {
                     Destroy(_currentLevel);
+                    Destroy(_currentRecipe);
+                    CurrentRecipes = 0;
                     _currentLevel = Instantiate(levels[Levels]);
+                    _currentRecipe = Instantiate(currentlvlrecipes[CurrentRecipes], panelPlay.transform);
                     changeState(State.PLAY);
                 }
                 break;
             case State.GAMEOVER:
                 if (_currentLevel != null) Destroy(_currentLevel);
                 changeState(State.MENU);
+                break;
+            case State.NEXT_RECIPE:
+                if (CurrentRecipes >= currentlvlrecipes.Length)
+                {
+                    ++Levels;
+                    if (Levels == 1) currentlvlrecipes = lvl2recipes;
+                    //if (Levels == 2)
+                    //if (Levels == 3)
+                    //if (Levels == 4)
+                    changeState(State.LOADLEVEL);
+                }
+                else
+                {
+                    Destroy(_currentRecipe);
+                    _currentRecipe = Instantiate(currentlvlrecipes[CurrentRecipes], panelPlay.transform);
+                    changeState(State.PLAY);
+                }
                 break;
         }
     }
@@ -121,6 +179,10 @@ public class gameManager : MonoBehaviour
         if (Input.GetKey(KeyCode.N) && cont >= 0.5)
         {
             ++Levels;
+            if (Levels == 1) currentlvlrecipes = lvl2recipes;
+            //if (Levels == 2)
+            //if (Levels == 3)
+            //if (Levels == 4)
             changeState(State.LOADLEVEL);
             cont = 0;
         }
@@ -157,6 +219,8 @@ public class gameManager : MonoBehaviour
                 break;
             case State.GAMEOVER:
                 panelPlay.SetActive(false);
+                break;
+            case State.NEXT_RECIPE:
                 break;
         }
     }
