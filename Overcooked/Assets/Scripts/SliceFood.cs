@@ -19,7 +19,7 @@ public class SliceFood : MonoBehaviour
         cont = 0;
         full = false;
         ps = transform.GetComponent<ParticleSystem>();
-        progress.gameObject.active = false;
+        progress.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -44,7 +44,7 @@ public class SliceFood : MonoBehaviour
             knife.transform.position = this.transform.position + new Vector3(-0.25f, 0.7f, 0.1f);
             GameObject.FindWithTag("Player").gameObject.GetComponent<MoveCharacter>().enabled = true;
             ps.Stop();
-            progress.gameObject.active = false;
+            progress.gameObject.SetActive(false);
         }
         //Debug.Log(food);
     }
@@ -72,7 +72,7 @@ public class SliceFood : MonoBehaviour
                 cont = 0;
                 full = true;
                 ps.Play();
-                progress.gameObject.active = true;
+                progress.gameObject.SetActive(true);
                 progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountNext());
             }
         }
@@ -86,7 +86,7 @@ public class SliceFood : MonoBehaviour
                 food.GetComponent<pickUpFood>().enabled = true;
                 obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
                 obj.gameObject.GetComponent<MoveCharacter>().holdFood(food);
-                food.gameObject.GetComponent<pickUpFood>().setPlayer(obj.gameObject);
+                food.GetComponent<pickUpFood>().setPlayer(obj.gameObject);
                 food = null;
                 full = false;
                 cont = 0;
@@ -97,5 +97,13 @@ public class SliceFood : MonoBehaviour
     public void noFull()
     {
         full = false;
+    }
+
+    public void finishProcess()
+    {
+        if (food != null)
+        {
+            cont = food.GetComponent<convertInTo>().getCountNext();
+        }
     }
 }

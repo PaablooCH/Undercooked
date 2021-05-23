@@ -4952,7 +4952,7 @@ GameObject:
   - component: {fileID: 7418272742544418780}
   m_Layer: 0
   m_Name: pan
-  m_TagString: Untagged
+  m_TagString: toolPan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

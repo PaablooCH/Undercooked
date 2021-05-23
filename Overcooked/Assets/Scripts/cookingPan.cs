@@ -38,7 +38,7 @@ public class cookingPan : MonoBehaviour
         if(food != null)
         {
             food.SetActive(false);
-            if (cooked && dangerCount >= 2.0f && danger.gameObject.active == false) danger.gameObject.active = true;
+            if (cooked && dangerCount >= 2.0f && !danger.gameObject.activeInHierarchy) danger.gameObject.SetActive(true);
             if (food.tag != "Complete" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked && godKeys.getBurned())
             {
                 //Debug.Log("jida");
@@ -71,7 +71,7 @@ public class cookingPan : MonoBehaviour
                 food.GetComponent<pickUpFood>().enabled = false;
                 food.GetComponent<Rigidbody>().useGravity = false;
                 cont = 0;
-                progress.gameObject.active = false;
+                progress.gameObject.SetActive(false);
             }
             //Debug.Log(cont + food.name);
         }
@@ -105,7 +105,7 @@ public class cookingPan : MonoBehaviour
                 emission.rateOverTime = 30;
                 ps.Stop();
                 tapa.SetActive(false);
-                danger.gameObject.active = false;
+                danger.gameObject.SetActive(false);
             }
             // Debug.Log("Soy Player");
         }
@@ -126,7 +126,7 @@ public class cookingPan : MonoBehaviour
                 cont = 0;
                 ps.Play();
                 tapa.SetActive(true);
-                progress.gameObject.active = true;
+                progress.gameObject.SetActive(true);
                 progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountNext());
             }
             // Debug.Log("Soy Comida");
@@ -153,6 +153,14 @@ public class cookingPan : MonoBehaviour
         {
             burned = false;
             ps.Stop();
+        }
+    }
+
+    public void finishProcess()
+    {
+        if (food != null)
+        {
+            cont = food.GetComponent<convertInTo>().getCountNext() - 0.05f;
         }
     }
 }

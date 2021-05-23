@@ -3,7 +3,22 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Furniture
+  - Food
+  - Cutted
+  - Cooked
+  - Blended
+  - Combination
+  - Complete
+  - Oven
+  - Tool
+  - NoDishFood
+  - Dish
+  - toolBlender
+  - toolCutting
+  - toolPan
+  - toolOven
   layers:
   - Default
   - TransparentFX

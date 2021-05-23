@@ -35,7 +35,7 @@ public class cookingOven : MonoBehaviour
         if (cooked) dangerCount += Time.deltaTime;
         if (food != null)
         {
-            if (cooked && dangerCount >= 2.0f && danger.gameObject.active == false) danger.gameObject.active = true;
+            if (cooked && dangerCount >= 2.0f && !danger.gameObject.activeInHierarchy) danger.gameObject.SetActive(true);
             if (food.name != "Burned" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked && godKeys.getBurned())
             {
                 //Debug.Log("jida");
@@ -68,7 +68,7 @@ public class cookingOven : MonoBehaviour
                 food.GetComponent<pickUpFood>().enabled = false;
                 food.GetComponent<Rigidbody>().useGravity = false;
                 cont = 0;
-                progress.gameObject.active = false;
+                progress.gameObject.SetActive(false);
             }
             //Debug.Log(cont + food.name);
         }
@@ -88,7 +88,7 @@ public class cookingOven : MonoBehaviour
                 food.GetComponent<pickUpFood>().enabled = true;
                 obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
                 obj.gameObject.GetComponent<MoveCharacter>().holdFood(food);
-                food.gameObject.GetComponent<pickUpFood>().setPlayer(obj.gameObject);
+                food.GetComponent<pickUpFood>().setPlayer(obj.gameObject);
                 onOven = false;
                 food = null;
                 cont = 0;
@@ -99,7 +99,7 @@ public class cookingOven : MonoBehaviour
                 var emission = ps.emission;
                 emission.rateOverTime = 15;
                 ps.Stop();
-                danger.gameObject.active = false;
+                danger.gameObject.SetActive(false);
             }
             // Debug.Log("Soy Player");
         }
@@ -119,7 +119,7 @@ public class cookingOven : MonoBehaviour
                 food = obj.gameObject;
                 cont = 0;
                 ps.Play();
-                progress.gameObject.active = true;
+                progress.gameObject.SetActive(true);
                 progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountNext());
             }
             Debug.Log("Soy Comida");
@@ -146,6 +146,14 @@ public class cookingOven : MonoBehaviour
         {
             burned = false;
             ps.Stop();
+        }
+    }
+
+    public void finishProcess()
+    {
+        if (food != null)
+        {
+            cont = food.GetComponent<convertInTo>().getCountNext() - 0.05f;
         }
     }
 }

@@ -36,7 +36,7 @@ public class blendingBlender : MonoBehaviour
             food.GetComponent<pickUpFood>().resetCont();
             food.GetComponent<pickUpFood>().enabled = false;
             food.GetComponent<Rigidbody>().useGravity = false;
-            progress.gameObject.active = false;
+            progress.gameObject.SetActive(false);
         }
         
         //Debug.Log(cont + food.name);
@@ -55,7 +55,7 @@ public class blendingBlender : MonoBehaviour
                 food.GetComponent<pickUpFood>().enabled = true;
                 obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
                 obj.gameObject.GetComponent<MoveCharacter>().holdFood(food);
-                food.gameObject.GetComponent<pickUpFood>().setPlayer(obj.gameObject);
+                food.GetComponent<pickUpFood>().setPlayer(obj.gameObject);
                 onTable = false;
                 food = null;
                 cont = 0;
@@ -77,7 +77,7 @@ public class blendingBlender : MonoBehaviour
                 onTable = true;
                 food = obj.gameObject;
                 cont = 0;
-                progress.gameObject.active = true;
+                progress.gameObject.SetActive(true);
                 progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountBlend());
             }
             Debug.Log("Soy Comida");
@@ -89,4 +89,13 @@ public class blendingBlender : MonoBehaviour
         if (onTable) onTable = false;
         else onTable = true;
     }
+
+    public void finishProcess()
+    {
+        if (food != null)
+        {
+            cont = food.GetComponent<convertInTo>().getCountBlend();
+        }
+    }
+
 }
