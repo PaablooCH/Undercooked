@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d69be49ad492a549b53d87fffab3aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  food: {fileID: 5323065470500823049, guid: d30a9adaacd171c469d5888ed1d673fe, type: 3}
+  food: {fileID: 5814100622227361251, guid: 02e6b0ff7a64183478a3d60318375a07, type: 3}
 --- !u!65 &2470705906976752095
 BoxCollider:
   m_ObjectHideFlags: 0
