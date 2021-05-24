@@ -35,7 +35,11 @@ public class cookingOven : MonoBehaviour
         if (cooked) dangerCount += Time.deltaTime;
         if (food != null)
         {
-            if (cooked && dangerCount >= 2.0f && !danger.gameObject.activeInHierarchy) danger.gameObject.SetActive(true);
+            if (cooked && dangerCount >= 2.0f && !danger.gameObject.activeInHierarchy)
+            {
+                danger.gameObject.SetActive(true);
+                gameSounds.Instance.playDangerSound();
+            }
             if (food.name != "Burned" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked && godKeys.getBurned())
             {
                 //Debug.Log("jida");
@@ -100,6 +104,8 @@ public class cookingOven : MonoBehaviour
                 emission.rateOverTime = 15;
                 ps.Stop();
                 danger.gameObject.SetActive(false);
+                gameSounds.Instance.stopOvenSound();
+                gameSounds.Instance.stopDangerSound();
             }
             // Debug.Log("Soy Player");
         }
@@ -121,6 +127,7 @@ public class cookingOven : MonoBehaviour
                 ps.Play();
                 progress.gameObject.SetActive(true);
                 progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountNext());
+                gameSounds.Instance.playOvenSound();
             }
             Debug.Log("Soy Comida");
         }

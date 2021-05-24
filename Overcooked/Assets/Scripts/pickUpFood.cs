@@ -57,11 +57,13 @@ public class pickUpFood : MonoBehaviour
             player.gameObject.GetComponent<MoveCharacter>().changeHold(false);
             player.gameObject.GetComponent<MoveCharacter>().leaveFood();
             player = null;
+            gameSounds.Instance.playPickUpSound();
         }
     }
 
     public void setPlayer(GameObject p)
     {
         player = p;
+        gameSounds.Instance.playPickUpSound();
     }
 }

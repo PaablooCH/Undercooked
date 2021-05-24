@@ -37,6 +37,7 @@ public class blendingBlender : MonoBehaviour
             food.GetComponent<pickUpFood>().enabled = false;
             food.GetComponent<Rigidbody>().useGravity = false;
             progress.gameObject.SetActive(false);
+            gameSounds.Instance.playBlenderEndSound();
         }
         
         //Debug.Log(cont + food.name);
@@ -79,6 +80,7 @@ public class blendingBlender : MonoBehaviour
                 cont = 0;
                 progress.gameObject.SetActive(true);
                 progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountBlend());
+                gameSounds.Instance.playBlenderSound();
             }
             Debug.Log("Soy Comida");
         }

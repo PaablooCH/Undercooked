@@ -38,7 +38,11 @@ public class cookingPan : MonoBehaviour
         if(food != null)
         {
             food.SetActive(false);
-            if (cooked && dangerCount >= 2.0f && !danger.gameObject.activeInHierarchy) danger.gameObject.SetActive(true);
+            if (cooked && dangerCount >= 2.0f && !danger.gameObject.activeInHierarchy)
+            {
+                danger.gameObject.SetActive(true);
+                gameSounds.Instance.playDangerSound();
+            }
             if (food.tag != "Complete" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked && godKeys.getBurned())
             {
                 //Debug.Log("jida");
@@ -106,6 +110,9 @@ public class cookingPan : MonoBehaviour
                 ps.Stop();
                 tapa.SetActive(false);
                 danger.gameObject.SetActive(false);
+                gameSounds.Instance.stopPanSound();
+                gameSounds.Instance.stopDangerSound();
+
             }
             // Debug.Log("Soy Player");
         }
@@ -128,6 +135,7 @@ public class cookingPan : MonoBehaviour
                 tapa.SetActive(true);
                 progress.gameObject.SetActive(true);
                 progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountNext());
+                gameSounds.Instance.playPanSound();
             }
             // Debug.Log("Soy Comida");
         }

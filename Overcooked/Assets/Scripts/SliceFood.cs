@@ -45,6 +45,7 @@ public class SliceFood : MonoBehaviour
             GameObject.FindWithTag("Player").gameObject.GetComponent<MoveCharacter>().enabled = true;
             ps.Stop();
             progress.gameObject.SetActive(false);
+            gameSounds.Instance.stopKnifeSound();
         }
         //Debug.Log(food);
     }
@@ -74,6 +75,7 @@ public class SliceFood : MonoBehaviour
                 ps.Play();
                 progress.gameObject.SetActive(true);
                 progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountNext());
+                gameSounds.Instance.playKnifeSound();
             }
         }
         else if (obj.tag == "Player")

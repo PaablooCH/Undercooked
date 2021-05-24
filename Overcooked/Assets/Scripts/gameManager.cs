@@ -66,14 +66,17 @@ public class gameManager : MonoBehaviour
 
     public void ClickPlay()
     {
+        gameSounds.Instance.playButtonOn();
         changeState(State.INIT);
     }
     public void ClickInstructions()
     {
+        gameSounds.Instance.playButtonOn();
         changeState(State.INST);
     }
     public void ClickCredits()
     {
+        gameSounds.Instance.playButtonOn();
         changeState(State.CREDITS);
     }
 
@@ -112,6 +115,7 @@ public class gameManager : MonoBehaviour
         {
             case State.MENU:
                 panelMenu.SetActive(true);
+                gameSounds.Instance.playTitleTheme();
                 break;
             case State.LVLS:
                 break;
@@ -126,6 +130,7 @@ public class gameManager : MonoBehaviour
                 CurrentRecipes = 0;
                 currentlvlrecipes = lvl1recipes;
                 panelPlay.SetActive(true);
+                gameSounds.Instance.playGameTheme();
                 _currentRecipe = Instantiate(lvl1recipes[Lvl1Recipes], panelPlay.transform);
                 changeState(State.LOADLEVEL);
                 break;
@@ -154,6 +159,7 @@ public class gameManager : MonoBehaviour
                 changeState(State.MENU);
                 break;
             case State.NEXT_RECIPE:
+                gameSounds.Instance.playDeliveryCompleteSound();
                 if (CurrentRecipes >= currentlvlrecipes.Length)
                 {
                     ++Levels;
