@@ -30,8 +30,8 @@ public class blendingBlender : MonoBehaviour
             GameObject a = food.GetComponent<convertInTo>().convertBlendfood();
             Destroy(food);
             food = a;
-            food.transform.position = this.transform.GetChild(0).position;
-            food.transform.parent = this.transform.GetChild(0).transform;
+            food.transform.position = this.transform.Find("Child").position;
+            food.transform.parent = this.transform.Find("Child").transform;
             food.GetComponent<pickUpFood>().changeState();
             food.GetComponent<pickUpFood>().resetCont();
             food.GetComponent<pickUpFood>().enabled = false;
@@ -69,9 +69,9 @@ public class blendingBlender : MonoBehaviour
             if (Input.GetKey(KeyCode.Space) && !onTable && cont >= 2)
             {
                 obj.gameObject.GetComponent<pickUpFood>().emptyPlayer();
-                obj.transform.position = this.transform.GetChild(0).position;
-                obj.transform.eulerAngles = this.transform.GetChild(0).eulerAngles;
-                obj.transform.parent = this.transform.GetChild(0).transform;
+                obj.transform.position = this.transform.Find("Child").position;
+                obj.transform.eulerAngles = this.transform.Find("Child").eulerAngles;
+                obj.transform.parent = this.transform.Find("Child").transform;
                 obj.gameObject.GetComponent<pickUpFood>().changeState();
                 obj.gameObject.GetComponent<pickUpFood>().resetCont();
                 obj.gameObject.GetComponent<pickUpFood>().enabled = false;
@@ -82,7 +82,7 @@ public class blendingBlender : MonoBehaviour
                 progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountBlend());
                 gameSounds.Instance.playBlenderSound();
             }
-            Debug.Log("Soy Comida");
+            // Debug.Log("Soy Comida");
         }
     }
 
