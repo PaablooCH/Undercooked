@@ -1019,3 +1019,59 @@ Received Import Request.
 Start importing Assets/Scripts/SliceFood.cs using Guid(7421fc4cc431a5b439de8aa768eb8243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bcc16ed2c394d825000fb2a87d66cc9') in 0.000866 seconds
   Import took 0.002400 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000656 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.560 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.2 MB.
+System memory in use after: 178.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1673.
+Total: 1.165584 ms (FindLiveObjects: 0.106208 ms CreateObjectMapping: 0.025292 ms MarkObjects: 0.989292 ms  DeleteObjects: 0.044292 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000505 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.545 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.4 MB.
+System memory in use after: 178.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1676.
+Total: 1.113166 ms (FindLiveObjects: 0.084167 ms CreateObjectMapping: 0.025375 ms MarkObjects: 0.963084 ms  DeleteObjects: 0.039875 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 423.365642 seconds.
+  path: Assets/Prefabs/Tools
+  artifactKey: Guid(84ad250d5ba33164fb3e5399aad2af03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools using Guid(84ad250d5ba33164fb3e5399aad2af03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e237523d933b051e11808192575d09b') in 0.003846 seconds
+  Import took 0.005435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039306 seconds.
+  path: Assets/Prefabs/Tools
+  artifactKey: Guid(84ad250d5ba33164fb3e5399aad2af03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tools using Guid(84ad250d5ba33164fb3e5399aad2af03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e237523d933b051e11808192575d09b') in 0.000602 seconds
+  Import took 0.001923 seconds .
+
