@@ -14,7 +14,7 @@ public class animationsChef : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void Relax()
@@ -31,5 +31,10 @@ public class animationsChef : MonoBehaviour
     {
         Debug.Log("aaaaa");
         anim.SetTrigger("Cut");
+    }
+
+    public void PutFood()
+    {
+        anim.SetTrigger("PutFood");
     }
 }

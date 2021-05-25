@@ -40,7 +40,7 @@ public class cookingOven : MonoBehaviour
                 danger.gameObject.SetActive(true);
                 gameSounds.Instance.playDangerSound();
             }
-            if (food.name != "Burned" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked && godKeys.getBurned())
+            if (food.name != "Burned(Clone)" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked && godKeys.getBurned())
             {
                 //Debug.Log("jida");
                 burned = true;
@@ -113,7 +113,8 @@ public class cookingOven : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) && !onOven && cont >= 2)
             {
-
+                GameObject.FindWithTag("Player").GetComponent<animationsChef>().Relax();
+                GameObject.FindWithTag("Player").GetComponent<animationsChef>().PutFood();
                 obj.gameObject.GetComponent<pickUpFood>().emptyPlayer();
                 obj.transform.position = transform.GetChild(0).position;
                 obj.transform.eulerAngles = transform.GetChild(0).eulerAngles;

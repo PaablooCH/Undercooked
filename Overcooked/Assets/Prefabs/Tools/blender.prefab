@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8615241162730589216}
   - component: {fileID: 8415397321404000213}
   m_Layer: 0
-  m_Name: Base_ObjObject.002
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 4124548674405066664}
   - component: {fileID: 6900113682750588306}
   m_Layer: 0
-  m_Name: Tapa_ObjObject.001
+  m_Name: Tapa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 5246110064916523331}
   - component: {fileID: 5975961706937861612}
   m_Layer: 0
-  m_Name: Taza_ObjObject
+  m_Name: Taza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -402,7 +402,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7645988636532586235}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.168, y: 0, z: -2.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 6076738720683081374}
