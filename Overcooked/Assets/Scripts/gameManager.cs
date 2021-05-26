@@ -26,6 +26,12 @@ public class gameManager : MonoBehaviour
 
     public GameObject[] lvl2recipes;
 
+    public GameObject[] lvl3recipes;
+
+    public GameObject[] lvl4recipes;
+
+    public GameObject[] lvl5recipes;
+
     public static gameManager Instance { get; private set; }
     public enum State { MENU, LVLS, INST, CREDITS, INIT, PLAY, LEVELCOMPLETED, LOADLEVEL, GAMEOVER, NEXT_RECIPE }
     State _state;
@@ -36,6 +42,7 @@ public class gameManager : MonoBehaviour
 
     private int _levels;
     private float cont;
+    private int recipescont = 0;
 
     public int Levels
     {
@@ -93,7 +100,8 @@ public class gameManager : MonoBehaviour
 
     public void nextRecipe()
     {
-        ++CurrentRecipes;
+        CurrentRecipes = Random.Range(0,currentlvlrecipes.Length);
+        ++recipescont; 
         changeState(State.NEXT_RECIPE);
     }
 
@@ -136,7 +144,7 @@ public class gameManager : MonoBehaviour
                 currentlvlrecipes = lvl1recipes;
                 panelPlay.SetActive(true);
                 gameSounds.Instance.playGameTheme();
-                _currentRecipe = Instantiate(lvl1recipes[Lvl1Recipes], panelPlay.transform);
+                _currentRecipe = Instantiate(lvl1recipes[Random.Range(0,currentlvlrecipes.Length)], panelPlay.transform);
                 changeState(State.LOADLEVEL);
                 break;
             case State.PLAY:
@@ -153,7 +161,7 @@ public class gameManager : MonoBehaviour
                 {
                     Destroy(_currentLevel);
                     Destroy(_currentRecipe);
-                    CurrentRecipes = 0;
+                    CurrentRecipes = Random.Range(0,currentlvlrecipes.Length);
                     _currentLevel = Instantiate(levels[Levels]);
                     _currentRecipe = Instantiate(currentlvlrecipes[CurrentRecipes], panelPlay.transform);
                     changeState(State.PLAY);
@@ -165,13 +173,14 @@ public class gameManager : MonoBehaviour
                 break;
             case State.NEXT_RECIPE:
                 gameSounds.Instance.playDeliveryCompleteSound();
-                if (CurrentRecipes >= currentlvlrecipes.Length)
+                if (recipescont >= currentlvlrecipes.Length)
                 {
                     ++Levels;
                     if (Levels == 1) currentlvlrecipes = lvl2recipes;
-                    //if (Levels == 2)
-                    //if (Levels == 3)
-                    //if (Levels == 4)
+                    if (Levels == 2) currentlvlrecipes = lvl3recipes;
+                    if (Levels == 3) currentlvlrecipes = lvl4recipes;
+                    if (Levels == 4) currentlvlrecipes = lvl5recipes;
+                    recipescont = 0;
                     changeState(State.LOADLEVEL);
                 }
                 else
@@ -191,9 +200,9 @@ public class gameManager : MonoBehaviour
         {
             ++Levels;
             if (Levels == 1) currentlvlrecipes = lvl2recipes;
-            //if (Levels == 2)
-            //if (Levels == 3)
-            //if (Levels == 4)
+            if (Levels == 2) currentlvlrecipes = lvl3recipes;
+            if (Levels == 3) currentlvlrecipes = lvl4recipes;
+            if (Levels == 4) currentlvlrecipes = lvl5recipes;
             changeState(State.LOADLEVEL);
             cont = 0;
         }

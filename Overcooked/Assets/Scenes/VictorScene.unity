@@ -218,7 +218,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &18373279
 Light:
   m_ObjectHideFlags: 0
@@ -889,7 +889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &454013878
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1122,7 +1122,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &578534775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1780,7 +1780,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &939746136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1811,9 +1811,32 @@ MonoBehaviour:
   lvl1recipes:
   - {fileID: 960196945812660714, guid: 063823c6a505112479d05d7062c2f86f, type: 3}
   - {fileID: 1193567490777989753, guid: 37b43f346512e7c4cb16af88863dc886, type: 3}
-  lvl2recipes:
   - {fileID: 2534143089173142426, guid: 518fd7e459694f24a8aff62c9768fec8, type: 3}
+  lvl2recipes:
   - {fileID: 960196945812660714, guid: 063823c6a505112479d05d7062c2f86f, type: 3}
+  - {fileID: 4354480085843672945, guid: 45bc18d33109a704aaf94d49f5cd17ce, type: 3}
+  - {fileID: 1886394706619749955, guid: 8f211d06164b8354483fc34f31672d08, type: 3}
+  - {fileID: 8221805052380317560, guid: d377554bd58ea8f4c988ffb743e02860, type: 3}
+  lvl3recipes:
+  - {fileID: 4428413283803767285, guid: 2def99ba536eb4e4fb045738a4fc4036, type: 3}
+  - {fileID: 1193567490777989753, guid: 37b43f346512e7c4cb16af88863dc886, type: 3}
+  - {fileID: 1886394706619749955, guid: 8f211d06164b8354483fc34f31672d08, type: 3}
+  - {fileID: 4354480085843672945, guid: 45bc18d33109a704aaf94d49f5cd17ce, type: 3}
+  - {fileID: 2534143089173142426, guid: 518fd7e459694f24a8aff62c9768fec8, type: 3}
+  lvl4recipes:
+  - {fileID: 8221805052380317560, guid: d377554bd58ea8f4c988ffb743e02860, type: 3}
+  - {fileID: 4428413283803767285, guid: 2def99ba536eb4e4fb045738a4fc4036, type: 3}
+  - {fileID: 960196945812660714, guid: 063823c6a505112479d05d7062c2f86f, type: 3}
+  - {fileID: 1193567490777989753, guid: 37b43f346512e7c4cb16af88863dc886, type: 3}
+  - {fileID: 4428413283803767285, guid: 2def99ba536eb4e4fb045738a4fc4036, type: 3}
+  lvl5recipes:
+  - {fileID: 8221805052380317560, guid: d377554bd58ea8f4c988ffb743e02860, type: 3}
+  - {fileID: 1886394706619749955, guid: 8f211d06164b8354483fc34f31672d08, type: 3}
+  - {fileID: 4428413283803767285, guid: 2def99ba536eb4e4fb045738a4fc4036, type: 3}
+  - {fileID: 1193567490777989753, guid: 37b43f346512e7c4cb16af88863dc886, type: 3}
+  - {fileID: 960196945812660714, guid: 063823c6a505112479d05d7062c2f86f, type: 3}
+  - {fileID: 4354480085843672945, guid: 45bc18d33109a704aaf94d49f5cd17ce, type: 3}
+  - {fileID: 2534143089173142426, guid: 518fd7e459694f24a8aff62c9768fec8, type: 3}
 --- !u!4 &939746137
 Transform:
   m_ObjectHideFlags: 0
@@ -2901,7 +2924,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1435302336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3415,7 +3438,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1693263387
 Light:
   m_ObjectHideFlags: 0
@@ -3637,7 +3660,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1950329066
 MonoBehaviour:
   m_ObjectHideFlags: 0
