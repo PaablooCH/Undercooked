@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1798,7 +1798,13 @@ MonoBehaviour:
   panelInstructions: {fileID: 1130945766}
   panelCredits: {fileID: 1464989599}
   panelLevelComplete: {fileID: 1096402780}
-  Recipes: {fileID: 0}
+  CompleteBurger: {fileID: 4121667136800881243, guid: 238d30eceb00e174391a891b71521b27, type: 3}
+  CompleteFishBurger: {fileID: 1038751794663236996, guid: dec2df172aae2c64fafec9fe497ecda8, type: 3}
+  CompleteFishTomatoPotato: {fileID: 5589395707206302167, guid: 13e18745a48644a4280f7878efe0c55f, type: 3}
+  Gazpacho: {fileID: 9008382488813054201, guid: 610ecd9003131d24e87bbe8f527dab9a, type: 3}
+  MeatAndChips: {fileID: 4342855870973595362, guid: 8271819889f0b3a4780c4443e9843fc8, type: 3}
+  Panini: {fileID: 4502480205434716388, guid: 3bc220518d58b3d4cb79d8313534de4b, type: 3}
+  TomatoMeatballs: {fileID: 2881612429535126615, guid: 7238eb891769b21458c6588520662636, type: 3}
   levels:
   - {fileID: 4148919392497720766, guid: aaf927a94b6d415468fd3d8a43a1f04a, type: 3}
   - {fileID: 2454350126004385360, guid: bd08069d028d5944bbf2e67217516f7a, type: 3}

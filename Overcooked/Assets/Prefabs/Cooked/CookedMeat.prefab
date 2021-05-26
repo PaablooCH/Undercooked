@@ -150,10 +150,14 @@ MonoBehaviour:
   Bread: {fileID: 5918736471308945597, guid: 1c6a70348c4110e47aa163f522f29c50, type: 3}
   Fish: {fileID: 0}
   Meat: {fileID: 0}
-  Potato: {fileID: 0}
+  Potato: {fileID: 4342855870973595362, guid: 8271819889f0b3a4780c4443e9843fc8, type: 3}
   TomatoSauce: {fileID: 2881612429535126615, guid: 7238eb891769b21458c6588520662636, type: 3}
   CucumberSauce: {fileID: 0}
   BreadPics: {fileID: 0}
+  CuttedBread: {fileID: 0}
+  CuttedFish: {fileID: 0}
+  CuttedPotato: {fileID: 0}
+  Dish: {fileID: 0}
 --- !u!114 &-7393468377842187117
 MonoBehaviour:
   m_ObjectHideFlags: 0

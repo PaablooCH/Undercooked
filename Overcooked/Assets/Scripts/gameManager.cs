@@ -12,8 +12,13 @@ public class gameManager : MonoBehaviour
     public GameObject panelCredits;
     public GameObject panelLevelComplete;
 
-
-    public Text Recipes;
+    public GameObject CompleteBurger;
+    public GameObject CompleteFishBurger;
+    public GameObject CompleteFishTomatoPotato;
+    public GameObject Gazpacho;
+    public GameObject MeatAndChips;
+    public GameObject Panini;
+    public GameObject TomatoMeatballs;
 
     public GameObject[] levels;
 
@@ -190,6 +195,88 @@ public class gameManager : MonoBehaviour
             //if (Levels == 3)
             //if (Levels == 4)
             changeState(State.LOADLEVEL);
+            cont = 0;
+        }
+        if (Input.GetKey(KeyCode.R) && cont >= 0.5)
+        {
+            GameObject p = GameObject.FindWithTag("Player").gameObject;
+            if (_currentRecipe.name == "MeatAndChips(Clone)")
+            {
+                GameObject food = Instantiate(MeatAndChips);
+                food.transform.position = p.transform.Find("ToPickUp").position;
+                food.transform.eulerAngles = p.transform.Find("ToPickUp").eulerAngles;
+                food.transform.parent = p.transform.Find("ToPickUp").transform;
+                food.GetComponent<pickUpFood>().enabled = true;
+                p.gameObject.GetComponent<MoveCharacter>().changeHold(true);
+                p.gameObject.GetComponent<MoveCharacter>().holdFood(food);
+                food.gameObject.GetComponent<pickUpFood>().setPlayer(p.gameObject);
+            }
+            if (_currentRecipe.name == "CompleteBurger(Clone)")
+            {
+                GameObject food = Instantiate(CompleteBurger);
+                food.transform.position = p.transform.Find("ToPickUp").position;
+                food.transform.eulerAngles = p.transform.Find("ToPickUp").eulerAngles;
+                food.transform.parent = p.transform.Find("ToPickUp").transform;
+                food.GetComponent<pickUpFood>().enabled = true;
+                p.gameObject.GetComponent<MoveCharacter>().changeHold(true);
+                p.gameObject.GetComponent<MoveCharacter>().holdFood(food);
+                food.gameObject.GetComponent<pickUpFood>().setPlayer(p.gameObject);
+            }
+            if (_currentRecipe.name == "CompleteFishBurger(Clone)")
+            {
+                GameObject food = Instantiate(CompleteFishBurger);
+                food.transform.position = p.transform.Find("ToPickUp").position;
+                food.transform.eulerAngles = p.transform.Find("ToPickUp").eulerAngles;
+                food.transform.parent = p.transform.Find("ToPickUp").transform;
+                food.GetComponent<pickUpFood>().enabled = true;
+                p.gameObject.GetComponent<MoveCharacter>().changeHold(true);
+                p.gameObject.GetComponent<MoveCharacter>().holdFood(food);
+                food.gameObject.GetComponent<pickUpFood>().setPlayer(p.gameObject);
+            }
+            if (_currentRecipe.name == "CompleteFishTomatoPotato(Clone)")
+            {
+                GameObject food = Instantiate(CompleteFishTomatoPotato);
+                food.transform.position = p.transform.Find("ToPickUp").position;
+                food.transform.eulerAngles = p.transform.Find("ToPickUp").eulerAngles;
+                food.transform.parent = p.transform.Find("ToPickUp").transform;
+                food.GetComponent<pickUpFood>().enabled = true;
+                p.gameObject.GetComponent<MoveCharacter>().changeHold(true);
+                p.gameObject.GetComponent<MoveCharacter>().holdFood(food);
+                food.gameObject.GetComponent<pickUpFood>().setPlayer(p.gameObject);
+            }
+            if (_currentRecipe.name == "Gazpacho(Clone)")
+            {
+                GameObject food = Instantiate(Gazpacho);
+                food.transform.position = p.transform.Find("ToPickUp").position;
+                food.transform.eulerAngles = p.transform.Find("ToPickUp").eulerAngles;
+                food.transform.parent = p.transform.Find("ToPickUp").transform;
+                food.GetComponent<pickUpFood>().enabled = true;
+                p.gameObject.GetComponent<MoveCharacter>().changeHold(true);
+                p.gameObject.GetComponent<MoveCharacter>().holdFood(food);
+                food.gameObject.GetComponent<pickUpFood>().setPlayer(p.gameObject);
+            }
+            if (_currentRecipe.name == "Panini(Clone)")
+            {
+                GameObject food = Instantiate(Panini);
+                food.transform.position = p.transform.Find("ToPickUp").position;
+                food.transform.eulerAngles = p.transform.Find("ToPickUp").eulerAngles;
+                food.transform.parent = p.transform.Find("ToPickUp").transform;
+                food.GetComponent<pickUpFood>().enabled = true;
+                p.gameObject.GetComponent<MoveCharacter>().changeHold(true);
+                p.gameObject.GetComponent<MoveCharacter>().holdFood(food);
+                food.gameObject.GetComponent<pickUpFood>().setPlayer(p.gameObject);
+            }
+            if (_currentRecipe.name == "TomatoMeatballs(Clone)")
+            {
+                GameObject food = Instantiate(TomatoMeatballs);
+                food.transform.position = p.transform.Find("ToPickUp").position;
+                food.transform.eulerAngles = p.transform.Find("ToPickUp").eulerAngles;
+                food.transform.parent = p.transform.Find("ToPickUp").transform;
+                food.GetComponent<pickUpFood>().enabled = true;
+                p.gameObject.GetComponent<MoveCharacter>().changeHold(true);
+                p.gameObject.GetComponent<MoveCharacter>().holdFood(food);
+                food.gameObject.GetComponent<pickUpFood>().setPlayer(p.gameObject);
+            }
             cont = 0;
         }
         if (Input.GetKey(KeyCode.Escape) && cont >= 0.5)
