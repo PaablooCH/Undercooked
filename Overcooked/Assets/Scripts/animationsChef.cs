@@ -29,7 +29,6 @@ public class animationsChef : MonoBehaviour
 
     public void Cut()
     {
-        Debug.Log("aaaaa");
         anim.SetTrigger("Cut");
     }
 

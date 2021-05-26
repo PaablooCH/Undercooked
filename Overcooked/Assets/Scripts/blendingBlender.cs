@@ -28,23 +28,27 @@ public class blendingBlender : MonoBehaviour
     {
         cont += Time.deltaTime;
 
-        if (food != null && !finish && cont >= food.gameObject.GetComponent<convertInTo>().getCountBlend())
+        if (food != null)
         {
-            food.SetActive(false);
-            finish = true;
-            GameObject a = food.GetComponent<convertInTo>().convertBlendfood();
-            Destroy(food);
-            food = a;
-            food.transform.position = this.transform.Find("Child").position;
-            food.transform.parent = this.transform.Find("Child").transform;
-            food.GetComponent<pickUpFood>().changeState();
-            food.GetComponent<pickUpFood>().resetCont();
-            food.GetComponent<pickUpFood>().enabled = false;
-            food.GetComponent<Rigidbody>().useGravity = false;
-            progress.gameObject.SetActive(false);
-            gameSounds.Instance.playBlenderEndSound();
-            anim.Relax();
+            if (!finish && cont >= food.gameObject.GetComponent<convertInTo>().getCountBlend())
+            {
+                finish = true;
+                anim.Idle();
+                GameObject a = food.GetComponent<convertInTo>().convertBlendfood();
+                Destroy(food);
+                food = a;
+                food.SetActive(false);
+                food.transform.position = this.transform.Find("Child").position;
+                food.transform.parent = this.transform.Find("Child").transform;
+                food.GetComponent<pickUpFood>().changeState();
+                food.GetComponent<pickUpFood>().resetCont();
+                food.GetComponent<pickUpFood>().enabled = false;
+                food.GetComponent<Rigidbody>().useGravity = false;
+                progress.gameObject.SetActive(false);
+                gameSounds.Instance.playBlenderEndSound();
+            }
         }
+            
         
         //Debug.Log(cont + food.name);
         
@@ -57,6 +61,7 @@ public class blendingBlender : MonoBehaviour
             if (Input.GetKey(KeyCode.Space) && onTable && cont >= 0.5 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
                 food.SetActive(true);
+                tapa.SetActive(false);
                 food.transform.position = obj.transform.Find("ToPickUp").position;
                 food.transform.eulerAngles = obj.transform.Find("ToPickUp").eulerAngles;
                 food.transform.parent = obj.transform.Find("ToPickUp").transform;
@@ -65,7 +70,6 @@ public class blendingBlender : MonoBehaviour
                 obj.gameObject.GetComponent<MoveCharacter>().holdFood(food);
                 food.GetComponent<pickUpFood>().setPlayer(obj.gameObject);
                 onTable = false;
-                tapa.SetActive(false);
                 food = null;
                 cont = 0;
                 finish = false;
@@ -88,6 +92,7 @@ public class blendingBlender : MonoBehaviour
                 cont = 0;
                 tapa.SetActive(true);
                 anim.Shake();
+                food.SetActive(false);
                 progress.gameObject.SetActive(true);
                 progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountBlend());
                 gameSounds.Instance.playBlenderSound();

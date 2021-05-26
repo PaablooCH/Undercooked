@@ -17,9 +17,9 @@ public class animationsBlender : MonoBehaviour
         
     }
 
-    public void Relax()
+    public void Idle()
     {
-        anim.SetTrigger("default");
+        anim.SetTrigger("idle");
     }
 
     public void Shake()
