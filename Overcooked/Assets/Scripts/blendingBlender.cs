@@ -10,6 +10,8 @@ public class blendingBlender : MonoBehaviour
     private float cont;
     private bool finish;
     public Slider progress;
+    private GameObject tapa;
+    private animationsBlender anim;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +19,8 @@ public class blendingBlender : MonoBehaviour
         onTable = false;
         cont = 0;
         finish = false;
+        tapa = transform.Find("Tapa").gameObject;
+        anim = GetComponent<animationsBlender>();
     }
 
     // Update is called once per frame
@@ -24,21 +28,27 @@ public class blendingBlender : MonoBehaviour
     {
         cont += Time.deltaTime;
 
-        if (food != null && !finish && cont >= food.gameObject.GetComponent<convertInTo>().getCountBlend())
+        if (food != null)
         {
-            finish = true;
-            GameObject a = food.GetComponent<convertInTo>().convertBlendfood();
-            Destroy(food);
-            food = a;
-            food.transform.position = this.transform.GetChild(0).position;
-            food.transform.parent = this.transform.GetChild(0).transform;
-            food.GetComponent<pickUpFood>().changeState();
-            food.GetComponent<pickUpFood>().resetCont();
-            food.GetComponent<pickUpFood>().enabled = false;
-            food.GetComponent<Rigidbody>().useGravity = false;
-            progress.gameObject.SetActive(false);
-            gameSounds.Instance.playBlenderEndSound();
+            if (!finish && cont >= food.gameObject.GetComponent<convertInTo>().getCountBlend())
+            {
+                finish = true;
+                anim.Idle();
+                GameObject a = food.GetComponent<convertInTo>().convertBlendfood();
+                Destroy(food);
+                food = a;
+                food.SetActive(false);
+                food.transform.position = this.transform.Find("Child").position;
+                food.transform.parent = this.transform.Find("Child").transform;
+                food.GetComponent<pickUpFood>().changeState();
+                food.GetComponent<pickUpFood>().resetCont();
+                food.GetComponent<pickUpFood>().enabled = false;
+                food.GetComponent<Rigidbody>().useGravity = false;
+                progress.gameObject.SetActive(false);
+                gameSounds.Instance.playBlenderEndSound();
+            }
         }
+            
         
         //Debug.Log(cont + food.name);
         
@@ -50,6 +60,8 @@ public class blendingBlender : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) && onTable && cont >= 0.5 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
+                food.SetActive(true);
+                tapa.SetActive(false);
                 food.transform.position = obj.transform.Find("ToPickUp").position;
                 food.transform.eulerAngles = obj.transform.Find("ToPickUp").eulerAngles;
                 food.transform.parent = obj.transform.Find("ToPickUp").transform;
@@ -69,20 +81,23 @@ public class blendingBlender : MonoBehaviour
             if (Input.GetKey(KeyCode.Space) && !onTable && cont >= 2)
             {
                 obj.gameObject.GetComponent<pickUpFood>().emptyPlayer();
-                obj.transform.position = this.transform.GetChild(0).position;
-                obj.transform.eulerAngles = this.transform.GetChild(0).eulerAngles;
-                obj.transform.parent = this.transform.GetChild(0).transform;
+                obj.transform.position = this.transform.Find("Child").position;
+                obj.transform.eulerAngles = this.transform.Find("Child").eulerAngles;
+                obj.transform.parent = this.transform.Find("Child").transform;
                 obj.gameObject.GetComponent<pickUpFood>().changeState();
                 obj.gameObject.GetComponent<pickUpFood>().resetCont();
                 obj.gameObject.GetComponent<pickUpFood>().enabled = false;
                 onTable = true;
-                food = obj.gameObject;
+                food = obj.gameObject;            
                 cont = 0;
+                tapa.SetActive(true);
+                anim.Shake();
+                food.SetActive(false);
                 progress.gameObject.SetActive(true);
                 progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountBlend());
                 gameSounds.Instance.playBlenderSound();
             }
-            Debug.Log("Soy Comida");
+            // Debug.Log("Soy Comida");
         }
     }
 

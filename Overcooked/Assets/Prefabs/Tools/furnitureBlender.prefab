@@ -108,4 +108,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 575adc69f1a3ff14fab26f58d6913220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kitchenTool: {fileID: 3700096684481253496, guid: f5e81e7c4630df54bbf3a851993998e9, type: 3}
+  kitchenTool: {fileID: 7645988636532586235, guid: 052c99c8890a444348f6455b35b01da1, type: 3}
