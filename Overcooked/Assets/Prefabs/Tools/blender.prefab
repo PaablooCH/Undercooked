@@ -98,7 +98,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6076478615904271450
 Transform:
   m_ObjectHideFlags: 0
@@ -187,8 +187,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5122583274583142875}
-  m_LocalRotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 7014306439221144641}
@@ -387,6 +387,7 @@ GameObject:
   - component: {fileID: -2013886598300684035}
   - component: {fileID: 8055644525497199459}
   - component: {fileID: -7361822389519651981}
+  - component: {fileID: 156875222979333453}
   m_Layer: 0
   m_Name: blender
   m_TagString: toolBlender
@@ -487,6 +488,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3000226, y: 1.909455, z: 2.3370454}
   m_Center: {x: -0.049988627, y: 0.6452728, z: 0.2297961}
+--- !u!114 &156875222979333453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7645988636532586235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d772500468944dfa8a5cf768fb87932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8340152351620917827
 PrefabInstance:
   m_ObjectHideFlags: 0
