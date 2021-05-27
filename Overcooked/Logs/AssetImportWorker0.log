@@ -251,3 +251,23 @@ Received Import Request.
 Start importing Assets/Animation/putFood.anim using Guid(7466c041e6f1dd64d980ab64f0f7c6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3799aca25782c2956743bb89d523873e') in 0.005623 seconds
   Import took 0.009072 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000731 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.822 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.1 MB.
+System memory in use after: 156.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1662.
+Total: 2.687750 ms (FindLiveObjects: 0.130208 ms CreateObjectMapping: 0.024084 ms MarkObjects: 2.255291 ms  DeleteObjects: 0.277500 ms)
+
