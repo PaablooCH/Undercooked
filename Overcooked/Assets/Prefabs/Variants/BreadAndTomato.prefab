@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 3963514670722809203}
   - component: {fileID: 2294043925278180409}
   - component: {fileID: 3383240067949158573}
-  - component: {fileID: 6502968598847209884}
   - component: {fileID: 6931169830373330971}
   - component: {fileID: 4803378731212794985}
   - component: {fileID: 5798645861569491436}
   - component: {fileID: -1772741965697866959}
+  - component: {fileID: 6746243778989506206}
   m_Layer: 0
   m_Name: BreadAndTomato
   m_TagString: Combination
@@ -86,19 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6502968598847209884
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5311737278876708424}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 6, y: 0.4, z: 6}
-  m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}
 --- !u!65 &6931169830373330971
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -159,3 +146,23 @@ MonoBehaviour:
   Fish: {fileID: 1038751794663236996, guid: dec2df172aae2c64fafec9fe497ecda8, type: 3}
   Meat: {fileID: 0}
   Potato: {fileID: 0}
+  TomatoSauce: {fileID: 0}
+  CucumberSauce: {fileID: 0}
+  BreadPics: {fileID: 0}
+  CuttedBread: {fileID: 0}
+  CuttedFish: {fileID: 0}
+  CuttedPotato: {fileID: 0}
+  Dish: {fileID: 0}
+--- !u!65 &6746243778989506206
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5311737278876708424}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1.2, z: 2}
+  m_Center: {x: -0.100000024, y: 0.6, z: -0.100000024}

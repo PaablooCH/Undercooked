@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 7502158904308411029}
   - component: {fileID: 6429099468766121473}
   - component: {fileID: 646162343334972162}
-  - component: {fileID: 9208143484795227859}
   - component: {fileID: 6433264632468431656}
   - component: {fileID: 2056411375034382484}
   - component: {fileID: -7885676910560046726}
+  - component: {fileID: 1879919266327172529}
   m_Layer: 0
   m_Name: Panini
   m_TagString: Complete
@@ -98,19 +98,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db9f3380c4b4f6e43b31839b496639cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &9208143484795227859
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4502480205434716388}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 6, y: 0.4, z: 6}
-  m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}
 --- !u!65 &6433264632468431656
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -156,3 +143,16 @@ MonoBehaviour:
   countNext: 7
   blendFood: {fileID: 0}
   countBlend: 0
+--- !u!65 &1879919266327172529
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4502480205434716388}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.8, z: 2}
+  m_Center: {x: -0.100000024, y: 0.4, z: -0.100000024}

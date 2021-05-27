@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 9197728678271854391}
   - component: {fileID: 5656907753230304163}
   - component: {fileID: 1292627837851860758}
-  - component: {fileID: 521544739826642435}
   - component: {fileID: 7243318569037407253}
   - component: {fileID: 9122802425650162334}
   - component: {fileID: 3886885071233795032}
+  - component: {fileID: 3491482521178589807}
   m_Layer: 0
   m_Name: BreadAndTomatoSauceAndCheese
   m_TagString: Oven
@@ -102,19 +102,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!65 &521544739826642435
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3010064411762953542}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 6, y: 0.4, z: 6}
-  m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}
 --- !u!65 &7243318569037407253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -156,3 +143,16 @@ MonoBehaviour:
   countNext: 11
   blendFood: {fileID: 0}
   countBlend: 0
+--- !u!65 &3491482521178589807
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3010064411762953542}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.8, z: 2}
+  m_Center: {x: -0.100000024, y: 0.4, z: -0.100000024}

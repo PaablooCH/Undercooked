@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 5063907611713196832}
   - component: {fileID: 7967345448433085034}
   - component: {fileID: 6896146111750131454}
-  - component: {fileID: 3906451784864959199}
   - component: {fileID: -5377806847837748174}
   - component: {fileID: 9111524671395552040}
   - component: {fileID: -2600538839768451727}
   - component: {fileID: 7825967019596701274}
   - component: {fileID: -1396044977475764153}
+  - component: {fileID: 8204034662761736517}
   m_Layer: 0
   m_Name: SlicedFish
   m_TagString: Cutted
@@ -87,19 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3906451784864959199
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4102975363478568987}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 6, y: 0.4, z: 6}
-  m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}
 --- !u!65 &-5377806847837748174
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -182,3 +169,17 @@ MonoBehaviour:
   CuttedBread: {fileID: 0}
   CuttedFish: {fileID: 0}
   CuttedPotato: {fileID: 1652234908675610609, guid: e25658b4c0391c84cbbecfb13e51314f, type: 3}
+  Dish: {fileID: 0}
+--- !u!65 &8204034662761736517
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4102975363478568987}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.4, z: 2}
+  m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}

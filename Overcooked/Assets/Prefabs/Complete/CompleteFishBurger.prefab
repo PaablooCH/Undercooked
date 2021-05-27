@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 8132458858836506303}
   - component: {fileID: 6344273776067186677}
   - component: {fileID: 7579234108370103137}
-  - component: {fileID: 6145443668197734630}
   - component: {fileID: 6545158816320200828}
   - component: {fileID: 1738330087331487660}
   - component: {fileID: 8032487022842525232}
+  - component: {fileID: 4538024308362305294}
   m_Layer: 0
   m_Name: CompleteFishBurger
   m_TagString: Complete
@@ -85,19 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6145443668197734630
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1038751794663236996}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 6, y: 0.4, z: 6}
-  m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}
 --- !u!65 &6545158816320200828
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -139,3 +126,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db9f3380c4b4f6e43b31839b496639cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &4538024308362305294
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038751794663236996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1.5, z: 2}
+  m_Center: {x: -0.100000024, y: 0.75, z: -0.100000024}

@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 3323951968503992608}
   - component: {fileID: 6131760140198000377}
   - component: {fileID: -1003384728257730237}
-  - component: {fileID: 420430635644160474}
   - component: {fileID: 8914446210215087551}
   - component: {fileID: 1873544417576206435}
+  - component: {fileID: 9222641053452043788}
   m_Layer: 0
   m_Name: SlicedMeat
   m_TagString: Cutted
@@ -114,19 +114,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!65 &420430635644160474
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5288834236214353861}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 6, y: 0.4, z: 6}
-  m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}
 --- !u!65 &8914446210215087551
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -156,3 +143,16 @@ MonoBehaviour:
   countNext: 20
   blendFood: {fileID: 0}
   countBlend: 0
+--- !u!65 &9222641053452043788
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5288834236214353861}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.4, z: 2}
+  m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}

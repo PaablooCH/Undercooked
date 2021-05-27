@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 9044953539240996159}
   - component: {fileID: 6147710419755406453}
   - component: {fileID: 7238608615347466465}
-  - component: {fileID: 8662099402370357087}
   - component: {fileID: 3466620473330312692}
   - component: {fileID: -5901873565431091709}
   - component: {fileID: -7808307636972097938}
   - component: {fileID: 6695792611059868275}
   - component: {fileID: 8768201745810645003}
+  - component: {fileID: 5106829403596604940}
   m_Layer: 0
   m_Name: CookedBread
   m_TagString: Cooked
@@ -87,19 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8662099402370357087
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 229699164102016516}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4, y: 1.1, z: 4}
-  m_Center: {x: -0.3, y: 0.55, z: -0.100000024}
 --- !u!54 &3466620473330312692
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -135,6 +122,13 @@ MonoBehaviour:
   Fish: {fileID: 360808277221908802, guid: be65063c3f2a4404d88569fded4585b4, type: 3}
   Meat: {fileID: 5918736471308945597, guid: 1c6a70348c4110e47aa163f522f29c50, type: 3}
   Potato: {fileID: 0}
+  TomatoSauce: {fileID: 0}
+  CucumberSauce: {fileID: 0}
+  BreadPics: {fileID: 0}
+  CuttedBread: {fileID: 0}
+  CuttedFish: {fileID: 0}
+  CuttedPotato: {fileID: 0}
+  Dish: {fileID: 0}
 --- !u!114 &-7808307636972097938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,3 +170,16 @@ MonoBehaviour:
   countNext: 7
   blendFood: {fileID: 0}
   countBlend: 0
+--- !u!65 &5106829403596604940
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229699164102016516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4, y: 1.1, z: 2}
+  m_Center: {x: -0.3, y: 0.55, z: -0.100000024}

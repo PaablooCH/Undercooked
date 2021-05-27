@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 6026693812241440866}
   - component: {fileID: 7099542416546399478}
   - component: {fileID: 8907520933347395476}
-  - component: {fileID: 2656056882362359092}
   - component: {fileID: 1513481320066906542}
   - component: {fileID: 3274935387359758789}
   - component: {fileID: 7312451208243581971}
+  - component: {fileID: 2224633518860551561}
   m_Layer: 0
   m_Name: CheeseAndTomatoSauce
   m_TagString: Combination
@@ -102,19 +102,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!65 &2656056882362359092
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 414927330101561875}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 6, y: 0.4, z: 6}
-  m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}
 --- !u!65 &1513481320066906542
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -165,3 +152,17 @@ MonoBehaviour:
   CuttedBread: {fileID: 3010064411762953542, guid: 411edb28631e7c54fa639d4d2577e3cf, type: 3}
   CuttedFish: {fileID: 0}
   CuttedPotato: {fileID: 0}
+  Dish: {fileID: 0}
+--- !u!65 &2224633518860551561
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414927330101561875}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.4, z: 2}
+  m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}

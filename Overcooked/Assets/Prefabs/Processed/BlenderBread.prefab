@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 7275008109823863075}
   - component: {fileID: 922326390713027522}
   - component: {fileID: 7053609666371920816}
-  - component: {fileID: 6804258122290803106}
   - component: {fileID: 5262584661885624300}
+  - component: {fileID: 1980105175851665742}
   m_Layer: 0
   m_Name: BlenderBread
   m_TagString: Blended
@@ -113,19 +113,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!65 &6804258122290803106
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5099786129948918509}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 6, y: 0.4, z: 6}
-  m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}
 --- !u!65 &5262584661885624300
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -139,3 +126,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.002, y: 0.1, z: 0.002}
   m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}
+--- !u!65 &1980105175851665742
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5099786129948918509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.3, z: 2}
+  m_Center: {x: -0.100000024, y: 0.15, z: -0.100000024}

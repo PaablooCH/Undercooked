@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 3594395309649317531}
   - component: {fileID: 7429131526556781991}
   - component: {fileID: 2384523148855253764}
-  - component: {fileID: 2709626053876209707}
   - component: {fileID: 3664993529803370454}
   - component: {fileID: 8779633933029226394}
   - component: {fileID: -4089986147135295694}
+  - component: {fileID: 3174928185659592741}
   m_Layer: 0
   m_Name: BlenderTomato
   m_TagString: Blended
@@ -102,19 +102,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!65 &2709626053876209707
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3075140457135027230}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 6, y: 0.4, z: 6}
-  m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}
 --- !u!65 &3664993529803370454
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -166,3 +153,16 @@ MonoBehaviour:
   CuttedFish: {fileID: 6578870639091908164, guid: 911d66a55a11f754987d860568123c16, type: 3}
   CuttedPotato: {fileID: 8644540932703930575, guid: 8fcd6e5de9fc24a4092f9d28112d5c43, type: 3}
   Dish: {fileID: 0}
+--- !u!65 &3174928185659592741
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3075140457135027230}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.4, z: 2}
+  m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}

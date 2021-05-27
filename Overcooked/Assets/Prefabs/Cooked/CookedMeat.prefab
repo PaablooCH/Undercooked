@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -7524463794355914163}
   - component: {fileID: 2444393511232536510}
   - component: {fileID: -7393468377842187117}
-  - component: {fileID: -8160561489349181569}
+  - component: {fileID: 6303068239069911531}
   m_Layer: 0
   m_Name: CookedMeat
   m_TagString: Cooked
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db9f3380c4b4f6e43b31839b496639cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &-8160561489349181569
+--- !u!65 &6303068239069911531
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -181,5 +181,5 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4, y: 0.4, z: 4}
+  m_Size: {x: 2, y: 0.4, z: 2}
   m_Center: {x: -0.100000024, y: 0.2, z: -0.100000024}
