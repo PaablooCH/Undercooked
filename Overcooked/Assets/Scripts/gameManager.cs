@@ -196,13 +196,38 @@ public class gameManager : MonoBehaviour
     void Update()
     {
         cont += Time.deltaTime;
-        if (Input.GetKey(KeyCode.N) && cont >= 0.5)
+        if (Input.GetKey(KeyCode.Alpha1) && cont >= 0.5)
         {
-            ++Levels;
-            if (Levels == 1) currentlvlrecipes = lvl2recipes;
-            if (Levels == 2) currentlvlrecipes = lvl3recipes;
-            if (Levels == 3) currentlvlrecipes = lvl4recipes;
-            if (Levels == 4) currentlvlrecipes = lvl5recipes;
+            Levels = 0;
+            currentlvlrecipes = lvl1recipes;
+            changeState(State.LOADLEVEL);
+            cont = 0;
+        }
+        if (Input.GetKey(KeyCode.Alpha2) && cont >= 0.5)
+        {
+            Levels = 1;
+            currentlvlrecipes = lvl2recipes;
+            changeState(State.LOADLEVEL);
+            cont = 0;
+        }
+        if (Input.GetKey(KeyCode.Alpha3) && cont >= 0.5)
+        {
+            Levels = 2;
+            currentlvlrecipes = lvl3recipes;
+            changeState(State.LOADLEVEL);
+            cont = 0;
+        }
+        if (Input.GetKey(KeyCode.Alpha4) && cont >= 0.5)
+        {
+            Levels = 3;
+            currentlvlrecipes = lvl4recipes;
+            changeState(State.LOADLEVEL);
+            cont = 0;
+        }
+        if (Input.GetKey(KeyCode.Alpha5) && cont >= 0.5)
+        {
+            Levels = 4;
+            currentlvlrecipes = lvl5recipes;
             changeState(State.LOADLEVEL);
             cont = 0;
         }
