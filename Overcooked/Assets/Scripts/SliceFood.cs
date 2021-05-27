@@ -62,7 +62,7 @@ public class SliceFood : MonoBehaviour
                 GameObject.FindWithTag("Player").GetComponent<MoveCharacter>().objectHand(transform.Find("Knife(Clone)").gameObject);
                 GameObject.FindWithTag("Player").GetComponent<animationsChef>().Relax();
                 GameObject.FindWithTag("Player").GetComponent<animationsChef>().Cut();
-                GameObject.FindWithTag("Player").gameObject.GetComponent<MoveCharacter>().enabled = false;
+                GameObject.FindWithTag("Player").GetComponent<MoveCharacter>().enabled = false;
                 obj.transform.position = this.transform.GetChild(0).position;
                 obj.transform.eulerAngles = this.transform.GetChild(0).eulerAngles;
                 obj.transform.parent = this.transform.GetChild(0).transform;

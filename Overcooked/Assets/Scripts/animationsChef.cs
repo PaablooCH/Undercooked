@@ -36,4 +36,15 @@ public class animationsChef : MonoBehaviour
     {
         anim.SetTrigger("PutFood");
     }
+
+    public void MoveArms()
+    {
+        anim.SetTrigger("MoveArms");
+    }
+
+    public void IdleArms()
+    {
+        anim.SetTrigger("IdleArms");
+    }
+
 }
