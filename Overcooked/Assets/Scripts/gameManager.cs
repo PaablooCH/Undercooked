@@ -9,6 +9,7 @@ public class gameManager : MonoBehaviour
     public GameObject panelMenu;
     public GameObject panelPlay;
     public GameObject panelInstructions;
+    public GameObject panelInstructions2;
     public GameObject panelCredits;
     public GameObject panelLevelComplete;
 
@@ -33,7 +34,7 @@ public class gameManager : MonoBehaviour
     public GameObject[] lvl5recipes;
 
     public static gameManager Instance { get; private set; }
-    public enum State { MENU, LVLS, INST, CREDITS, INIT, PLAY, LEVELCOMPLETED, LOADLEVEL, GAMEOVER, NEXT_RECIPE }
+    public enum State { MENU, LVLS, INST, INSTTWO, CREDITS, INIT, PLAY, LEVELCOMPLETED, LOADLEVEL, GAMEOVER, NEXT_RECIPE }
     State _state;
     GameObject _currentLevel;
     GameObject _currentRecipe;
@@ -86,10 +87,25 @@ public class gameManager : MonoBehaviour
         gameSounds.Instance.playButtonOn();
         changeState(State.INST);
     }
+    public void ClickInstructions2()
+    {
+        gameSounds.Instance.playButtonOn();
+        changeState(State.INSTTWO);
+    }
+    public void ClickHome()
+    {
+        gameSounds.Instance.playButtonOn();
+        changeState(State.MENU);
+    }
     public void ClickCredits()
     {
         gameSounds.Instance.playButtonOn();
         changeState(State.CREDITS);
+    }
+    public void ClickExit()
+    {
+        gameSounds.Instance.playButtonOn();
+        Application.Quit();
     }
 
     public bool checkRecipe(GameObject f)
@@ -134,6 +150,9 @@ public class gameManager : MonoBehaviour
                 break;
             case State.INST:
                 panelInstructions.SetActive(true);
+                break;
+            case State.INSTTWO:
+                panelInstructions2.SetActive(true);
                 break;
             case State.CREDITS:
                 panelCredits.SetActive(true);
@@ -331,6 +350,9 @@ public class gameManager : MonoBehaviour
                 break;
             case State.INST:
                 panelInstructions.SetActive(false);
+                break;
+            case State.INSTTWO:
+                panelInstructions2.SetActive(false);
                 break;
             case State.CREDITS:
                 panelCredits.SetActive(false);
