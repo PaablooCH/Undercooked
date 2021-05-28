@@ -145,11 +145,6 @@ public class MoveCharacter : MonoBehaviour
     public void holdFood(GameObject f)
     {
         food = f;
-        /*rightArm.localEulerAngles = new Vector3(-90, 0, 0);
-        rightArm.localPosition = new Vector3(-0.137f, 0.486f, 0.637f);
-        leftArm.localEulerAngles = new Vector3(-90, 0, 0);
-        leftArm.localPosition = new Vector3(0.196f, 0.486f, 0.637f);
-        if (food.tag == "Tool") leftArm.localPosition = new Vector3(0.256f, 0.66f, 0.637f);*/
     }
 
     public void objectHand(GameObject obj)
@@ -170,10 +165,6 @@ public class MoveCharacter : MonoBehaviour
     public void leaveFood()
     {
         food = null;
-        /*rightArm.localEulerAngles = new Vector3(0, 0, 0);
-        rightArm.localPosition = new Vector3(0.048f, 0.105f, -0.006f);
-        leftArm.localEulerAngles = new Vector3(0, 0, 0);
-        leftArm.localPosition = new Vector3(0.056f, 0.105f, -0.006f);*/
     }
 
     public GameObject getFood()
@@ -186,8 +177,6 @@ public class MoveCharacter : MonoBehaviour
         Destroy(food, 0.2f);
         food = null;
         holding = false;
-        Debug.Log(food);
-        Debug.Log(holding);
     }
 
     public bool checkHold() { return holding; }

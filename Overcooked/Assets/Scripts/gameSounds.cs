@@ -16,6 +16,7 @@ public class gameSounds : MonoBehaviour
     public AudioSource _buttonSound;
     public AudioSource _dangerSound;
     public AudioSource _pickUpSound;
+    public AudioSource _extinguisherSound;
 
     AudioSource _currentAudio;
     public static gameSounds Instance { get; private set; }
@@ -110,5 +111,13 @@ public class gameSounds : MonoBehaviour
     public void playPickUpSound()
     {
         _pickUpSound.Play();
+    }
+    public void stopExtinguisherSound()
+    {
+        _extinguisherSound.Stop();
+    }
+    public void playExtinguisherSound()
+    {
+        _extinguisherSound.Play();
     }
 }

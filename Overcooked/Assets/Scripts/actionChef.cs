@@ -5,6 +5,7 @@ using UnityEngine;
 public class actionChef : MonoBehaviour
 {
     private float cont;
+    private bool sound = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,9 +21,16 @@ public class actionChef : MonoBehaviour
             if (Input.GetKey(KeyCode.F))
             {
                 cont = 0;
-                this.transform.Find("ToPickUp").gameObject.transform.GetChild(0).gameObject.GetComponent<actionExtintor>().throw_smoke(); //dependiendo cuantos tenga, hay que elegui el ToPickUp
+                this.transform.Find("ToPickUp").gameObject.transform.GetChild(0).gameObject.GetComponent<actionExtintor>().throw_smoke();
+                if(!sound)gameSounds.Instance.playExtinguisherSound();
+                sound = true;
             }
-            if (cont >= 0.25) this.transform.Find("ToPickUp").gameObject.transform.GetChild(0).gameObject.GetComponent<actionExtintor>().stop_smoke(); //dependiendo cuantos tenga, hay que elegui el ToPickUp
+            if (cont >= 0.25)
+            {
+                this.transform.Find("ToPickUp").gameObject.transform.GetChild(0).gameObject.GetComponent<actionExtintor>().stop_smoke();
+                gameSounds.Instance.stopExtinguisherSound();
+                sound = false;
+            }
         }
         
 

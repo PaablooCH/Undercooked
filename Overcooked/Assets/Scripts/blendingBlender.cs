@@ -48,10 +48,6 @@ public class blendingBlender : MonoBehaviour
                 gameSounds.Instance.playBlenderEndSound();
             }
         }
-            
-        
-        //Debug.Log(cont + food.name);
-        
     }
 
     private void OnTriggerStay(Collider obj)
@@ -74,7 +70,6 @@ public class blendingBlender : MonoBehaviour
                 cont = 0;
                 finish = false;
             }
-            //Debug.Log("Soy Player");
         }
         else if (obj.tag == "Cutted" && obj.gameObject.GetComponent<convertInTo>().blendFood != null)
         {
@@ -97,7 +92,6 @@ public class blendingBlender : MonoBehaviour
                 progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountBlend());
                 gameSounds.Instance.playBlenderSound();
             }
-            // Debug.Log("Soy Comida");
         }
     }
 

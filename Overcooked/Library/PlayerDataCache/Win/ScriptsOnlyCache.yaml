@@ -93,61 +93,61 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1424}
     - Class: 114
-      Script: {instanceID: 1498}
+      Script: {instanceID: 1510}
     - Class: 114
-      Script: {instanceID: 1518}
+      Script: {instanceID: 1530}
     - Class: 114
-      Script: {instanceID: 1524}
+      Script: {instanceID: 1536}
     - Class: 114
-      Script: {instanceID: 1696}
+      Script: {instanceID: 1708}
     - Class: 114
-      Script: {instanceID: 1792}
+      Script: {instanceID: 1804}
     - Class: 114
-      Script: {instanceID: 1872}
+      Script: {instanceID: 1884}
     - Class: 114
-      Script: {instanceID: 2034}
+      Script: {instanceID: 2046}
     - Class: 114
-      Script: {instanceID: 2094}
+      Script: {instanceID: 2106}
     - Class: 114
-      Script: {instanceID: 2104}
-    - Class: 114
-      Script: {instanceID: 2226}
+      Script: {instanceID: 2116}
     - Class: 114
       Script: {instanceID: 2238}
     - Class: 114
-      Script: {instanceID: 2512}
+      Script: {instanceID: 2250}
     - Class: 114
-      Script: {instanceID: 2578}
+      Script: {instanceID: 2524}
     - Class: 114
-      Script: {instanceID: 2622}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2656}
+      Script: {instanceID: 2634}
     - Class: 114
-      Script: {instanceID: 2696}
+      Script: {instanceID: 2668}
     - Class: 114
-      Script: {instanceID: 2766}
+      Script: {instanceID: 2708}
     - Class: 114
-      Script: {instanceID: 2840}
+      Script: {instanceID: 2778}
     - Class: 114
-      Script: {instanceID: 2966}
+      Script: {instanceID: 2852}
     - Class: 114
-      Script: {instanceID: 2976}
+      Script: {instanceID: 2978}
     - Class: 114
-      Script: {instanceID: 3126}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 3216}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 3388}
+      Script: {instanceID: 3228}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3400}
     - Class: 114
-      Script: {instanceID: 3458}
+      Script: {instanceID: 3420}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 3530}
+      Script: {instanceID: 3478}
     - Class: 114
-      Script: {instanceID: 3570}
+      Script: {instanceID: 3542}
+    - Class: 114
+      Script: {instanceID: 3582}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -715,7 +715,7 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: f1bc6bb0c578acbde4e5ca14507040f0
+      Hash: 9ecb603c7e1f821815e3db9bd11988ca
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: gameSounds
@@ -734,4 +734,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/VictorScene.unity
-  playerPath: C:/Users/victo/Desktop/Juego3D/Overcooked.exe
+  playerPath: C:/Users/victo/Desktop/Binari/Overcooked.exe

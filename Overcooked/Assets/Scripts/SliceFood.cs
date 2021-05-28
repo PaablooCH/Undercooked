@@ -47,7 +47,6 @@ public class SliceFood : MonoBehaviour
             progress.gameObject.SetActive(false);
             gameSounds.Instance.stopKnifeSound();
         }
-        //Debug.Log(food);
     }
 
     private void OnTriggerStay(Collider obj)
@@ -56,8 +55,6 @@ public class SliceFood : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) && !full && cont >= 0.5)
              {
-                //obj.GetComponent<BoxCollider>().enabled = true;
-                //obj.GetComponent<Rigidbody>().useGravity = true;
                 obj.gameObject.GetComponent<pickUpFood>().emptyPlayer();
                 GameObject.FindWithTag("Player").GetComponent<MoveCharacter>().objectHand(transform.Find("Knife(Clone)").gameObject);
                 GameObject.FindWithTag("Player").GetComponent<animationsChef>().Relax();

@@ -22,8 +22,7 @@ public class generateFood: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        cont += Time.deltaTime;
-        //Debug.Log(foodGenerated.gameObject); 
+        cont += Time.deltaTime; 
         if (!full && cont >= 5)
         {
             GameObject obj = (GameObject)Instantiate(food, transform.position + new Vector3(-0.05f, 0.4f, 0.0f), food.transform.rotation);
@@ -32,10 +31,7 @@ public class generateFood: MonoBehaviour
             generate = obj;
             cont = 0;
             full = true;
-            Debug.Log("generar");
         }
-        //if(this.name == "generatorCheese (1)")Debug.Log(this.name + ": " + full);
-        //if(this.name == "generatorCheese (1)")Debug.Log(this.name + ": " + cont);
     }
 
     private void OnTriggerStay(Collider obj)
@@ -56,7 +52,6 @@ public class generateFood: MonoBehaviour
                 full = false;
                 cont = 0;
                 generate = null;
-                Debug.Log("Hello");
             }
         }
     }

@@ -45,7 +45,6 @@ public class cookingPan : MonoBehaviour
             }
             if (food.tag != "Complete" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked && godKeys.getBurned())
             {
-                //Debug.Log("jida");
                 burned = true;
                 GameObject a = food.GetComponent<convertInTo>().convertFood();
                 Destroy(food);
@@ -77,7 +76,6 @@ public class cookingPan : MonoBehaviour
                 cont = 0;
                 progress.gameObject.SetActive(false);
             }
-            //Debug.Log(cont + food.name);
         }
         
 
@@ -114,7 +112,7 @@ public class cookingPan : MonoBehaviour
                 gameSounds.Instance.stopDangerSound();
 
             }
-            // Debug.Log("Soy Player");
+            
         }
         else if (obj.tag == "Cutted" && obj.gameObject.GetComponent<convertInTo>().nextFood != null)
         {
@@ -137,7 +135,6 @@ public class cookingPan : MonoBehaviour
                 progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountNext());
                 gameSounds.Instance.playPanSound();
             }
-            // Debug.Log("Soy Comida");
         }
     }
 
@@ -147,14 +144,6 @@ public class cookingPan : MonoBehaviour
         else onPan = true;
     }
 
-    /*public void extinguish()
-    {
-        if (burned)
-        {
-            burned = false;
-            ps.Stop();
-        }
-    }*/
     private void OnParticleCollision(GameObject other)
     {
         if (burned)

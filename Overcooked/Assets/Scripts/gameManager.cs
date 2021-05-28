@@ -336,6 +336,7 @@ public class gameManager : MonoBehaviour
         if (Input.GetKey(KeyCode.Escape) && cont >= 0.5)
         {
             if (_currentLevel != null) Destroy(_currentLevel);
+            if (_currentRecipe != null) Destroy(_currentRecipe);
             changeState(State.MENU);
             cont = 0;
         }

@@ -21,7 +21,7 @@ public class deleteFood : MonoBehaviour
 
     private void OnTriggerStay(Collider obj)
     {
-        if (obj.tag == "Food" || obj.tag == "Cutted" || obj.tag == "Cooked" || obj.tag == "Blended" || obj.tag == "Complete" || obj.tag == "Combination" || obj.tag == "NoDishFood")
+        if (obj.tag == "Food" || obj.tag == "Cutted" || obj.tag == "Cooked" || obj.tag == "Blended" || obj.tag == "Complete" || obj.tag == "Combination" || obj.tag == "NoDishFood" || obj.tag == "Oven")
         {
             if (Input.GetKey(KeyCode.Space) && cont >= 2)
             {
@@ -31,7 +31,6 @@ public class deleteFood : MonoBehaviour
                 Destroy(obj.gameObject);
                 cont = 0;
             }
-            //Debug.Log("Soy Comida");
         }
     }
 

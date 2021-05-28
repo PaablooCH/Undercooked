@@ -17,7 +17,6 @@ public class pickUpFood : MonoBehaviour
     void Update()
     {
         cont += Time.deltaTime;
-        //Debug.Log(cont);
     }
 
     private void OnTriggerStay(Collider obj)
@@ -26,7 +25,6 @@ public class pickUpFood : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) && !holded && cont >= 1 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
-                //Debug.Log(obj.transform.rotation.eulerAngles);
                 this.GetComponent<Rigidbody>().useGravity = false;
                 this.transform.position = obj.transform.Find("ToPickUp").position;
                 this.transform.eulerAngles = obj.transform.Find("ToPickUp").eulerAngles;
@@ -36,7 +34,6 @@ public class pickUpFood : MonoBehaviour
                 obj.gameObject.GetComponent<MoveCharacter>().holdFood(this.gameObject);
                 if (this.tag == "Extinguisher") this.GetComponent<BoxCollider>().enabled = false;
                 player = obj.gameObject;
-                //Debug.Log(this.transform.rotation.eulerAngles);
             }
         }
     }

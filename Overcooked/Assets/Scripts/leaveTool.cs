@@ -27,7 +27,6 @@ public class leaveTool : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) && onStand && cont >= 1 && !obj.gameObject.GetComponent<MoveCharacter>().checkHold())
             {
-                Debug.Log(-obj.transform.rotation.eulerAngles);
                 tool.transform.position = obj.transform.Find("ToPickUp").position;
                 tool.transform.eulerAngles = obj.transform.Find("ToPickUp").eulerAngles;
                 tool.transform.parent = obj.transform.Find("ToPickUp").transform;
@@ -35,9 +34,7 @@ public class leaveTool : MonoBehaviour
                 obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
                 obj.gameObject.GetComponent<MoveCharacter>().holdFood(tool);
                 tool.gameObject.GetComponent<pickUpFood>().setPlayer(obj.gameObject);
-                //obj.GetComponent<BoxCollider>().enabled = true;
                 onStand = false;
-                Debug.Log(tool.transform.rotation.eulerAngles);
                 tool = null;
                 cont = 0;
             }

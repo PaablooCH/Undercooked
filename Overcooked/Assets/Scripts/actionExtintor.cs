@@ -28,9 +28,4 @@ public class actionExtintor : MonoBehaviour
         ps.Stop();
     }
 
-    /*private void OnParticleCollision(GameObject other)
-    {
-        other.GetComponent<cookingPan>().extinguish();
-    }*/
-
 }

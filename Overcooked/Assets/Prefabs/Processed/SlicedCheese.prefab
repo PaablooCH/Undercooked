@@ -166,7 +166,7 @@ MonoBehaviour:
   TomatoSauce: {fileID: 0}
   CucumberSauce: {fileID: 0}
   BreadPics: {fileID: 0}
-  CuttedBread: {fileID: 0}
+  CuttedBread: {fileID: 4096702454374132151, guid: a68892f2565d04d49b9ed43f4fd5b2eb, type: 3}
   CuttedFish: {fileID: 0}
   CuttedPotato: {fileID: 0}
   Dish: {fileID: 0}

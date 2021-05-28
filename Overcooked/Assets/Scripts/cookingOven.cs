@@ -42,7 +42,6 @@ public class cookingOven : MonoBehaviour
             }
             if (food.name != "Burned(Clone)" && cont >= food.GetComponent<convertInTo>().getCountNext() && cooked && godKeys.getBurned())
             {
-                //Debug.Log("jida");
                 burned = true;
                 GameObject a = food.GetComponent<convertInTo>().convertFood();
                 Destroy(food);
@@ -74,7 +73,6 @@ public class cookingOven : MonoBehaviour
                 cont = 0;
                 progress.gameObject.SetActive(false);
             }
-            //Debug.Log(cont + food.name);
         }
 
 
@@ -107,7 +105,6 @@ public class cookingOven : MonoBehaviour
                 gameSounds.Instance.stopOvenSound();
                 gameSounds.Instance.stopDangerSound();
             }
-            // Debug.Log("Soy Player");
         }
         else if (obj.tag == "Oven")
         {
@@ -132,7 +129,6 @@ public class cookingOven : MonoBehaviour
                 GameObject.FindWithTag("Player").GetComponent<MoveCharacter>().enabled = true;
                 gameSounds.Instance.playOvenSound();
             }
-            Debug.Log("Soy Comida");
         }
     }
 
@@ -142,14 +138,6 @@ public class cookingOven : MonoBehaviour
         else onOven = true;
     }
 
-    /*public void extinguish()
-    {
-        if (burned)
-        {
-            burned = false;
-            ps.Stop();
-        }
-    }*/
     private void OnParticleCollision(GameObject other)
     {
         if (burned)

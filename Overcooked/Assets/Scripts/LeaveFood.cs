@@ -34,7 +34,6 @@ public class LeaveFood : MonoBehaviour
                 obj.gameObject.GetComponent<MoveCharacter>().changeHold(true);
                 obj.gameObject.GetComponent<MoveCharacter>().holdFood(food);
                 food.gameObject.GetComponent<pickUpFood>().setPlayer(obj.gameObject);
-                //obj.GetComponent<BoxCollider>().enabled = true;
                 onTable = false;
                 food = null;
                 cont = 0;
@@ -45,7 +44,6 @@ public class LeaveFood : MonoBehaviour
                 com.GetComponent<pickUpFood>().resetCont();
                 if(com.tag == "NoDishFood" && food.tag == "Dish")
                 {
-                    Debug.Log("Hey");
                     if (com.name == "NoDishCheese(Clone)")
                     {
                         GameObject a = food.GetComponent<combine>().combineWithCheese();
@@ -63,7 +61,7 @@ public class LeaveFood : MonoBehaviour
                         }
                         else Destroy(a);
                     }
-                    if (com.name == "NoDishTomato(Clone)")
+                    if (com.name == "NoDishTomato3.0(Clone)")
                     {
                         GameObject a = food.GetComponent<combine>().combineWithTomato();
                         if (a != null)
@@ -77,8 +75,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -96,8 +92,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -115,8 +109,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -134,8 +126,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -153,8 +143,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -172,8 +160,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -209,8 +195,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -227,8 +211,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -245,8 +227,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -263,8 +243,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -281,8 +259,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -299,8 +275,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -317,8 +291,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -335,8 +307,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -353,8 +323,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -371,8 +339,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -389,8 +355,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -407,8 +371,6 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
@@ -425,15 +387,13 @@ public class LeaveFood : MonoBehaviour
                             food.GetComponent<Rigidbody>().useGravity = false;
                             obj.gameObject.GetComponent<MoveCharacter>().changeHold(false);
                             cont = 0;
-                            //onTable = false;
-                            //food = null;
                         }
                         else Destroy(a);
                     }
                 }
             }
         }
-        else if (obj.tag == "Food" || obj.tag == "Cutted" || obj.tag == "Cooked" || obj.tag == "Blended" || obj.tag == "Combination" || obj.tag == "Complete" || obj.tag == "Dish" || obj.tag == "NoDishFood")
+        else if (obj.tag == "Food" || obj.tag == "Cutted" || obj.tag == "Cooked" || obj.tag == "Blended" || obj.tag == "Combination" || obj.tag == "Complete" || obj.tag == "Dish" || obj.tag == "NoDishFood" || obj.tag == "Oven")
         {
             if (Input.GetKey(KeyCode.Space) && !onTable && cont >= 2)
             {
