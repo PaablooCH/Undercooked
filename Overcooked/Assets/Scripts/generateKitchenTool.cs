@@ -27,7 +27,7 @@ public class generateKitchenTool : MonoBehaviour
         else if (kitchenTool.gameObject.name == "fire extinguisher")
         {
             GameObject obj = (GameObject)Instantiate(kitchenTool, transform.position + new Vector3(0.0f, 0.0f, 0.0f), kitchenTool.transform.rotation);
-            obj.transform.parent = transform;
+            obj.transform.parent = transform.Find("Leave");
         }
     }
 

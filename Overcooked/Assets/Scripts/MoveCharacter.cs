@@ -50,8 +50,21 @@ public class MoveCharacter : MonoBehaviour
                 if (isMove)
                 {
                     isMove = false;
-                    anim.IdleArms();
-                    currentAnim = 0;
+                    if (food.tag == "Tool")
+                    {
+                        anim.IdleExtintor();
+                        currentAnim = 4;
+                    }   
+                    else
+                    {
+                        anim.IdleArms();
+                        currentAnim = 0;
+                    }
+                }
+                else if (currentAnim != 4 && food.tag == "Tool")
+                {
+                    anim.IdleExtintor();
+                    currentAnim = 4;
                 }
                 else if (currentAnim != 0)
                 {
@@ -65,8 +78,21 @@ public class MoveCharacter : MonoBehaviour
                 if (!isMove)
                 {
                     isMove = true;
-                    anim.MoveArms();
-                    currentAnim = 1;
+                    if (food.tag == "Tool")
+                    {
+                        anim.MoveExtintor();
+                        currentAnim = 5;
+                    }
+                    else
+                    {
+                        anim.MoveArms();
+                        currentAnim = 1;
+                    }
+                }
+                else if (currentAnim != 5 && food.tag == "Tool")
+                {
+                    anim.MoveExtintor();
+                    currentAnim = 5;
                 }
                 else if (currentAnim != 1)
                 {

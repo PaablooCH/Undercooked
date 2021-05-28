@@ -47,4 +47,14 @@ public class animationsChef : MonoBehaviour
         anim.SetTrigger("IdleArms");
     }
 
+    public void IdleExtintor()
+    {
+        anim.SetTrigger("IdleExtintor");
+    }
+
+    public void MoveExtintor()
+    {
+        anim.SetTrigger("MoveExtintor");
+    }
+
 }
