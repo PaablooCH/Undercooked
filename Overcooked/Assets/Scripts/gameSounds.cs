@@ -6,6 +6,7 @@ public class gameSounds : MonoBehaviour
 {
     public AudioSource _gameTheme;
     public AudioSource _titleTheme;
+    public AudioSource _endingTheme;
     public AudioSource _deliveryCompleteSound;
     public AudioSource _ovenSound;
     public AudioSource _panSound;
@@ -40,6 +41,16 @@ public class gameSounds : MonoBehaviour
         {
             _currentAudio.Stop();
             _currentAudio = _titleTheme;
+            _currentAudio.Play();
+        }
+    }
+
+    public void playEndingTheme()
+    {
+        if (_currentAudio != _endingTheme)
+        {
+            _currentAudio.Stop();
+            _currentAudio = _endingTheme;
             _currentAudio.Play();
         }
     }

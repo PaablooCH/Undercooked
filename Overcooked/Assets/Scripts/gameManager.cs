@@ -170,6 +170,7 @@ public class gameManager : MonoBehaviour
                 break;
             case State.LEVELCOMPLETED:
                 panelLevelComplete.SetActive(true);
+                gameSounds.Instance.playEndingTheme();
                 break;
             case State.LOADLEVEL:
                 if (Levels >= levels.Length)
@@ -188,7 +189,7 @@ public class gameManager : MonoBehaviour
                 break;
             case State.GAMEOVER:
                 if (_currentLevel != null) Destroy(_currentLevel);
-                changeState(State.MENU);
+                changeState(State.LEVELCOMPLETED);
                 break;
             case State.NEXT_RECIPE:
                 gameSounds.Instance.playDeliveryCompleteSound();
@@ -334,7 +335,8 @@ public class gameManager : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.Escape) && cont >= 0.5)
         {
-            changeState(State.GAMEOVER);
+            if (_currentLevel != null) Destroy(_currentLevel);
+            changeState(State.MENU);
             cont = 0;
         }
     }
