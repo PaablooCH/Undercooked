@@ -114,6 +114,7 @@ public class cookingOven : MonoBehaviour
             if (Input.GetKey(KeyCode.Space) && !onOven && cont >= 2)
             {
                 GameObject.FindWithTag("Player").GetComponent<animationsChef>().Relax();
+                GameObject.FindWithTag("Player").GetComponent<MoveCharacter>().enabled = false;
                 GameObject.FindWithTag("Player").GetComponent<animationsChef>().PutFood();
                 obj.gameObject.GetComponent<pickUpFood>().emptyPlayer();
                 obj.transform.position = transform.GetChild(0).position;
@@ -128,6 +129,7 @@ public class cookingOven : MonoBehaviour
                 ps.Play();
                 progress.gameObject.SetActive(true);
                 progress.GetComponent<progressBar>().StartCounter(food.gameObject.GetComponent<convertInTo>().getCountNext());
+                GameObject.FindWithTag("Player").GetComponent<MoveCharacter>().enabled = true;
                 gameSounds.Instance.playOvenSound();
             }
             Debug.Log("Soy Comida");

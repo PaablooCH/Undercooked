@@ -15,6 +15,7 @@ public class MoveCharacter : MonoBehaviour
     private float gravityValue = -9.81f;
     private animationsChef anim;
     private bool isMove;
+    private int currentAnim;
     private Transform leftArm;
     private Transform rightArm;
 
@@ -26,6 +27,7 @@ public class MoveCharacter : MonoBehaviour
         controller.detectCollisions = false;
         anim = GetComponent<animationsChef>();
         isMove = false;
+        currentAnim = 2;
         leftArm = transform.Find("leftArm");
         rightArm = transform.Find("rightArm");
 }
@@ -41,23 +43,69 @@ public class MoveCharacter : MonoBehaviour
 
         Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         controller.Move(move * Time.deltaTime * playerSpeed);
-        if(move == Vector3.zero)
+        if (checkHold())
         {
-            if (isMove)
+            if (move == Vector3.zero)
             {
-                isMove = false;
-                anim.Relax();
+                if (isMove)
+                {
+                    isMove = false;
+                    anim.IdleArms();
+                    currentAnim = 0;
+                }
+                else if (currentAnim != 0)
+                {
+                    anim.IdleArms();
+                    currentAnim = 0;
+                }
             }
+            else
+            {
+                gameObject.transform.forward = move;
+                if (!isMove)
+                {
+                    isMove = true;
+                    anim.MoveArms();
+                    currentAnim = 1;
+                }
+                else if (currentAnim != 1)
+                {
+                    currentAnim = 1;
+                    anim.MoveArms();
+                }
+            }     
         }
-        else if(move != Vector3.zero)
+        else
         {
-            gameObject.transform.forward = move;
-            if (!isMove)
+            if (move == Vector3.zero)
             {
-                isMove = true;
-                anim.Move();
+                if (isMove)
+                {
+                    isMove = false;
+                    anim.Relax();
+                    currentAnim = 2;
+                }
+                else if (currentAnim != 2)
+                {
+                    anim.Relax();
+                    currentAnim = 2;
+                }
             }
-            
+            else
+            {
+                gameObject.transform.forward = move;
+                if (!isMove)
+                {
+                    isMove = true;
+                    anim.Move();
+                    currentAnim = 3;
+                }
+                else if (currentAnim != 3)
+                {
+                    currentAnim = 3;
+                    anim.Move();
+                }
+            }
         }
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
@@ -71,11 +119,11 @@ public class MoveCharacter : MonoBehaviour
     public void holdFood(GameObject f)
     {
         food = f;
-        rightArm.localEulerAngles = new Vector3(-90, 0, 0);
+        /*rightArm.localEulerAngles = new Vector3(-90, 0, 0);
         rightArm.localPosition = new Vector3(-0.137f, 0.486f, 0.637f);
         leftArm.localEulerAngles = new Vector3(-90, 0, 0);
         leftArm.localPosition = new Vector3(0.196f, 0.486f, 0.637f);
-        if (food.tag == "Tool") leftArm.localPosition = new Vector3(0.256f, 0.66f, 0.637f);
+        if (food.tag == "Tool") leftArm.localPosition = new Vector3(0.256f, 0.66f, 0.637f);*/
     }
 
     public void objectHand(GameObject obj)
@@ -96,10 +144,10 @@ public class MoveCharacter : MonoBehaviour
     public void leaveFood()
     {
         food = null;
-        rightArm.localEulerAngles = new Vector3(0, 0, 0);
+        /*rightArm.localEulerAngles = new Vector3(0, 0, 0);
         rightArm.localPosition = new Vector3(0.048f, 0.105f, -0.006f);
         leftArm.localEulerAngles = new Vector3(0, 0, 0);
-        leftArm.localPosition = new Vector3(0.056f, 0.105f, -0.006f);
+        leftArm.localPosition = new Vector3(0.056f, 0.105f, -0.006f);*/
     }
 
     public GameObject getFood()
